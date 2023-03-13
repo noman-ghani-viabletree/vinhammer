@@ -740,16 +740,16 @@ add_shortcode('auction_search_field', 'auction_search_field_func');
 function auction_list_func($atts = []){
 	global $woocommerce_loop, $woocommerce;
 	
-	$filter_request 				= json_decode(stripslashes($_POST['filter_request']));
-	$filter['body_style'] 			= json_decode(stripslashes($_POST['body_style']));
-    $filter['car_transmission'] 	= json_decode(stripslashes($_POST['car_transmission']));
-    $filter['mileage'] 				= json_decode(stripslashes($_POST['mileage']));
-    $filter['min_year'] 			= json_decode(stripslashes($_POST['min_year']));
-    $filter['max_year']				= json_decode(stripslashes($_POST['max_year']));
-    $filter['min_price'] 			= json_decode(stripslashes($_POST['min_price']));
-    $filter['max_price']			= json_decode(stripslashes($_POST['max_price']));
-    $filter['expired']				= json_decode(stripslashes($_POST['expired']));
-    $auction_search					= json_decode(stripslashes($_POST['auction_search']));
+	$filter_request 				= isset($_POST) ? json_decode(stripslashes($_POST['filter_request'])) : null;
+	$filter['body_style'] 			= isset($_POST) ? json_decode(stripslashes($_POST['body_style'])) : null;
+    $filter['car_transmission'] 	= isset($_POST) ? json_decode(stripslashes($_POST['car_transmission'])) : null;
+    $filter['mileage'] 				= isset($_POST) ? json_decode(stripslashes($_POST['mileage'])) : null;
+    $filter['min_year'] 			= isset($_POST) ? json_decode(stripslashes($_POST['min_year'])) : null;
+    $filter['max_year']				= isset($_POST) ? json_decode(stripslashes($_POST['max_year'])) : null;
+    $filter['min_price'] 			= isset($_POST) ? json_decode(stripslashes($_POST['min_price'])) : null;
+    $filter['max_price']			= isset($_POST) ? json_decode(stripslashes($_POST['max_price'])) : null;
+    $filter['expired']				= isset($_POST) ? json_decode(stripslashes($_POST['expired'])) : null;
+    $auction_search					= isset($_POST) ? json_decode(stripslashes($_POST['auction_search'])) : null;
 
 	extract(shortcode_atts(array(
 		'category'  => '',
@@ -1179,7 +1179,27 @@ function QuadLayers_remove_acc_address( $items ) {
 	$items['messages'] = 'Messages';
 	var_dump($items);die;
  	unset( $items['downloads'] );
-	return $items;
+	// $items = array(
+	// 	["dashboard"]=>
+	// 	string(9) "Dashboard"
+	// 	["orders"]=>
+	// 	string(13) "Your Auctions"
+	// 	["subscriptions"]=>
+	// 	string(13) "Subscriptions"
+	// 	["downloads"]=>
+	// 	string(9) "Downloads"
+	// 	["edit-address"]=>
+	// 	string(9) "Addresses"
+	// 	["edit-account"]=>
+	// 	string(15) "Account details"
+	// 	["uwa-auctions"]=>
+	// 	string(21) "Your Bids & Watchlist"
+	// 	["customer-logout"]=>
+	// 	string(6) "Logout"
+	// 	["messages"]=>
+	// 	string(8) "Messages"
+	//   }
+	// return $items;
 }
 
 // 1. Register new endpoint

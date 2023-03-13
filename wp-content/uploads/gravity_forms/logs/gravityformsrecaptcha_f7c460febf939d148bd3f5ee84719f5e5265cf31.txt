@@ -4683,3 +4683,7 @@
 2023-03-13 8:18:18.439037 - DEBUG --> Gravity_Forms\Gravity_Forms_RECAPTCHA\GF_RECAPTCHA::initialize_api(): missing v3 key configuration. Please check the add-on settings. 
 2023-03-13 8:18:18.442329 - DEBUG --> Gravity_Forms\Gravity_Forms_RECAPTCHA\GF_RECAPTCHA::initialize_api(): missing v3 key configuration. Please check the add-on settings. 
 2023-03-13 8:18:19.054810 - DEBUG --> Gravity_Forms\Gravity_Forms_RECAPTCHA\GF_RECAPTCHA::initialize_api(): missing v3 key configuration. Please check the add-on settings. 
+2023-03-13 9:32:40.397883 - DEBUG --> Gravity_Forms\Gravity_Forms_RECAPTCHA\GF_RECAPTCHA::initialize_api(): missing v3 key configuration. Please check the add-on settings. 
+2023-03-13 9:32:40.596735 - DEBUG --> Gravity_Forms\Gravity_Forms_RECAPTCHA\GF_RECAPTCHA::initialize_api(): missing v3 key configuration. Please check the add-on settings. 
+2023-03-13 9:32:46.703896 - DEBUG --> Gravity_Forms\Gravity_Forms_RECAPTCHA\GF_RECAPTCHA::initialize_api(): missing v3 key configuration. Please check the add-on settings. 
+2023-03-13 9:32:46.880081 - DEBUG --> Gravity_Forms\Gravity_Forms_RECAPTCHA\GF_RECAPTCHA::initialize_api(): missing v3 key configuration. Please check the add-on settings. 
