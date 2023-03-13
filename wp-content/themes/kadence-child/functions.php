@@ -740,16 +740,16 @@ add_shortcode('auction_search_field', 'auction_search_field_func');
 function auction_list_func($atts = []){
 	global $woocommerce_loop, $woocommerce;
 	
-	$filter_request 				= isset($_POST) ? json_decode(stripslashes($_POST['filter_request'])) : null;
-	$filter['body_style'] 			= isset($_POST) ? json_decode(stripslashes($_POST['body_style'])) : null;
-    $filter['car_transmission'] 	= isset($_POST) ? json_decode(stripslashes($_POST['car_transmission'])) : null;
-    $filter['mileage'] 				= isset($_POST) ? json_decode(stripslashes($_POST['mileage'])) : null;
-    $filter['min_year'] 			= isset($_POST) ? json_decode(stripslashes($_POST['min_year'])) : null;
-    $filter['max_year']				= isset($_POST) ? json_decode(stripslashes($_POST['max_year'])) : null;
-    $filter['min_price'] 			= isset($_POST) ? json_decode(stripslashes($_POST['min_price'])) : null;
-    $filter['max_price']			= isset($_POST) ? json_decode(stripslashes($_POST['max_price'])) : null;
-    $filter['expired']				= isset($_POST) ? json_decode(stripslashes($_POST['expired'])) : null;
-    $auction_search					= isset($_POST) ? json_decode(stripslashes($_POST['auction_search'])) : null;
+	$filter_request 				= isset($$_POST['filter_request']) ? json_decode(stripslashes($_POST['filter_request'])) : null;
+	$filter['body_style'] 			= isset($_POST['body_style']) ? json_decode(stripslashes($_POST['body_style'])) : null;
+    $filter['car_transmission'] 	= isset($_POST['car_transmission']) ? json_decode(stripslashes($_POST['car_transmission'])) : null;
+    $filter['mileage'] 				= isset($_POST['mileage']) ? json_decode(stripslashes($_POST['mileage'])) : null;
+    $filter['min_year'] 			= isset($_POST['min_year']) ? json_decode(stripslashes($_POST['min_year'])) : null;
+    $filter['max_year']				= isset($_POST['max_year']) ? json_decode(stripslashes($_POST['max_year'])) : null;
+    $filter['min_price'] 			= isset($_POST['min_price']) ? json_decode(stripslashes($_POST['min_price'])) : null;
+    $filter['max_price']			= isset($_POST['max_price']) ? json_decode(stripslashes($_POST['max_price'])) : null;
+    $filter['expired']				= isset($_POST['expired']) ? json_decode(stripslashes($_POST['expired'])) : null;
+    $auction_search					= isset($_POST['auction_search']) ? json_decode(stripslashes($_POST['auction_search'])) : null;
 
 	extract(shortcode_atts(array(
 		'category'  => '',
