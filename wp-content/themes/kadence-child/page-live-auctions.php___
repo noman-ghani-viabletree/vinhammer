@@ -1,0 +1,225 @@
+<?php
+get_header('shop');
+
+$meta_query[] = array('key' => 'woo_ua_auction_closed', 'compare' => 'NOT EXISTS');
+
+$args = array(
+    'post_type'	=> 'product',
+    'post_status' => 'publish',
+    'ignore_sticky_posts'	=> 1,
+    'orderby' => 'id',
+    'order' => 'desc',
+    'meta_query' => $meta_query,
+    'posts_per_page' => -1,   // -1 is default for all results to display
+    'tax_query' => array(array('taxonomy' => 'product_type' , 'field' => 'slug', 
+        'terms' => 'auction')),
+    'auction_arhive' => TRUE,
+);
+$filters = [
+    'body_style' => [],
+    'car_transmission' => [],
+    'year' => [],
+    'indicated_mileage' => [],
+    'pricing' => [],
+];
+
+$products = new WP_Query( $args );
+while ( $products->have_posts() ) : $products->the_post();
+    global $product;
+
+    array_push($filters['body_style'], get_field('body_style'));
+    array_push($filters['car_transmission'], get_field('car_transmission')['label']);
+    array_push($filters['year'], get_field('year'));
+    array_push($filters['indicated_mileage'], get_field('indicated_mileage'));
+    array_push($filters['pricing'], $product->get_uwa_auction_start_price());
+
+endwhile;
+$filters['body_style'] = array_count_values($filters['body_style']);
+$filters['car_transmission'] = array_count_values($filters['car_transmission']);
+$filters['indicated_mileage'] = array_count_values($filters['indicated_mileage']);
+sort($filters['year']);
+sort($filters['pricing']);
+?>
+
+<div class="search_filter">
+    <a href="javascript:void(0)" class="close_filter_mobile">X</a>
+    <div class="filter_head d-flex justify-content-between align-items-center">
+        <h5 class="f_heading d-flex gap-10 align-items-center"><img src="<?php echo get_stylesheet_directory_uri()?>/images/filter-icon.png"/> Filter By</h5>
+        <a href="javascript:void(0)" class="clear_filter">Clear Filter</a>
+    </div>
+    <div class="main_filters">
+        <div class="checkboxes_container">
+            <div class="checkbox_heading">
+                <h5>Body Style</h5>
+            </div>
+            <div class="body_style_checkboxes">
+                <?php
+                    $product_body_styles = acf_get_field('body_style');
+                    foreach($product_body_styles["choices"] as $body_style){
+                        echo '
+                        <div>
+                            <label>
+                                <input type="checkbox" name="product_body_style" class="filter_change" value="'.$body_style.'">
+                                <span>'.$body_style.'</span>
+                                <span>'.($filters['body_style'][$body_style] ? $filters['body_style'][$body_style] : 0).'</span>
+                            </label>
+                        </div>
+                        ';
+                    }
+                ?>
+            </div>
+        </div>
+        <div class="transmission_container">
+            <div class="transmission_heading">
+                <h5>Transmission</h5>
+            </div>
+            <div class="transmission_checkboxes custom_checkboxes">
+                <?php
+                    $product_transmission = acf_get_field('car_transmission');
+                    foreach($product_transmission["choices"] as $transmission){
+                        echo '
+                        <div>
+                            <label>
+                                <input type="checkbox" name="product_transmission" class="filter_change" value="'.$transmission.'">
+                                <span>'.$transmission.'</span>
+                                <span>'.($filters['car_transmission'][$transmission] ? $filters['car_transmission'][$transmission] : 0) .'</span>
+                            </label>
+                        </div>
+                        ';
+                    }
+                ?>
+            </div>
+        </div>
+        <div class="range_container">
+            <?php
+                $min_year = current($filters['year']);
+                $max_year = end($filters['year']);
+            ?>
+            <div class="range_head">
+                <h5>Year</h5>
+            </div>
+            <section class="range-slider">
+                <span class="full-range"></span>
+                <span class="incl-range"></span>
+                <span class="output outputOne"></span>
+                <input name="min_year" value="<?php echo $min_year; ?>" min="<?php echo $min_year; ?>" max="<?php echo $max_year; ?>" step="1" type="range" class="min-range filter_change">
+                <input name="max_year" value="<?php echo $max_year; ?>" min="<?php echo $min_year; ?>" max="<?php echo $max_year; ?>" step="1" type="range" class="max-range filter_change">
+                <span class="output outputTwo"></span>
+            </section>
+        </div>
+        <div class="range_container">
+            <?php
+                $auction_min_price = current($filters['pricing']);
+                $auction_max_price = end($filters['pricing']);
+            ?>
+            <div class="range_head">
+                <h5>Price</h5>
+            </div>
+            <section class="range-slider">
+                <span class="full-range"></span>
+                <span class="incl-range"></span>
+                <span class="output outputOne"></span>
+                <input name="min_price" value="<?php echo $auction_min_price; ?>" min="<?php echo $auction_min_price; ?>" max="<?php echo $auction_max_price; ?>" step="1" type="range" class="min-range filter_change">
+                <input name="max_price" value="<?php echo $auction_max_price; ?>" min="<?php echo $auction_min_price; ?>" max="<?php echo $auction_max_price; ?>" step="1" type="range" class="max-range filter_change">
+                <span class="output outputTwo"></span>
+            </section>
+        </div>
+    </div>
+</div>
+<script>
+// Range script Start
+
+updateView = function () {
+    let minRG = jQuery(this).parent().find('.min-range');
+    let maxRG = jQuery(this).parent().find('.max-range');
+    if (jQuery(this).hasClass('min-range')) {
+        jQuery(this).prev().html(`${this.value}`);
+        console.log(jQuery(this).parent().find('.incl-range'));
+    } else {
+        jQuery(this).next().html(`${this.value}`);
+    }
+    // if (parseInt(minRG.val()) > parseInt(maxRG.val())) {
+    //     jQuery(this).parent().find('.incl-range').css('width', (maxRG.val()) / jQuery(this).attr('max') * 100 + '%')
+    //     jQuery(this).parent().find('.incl-range').css('left', minRG.val() / jQuery(this).attr('max') * 100 + '%')
+    //     // inclRange.style.width = (minRG.val() - maxRG.val()) / jQuery(this).attr('max') * 100 + '%';
+    //     // inclRange.style.left = maxRG.val() / jQuery(this).attr('max') * 100 + '%';
+    // } else {
+    //     jQuery(this).parent().find('.incl-range').css('width', (minRG.val()) / jQuery(this).attr('max') * 100 + '%')
+    //     jQuery(this).parent().find('.incl-range').css('left', minRG.val() / jQuery(this).attr('max') * 100 + '%')
+
+    //     // inclRange.style.width = (maxRG.val() - minRG.val()) / jQuery(this).attr('max') * 100 + '%';
+    //     // inclRange.style.left = minRG.val() / jQuery(this).attr('max') * 100 + '%';
+    // }
+};
+
+document.addEventListener('DOMContentLoaded', function () {   
+    jQuery('input[type="range"]').each(function() {
+        updateView.call(this);
+        jQuery(this).on('mouseup', function() {
+            this.blur();
+        }).on('mousedown input', function () {
+            updateView.call(this);
+        });
+    });
+});
+
+
+// Range script End
+
+jQuery(document).on('change', '.filter_change', function(){
+    jQuery('.product_listing_container .all_products').html("<h3>Please Wait...</h3>");
+    jQuery('.product_listing_container .pagination-wrap').css('display', 'none');
+    jQuery('.product_listing_container .total_results').css('display', 'none');
+    let product_sizes = [];
+    let product_brand = [];
+    let product_condition = [];
+    let product_location = [];
+    let product_price = jQuery('.product_price').val();
+    jQuery("input:checkbox[name=product_size]:checked").each(function(){
+      product_sizes.push(jQuery(this).val());
+    });
+    jQuery("input:checkbox[name=product_brand]:checked").each(function(){
+      product_brand.push(jQuery(this).val());
+    });
+    jQuery("input:checkbox[name=product_condition]:checked").each(function(){
+      product_condition.push(jQuery(this).val());
+    });
+    jQuery("input:checkbox[name=product_location]:checked").each(function(){
+      product_location.push(jQuery(this).val());
+    });
+    let filter_search_size = jQuery('#filter_search_size').val();
+    if(filter_search_size != ""){
+      product_sizes.push(filter_search_size);
+    }
+    // console.log(product_sizes);
+    let serialize_product_sizes = JSON.stringify(product_sizes);
+    let serialize_product_brand = JSON.stringify(product_brand);
+    let serialize_product_condition = JSON.stringify(product_condition);
+    let serialize_product_location = JSON.stringify(product_location);
+    let formdata = new FormData();
+    formdata.append("action", "product_filters_action");
+    formdata.append("serialize_product_sizes", serialize_product_sizes);
+    formdata.append("product_price", product_price);
+    formdata.append("serialize_product_brand", serialize_product_brand);
+    formdata.append("serialize_product_condition", serialize_product_condition);
+    formdata.append("serialize_product_location", serialize_product_location);
+    jQuery.ajax({
+      type: "post",
+      data: formdata,
+      // dataType:"json",
+      url: opt.ajaxUrl,
+      success: function (msg) {
+        msg = JSON.parse(msg);
+        console.log(msg.args);
+        console.log(msg.wp_query);
+        jQuery('.product_listing_container .all_products').html(msg.html);
+      },
+      cache: false,
+      contentType: false,
+      processData: false,
+    });
+});
+</script>
+<?php
+
+get_footer('shop');

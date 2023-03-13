@@ -1,0 +1,225 @@
+<?php
+get_header('shop');
+
+global $wpdb;
+$number = 6;
+$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;  
+$args = array();
+$user_id = get_current_user_id();
+
+$meta_query[] = array('key' => 'woo_ua_auction_closed', 'compare' => 'NOT EXISTS');
+
+$args = array(
+    'post_type'	=> 'product',
+    'post_status' => 'publish',
+    'posts_per_page' => $number,
+    'ignore_sticky_posts'	=> 1,
+    'orderby' => 'id',
+    'order' => 'DESC',
+    'meta_query' => $meta_query,
+    'tax_query' => array(array('taxonomy' => 'product_type' , 'field' => 'slug', 'terms' => 'auction')),
+    'auction_arhive' => TRUE,
+    'count_totals' => true,
+    'offset' => $paged ? $number * ($paged - 1) : 0,
+    'number' => $number,
+    'paged' => $paged,
+    'fields' => 'ids',	
+);
+
+if(isset($_GET['sortby']) && !empty($_GET['sortby']) && $_GET['sortby'] == 'old_to_new' && !isset($_GET['search'])){
+    $args['orderby'] = 'id';
+	$args['order'] = 'ASC';
+}
+
+if(isset($_GET['search']) && !empty($_GET['search'])){
+    $args['s'] = $_GET['search'];
+    $total_products = new WP_Query( $args );
+    $total_products = $total_products->found_posts; 
+}
+?>
+
+<div id="main-content" class="product-category-page">
+	<div class="site-container">
+		<div id="content-area" class="clearfix">
+            <div class="product_listing_container">
+                <div class="search_filter">
+                    <a href="javascript:void(0)" class="close_filter_mobile">X</a>
+                    <div class="filter_head">
+                        <h5 class="f_heading">Filters</h5>
+                        <a href="javascript:void(0)" class="clear_filter">Clear Filter</a>
+                    </div>
+                    <div class="main_filters">
+                        <div class="checkboxes_container">
+                            <div class="checkbox_heading">
+                                <h5>Size</h5>
+                            </div>
+                            <div class="size_checkboxes">
+                                <?php
+                                    $taxonomyName = "product_cat";
+                                    $parent_terms = get_terms( $taxonomyName, array( 'parent' => 0, 'orderby' => 'slug', 'hide_empty' => false ) );   
+                                    foreach ( $parent_terms as $pterm ) {
+                                        //Get the Child terms
+                                        $terms = get_terms( $taxonomyName, array( 'parent' => $pterm->term_id, 'orderby' => 'slug', 'hide_empty' => false ) );
+                                        foreach ( $terms as $term ) {
+                                            echo '
+                                            <label>
+                                                <input type="checkbox" name="product_merch_cat" class="filter_change_merch" value="'.$term->slug.'">
+                                                <span class="merch_cat">'.$term->name.'</span>
+                                            </label>
+                                            ';  
+                                        }
+                                    }
+                                ?>
+                            </div>
+                        </div>
+                        <div class="range_container">
+                            <!-- <?php 
+                                // $min_max_product_price = min_max_product_price(); 
+                                // $min_max_product_price_ex = explode("|", $min_max_product_price);
+                                // $product_min_price = $min_max_product_price_ex[0];
+                                // $product_max_price = $min_max_product_price_ex[1];
+                            ?>
+                            <div class="range_head">
+                                <h5>Price</h5>
+                                <div class="output_price">$<?php echo intval($product_max_price); ?></div>
+                            </div>
+                            <div class="price_range">
+                                <input type="range" min="<?php echo $product_min_price; ?>" max="<?php echo $product_max_price; ?>" value="<?php echo $product_max_price; ?>" class="range_slider product_merch_price filter_change_merch" id="range_slider">
+                            </div>
+                            <div class="range_label">
+                                <div class="min_range">$<?php echo $product_min_price; ?></div>
+                                <div class="max_range">$<?php echo intval($product_max_price); ?></div>
+                            </div> -->
+                        </div>
+                        <div class="brands_container">
+                            <div class="brands_heading">
+                                <h5>Size</h5>
+                            </div>
+                            <div class="brands_checkboxes custom_checkboxes">
+                                <?php
+                                $all_product_sizes_array = array();
+                                $all_product_colors_array = array();
+                                $args_size_variation = array(
+                                    'post_type' => 'product',
+                                    'numberposts' => -1,
+                                    'tax_query' => array(
+                                        array(
+                                           'taxonomy' => 'product_cat',
+                                           'field' => 'slug',
+                                           'terms' => 'merchandise',
+                                           'operator' => 'IN',
+                                         )
+                                     ),
+                                );
+                                $variable_products = get_posts( $args_size_variation );
+                                foreach($variable_products as $product){
+                                    $product_s = wc_get_product( $product->ID );
+                                    if ($product_s->product_type == 'variable') {
+                                        $size_attr = $product_s->get_attribute( 'pa_size' );
+                                        $color_attr = $product_s->get_attribute( 'pa_color' );
+                                        $size_attr_ex = explode(',', $size_attr);
+                                        $color_attr_ex = explode(',', $color_attr);
+                                        foreach($size_attr_ex as $size){
+                                            if (!in_array(trim($size, ' '), $all_product_sizes_array)) {
+                                                array_push($all_product_sizes_array, trim($size, ' '));
+                                            }
+                                        }
+                                        foreach($color_attr_ex as $color){
+                                            if (!in_array(trim($color, ' '), $all_product_colors_array)) {
+                                                array_push($all_product_colors_array, trim($color, ' '));
+                                            }
+                                        }
+                                        // echo '<pre>';
+                                        // print_r($all_product_sizes_array);
+                                        // echo '</pre>';
+                                    }
+                                }
+                                    foreach($all_product_sizes_array as $size){
+                                        echo '
+                                        <label class="cb_container">'.$size.'
+                                            <input type="checkbox" name="product_variation_size" class="filter_change_merch" value="'.$size.'">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        ';
+                                    }
+                                ?>
+                            </div>
+                        </div>
+                        <div class="condition_container">
+                            <div class="condition_heading">
+                                <h5>Color</h5>
+                            </div>
+                            <div class="condition_checkboxes custom_checkboxes">
+                                <?php
+                                    foreach($all_product_colors_array as $color){
+                                        echo '
+                                        <label class="cb_container">'.$color.'
+                                            <input type="checkbox" name="product_variation_color" class="filter_change_merch" value="'.$color.'">
+                                            <span class="checkmark" style="background-color:'.strtolower($color).'"></span>
+                                        </label>
+                                        ';
+                                    }
+                                ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_listing">
+                    <div class="open_mobile_filters">
+                        <a href="javascript:void(0)">Show Filters</a>
+                    </div>
+                    <div class="search_bar">
+                        <div class="search">
+                            <input type="text" id="search_product" class="search_product" placeholder="Search any Product" value="<?php echo (isset($_GET['search']) && !empty($_GET['search'])) ? $_GET['search'] : ""; ?>">
+                            <a href="javascript:void(0)" class="search_icon"><img src="<?php echo home_url('/wp-content/uploads/2023/01/search-icon.svg'); ?>" alt=""></a>
+                        </div>
+                        <div class="sort_by">
+                            <span>Sort By</span>
+                            <div class="dropdown">
+                                <a href="javascript:void(0)" class="sort_dropbtn sort_click"><img src="<?php echo home_url('/wp-content/uploads/2023/01/Vector-1.png'); ?>" class="sort_click" alt=""></a>
+                                <div id="sort_dropdown" class="dropdown-content">
+                                    <a href="javascript:void(0)" id="newest_to_oldest">Newest to Oldest</a>
+                                    <a href="javascript:void(0)" id="oldest_to_newest">Oldest to Newest</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="total_results">
+                        <p class="result_head">Result</p>
+                        <p class="result_num"><?php echo $total_products; echo ($total_products != 1) ? " Listings" : " Listing" ?></p>
+                    </div>
+                    <?php $products = new WP_Query($args);?>
+                    <ul class="products all_products products-ul">
+
+                        <?php while ( $products->have_posts() ) : $products->the_post(); ?>
+
+                            <?php wc_get_template_part( 'content', 'product' ); ?>
+
+                        <?php endwhile; // end of the loop. ?>
+
+                    </ul>
+                    <?php
+                    if($total_products > $number){
+                        $big = 999999999;
+                        echo '<div class="mt-5 pagination-wrap">'.
+                        paginate_links( array(
+                            'base' => str_replace( $big, '%#%', get_pagenum_link( $big ) ),
+                            'format' => '?paged=%#%',
+                            'current' => max( 1, get_query_var('paged') ),
+                            'total' => ceil($total_products / $number),
+                            'prev_text' => __( 'Prev' ),
+                            'next_text' => __( 'Next' )
+                        ) )
+                        ."</div>";
+                    }
+                    wp_reset_postdata(); 
+                    ?>
+                </div>
+            </div>
+		</div>
+	</div>
+</div>
+
+<?php
+
+get_footer('shop');

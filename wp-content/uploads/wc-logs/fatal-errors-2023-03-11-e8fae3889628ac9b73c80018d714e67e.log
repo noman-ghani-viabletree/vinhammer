@@ -1,0 +1,134 @@
+2023-03-11T07:56:28+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_choices() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php:58
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php on line 58
+
+2023-03-11T08:04:50+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_choices() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php:58
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php on line 58
+
+2023-03-11T08:05:12+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_choices() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php:58
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php on line 58
+
+2023-03-11T08:05:30+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_choices() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php:58
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php on line 58
+
+2023-03-11T08:42:26+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_choices() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php:86
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php on line 86
+
+2023-03-11T08:43:39+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_choices() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php:86
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php on line 86
+
+2023-03-11T08:45:03+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_choices() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php:86
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php on line 86
+
+2023-03-11T09:10:23+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php:31
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php on line 31
+
+2023-03-11T09:47:03+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php:31
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php on line 31
+
+2023-03-11T09:47:31+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php:31
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php on line 31
+
+2023-03-11T09:56:39+00:00 CRITICAL syntax error, unexpected identifier "var_dump" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php on line 39
+
+2023-03-11T10:04:11+00:00 CRITICAL syntax error, unexpected single-quoted string "</span>", expecting "," or ";" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php on line 102
+
+2023-03-11T14:47:25+00:00 CRITICAL syntax error, unexpected token "=>" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 701
+
+2023-03-11T15:00:42+00:00 CRITICAL Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:552
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(552): array_push(NULL, '32')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_filter_func('', '', 'auction_filter')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<div class="kb-...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<div class="kb-...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<div class="kb-...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:kadence...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/template-parts/content/entry_content.php(16): the_content('Continue readin...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(785): require('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(718): load_template('/Applications/X...', false, Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/template-parts/content/single-entry.php(28): get_template_part('template-parts/...', 'page')
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(785): require('/Applications/X...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(718): load_template('/Applications/X...', false, Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/inc/template-functions/single-functions.php(27): get_template_part('template-parts/...', 'page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): Kadence\single_content('')
+#17 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#18 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#19 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/template-parts/content/single.php(34): do_action('kadence_single_...')
+#20 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(785): require('/Applications/X...')
+#21 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(718): load_template('/Applications/X...', false, Array)
+#22 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#23 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/inc/template-functions/single-functions.php(20): get_template_part('template-parts/...', 'page')
+#24 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): Kadence\single_markup('')
+#25 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#26 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#27 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/page.php(20): do_action('kadence_single')
+#28 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include('/Applications/X...')
+#29 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#30 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#31 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 552
+
+2023-03-11T15:12:25+00:00 CRITICAL syntax error, unexpected token "{" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 562
+
+2023-03-11T15:12:26+00:00 CRITICAL syntax error, unexpected token "{" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 562
+
+2023-03-11T15:12:39+00:00 CRITICAL syntax error, unexpected identifier "current" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 562
+
+2023-03-11T15:26:21+00:00 CRITICAL syntax error, unexpected token "if" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 568
+
+2023-03-11T15:26:26+00:00 CRITICAL syntax error, unexpected token "if" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 568
+
+2023-03-11T17:24:11+00:00 CRITICAL syntax error, unexpected identifier "site_url", expecting ";" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 1061
+

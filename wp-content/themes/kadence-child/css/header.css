@@ -1,0 +1,18 @@
+#masthead{
+    box-shadow: 0px 8px 12px rgba(153, 155, 168, 0.15);
+}
+.main-navigation .primary-menu-container > ul > li.menu-item > a{
+    font-weight: 600;
+}
+.menu .menu-item .menu-icon {
+    display: inline-block;
+    background: #f5f6f7;
+    padding: 2px 9px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 10px;
+}
+.account-menu .sub-menu .menu-icon {
+    background-color: transparent !important;
+    vertical-align: middle;
+}

@@ -1,0 +1,761 @@
+0000.001 (0) Opened log file at time: Sun, 19 Feb 2023 21:11:53 +0000 on http://localhost/vinhammer
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.12.25 WP: 6.1.1 PHP: 8.2.0 (apache2handler, Darwin Nomans-MacBook-Pro.local 21.6.0 Darwin Kernel Version 21.6.0: Mon Aug 22 20:17:10 PDT 2022; root:xnu-8020.140.49~2/RELEASE_X86_64 x86_64) MySQL: 10.4.27-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.54 (Unix) OpenSSL/1.1.1s PHP/8.2.0 mod_perl/2.0.12 Perl/v5.34.1 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 130.4M | 146M) multisite: N openssl: OpenSSL 1.1.1s  1 Nov 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.010 (0) Free space on disk containing Updraft's temporary directory: 277361.2 MB
+0000.024 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.031 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.035 (0) Set semaphore last lock (fd) time to 2023-02-19 21:11:53
+0000.036 (0) Semaphore lock (fd) complete
+0000.042 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus::$last_successful_resumption is deprecated (line 2251, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.044 (0) Backup run: resumption=0, nonce=21b5ea8d3891, file_nonce=21b5ea8d3891 begun at=1676841113 (0s ago), job type=backup, label=Automatic backup before update caused by entities (plugins)
+0000.045 (0) A resumption will be scheduled for the cloud backup stage
+0000.046 (0) Scheduling a resumption (1) after 300 seconds (1676841413) in case this run gets aborted
+0000.060 (0) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 385, wp-content/plugins/updraftplus/backup.php)
+0000.064 (0) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 1930, wp-content/plugins/updraftplus/backup.php)
+0000.068 (0) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 3518, wp-content/plugins/updraftplus/backup.php)
+0000.070 (0) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 3518, wp-content/plugins/updraftplus/backup.php)
+0000.075 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$updraft_dir_realpath is deprecated (line 113, wp-content/plugins/updraftplus/backup.php)
+0000.077 (0) Checking if we have a zip executable available
+0000.080 (0) Testing: /usr/bin/zip
+0000.128 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.129 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.130 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.130 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.131 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.150 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.159 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.175 (0) Working binary zip found: /usr/bin/zip
+0000.177 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.177 (0) Creation of backups of directories: beginning
+0000.180 (0) PHP event: code E_DEPRECATED: rtrim(): Passing null to parameter #1 ($string) of type string is deprecated (line 2785, wp-includes/formatting.php)
+0000.182 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$first_linked_index is deprecated (line 217, wp-content/plugins/updraftplus/backup.php)
+0000.182 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.184 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$zip_microtime_start is deprecated (line 306, wp-content/plugins/updraftplus/backup.php)
+0000.185 (0) PHP event: code E_DEPRECATED: rtrim(): Passing null to parameter #1 ($string) of type string is deprecated (line 2785, wp-includes/formatting.php)
+0000.185 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$make_zipfile_source is deprecated (line 3313, wp-content/plugins/updraftplus/backup.php)
+0000.186 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$existing_files is deprecated (line 3315, wp-content/plugins/updraftplus/backup.php)
+0000.187 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$existing_files_rawsize is deprecated (line 3317, wp-content/plugins/updraftplus/backup.php)
+0000.188 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$existing_zipfiles_size is deprecated (line 3318, wp-content/plugins/updraftplus/backup.php)
+0000.190 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$source is deprecated (line 3392, wp-content/plugins/updraftplus/backup.php)
+0000.191 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$makezip_recursive_batchedbytes is deprecated (line 3395, wp-content/plugins/updraftplus/backup.php)
+0000.192 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$excluded_prefixes is deprecated (line 3473, wp-content/plugins/updraftplus/backup.php)
+0000.193 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$excluded_wildcards is deprecated (line 3474, wp-content/plugins/updraftplus/backup.php)
+0001.082 (0) Total entities for the zip file: 2413 directories, 14381 files (0 skipped as non-modified), 175.5 MB
+0001.086 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.089 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.091 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.094 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.097 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.100 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.103 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.106 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.110 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.112 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.113 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.6 MB, 14381 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.644 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: size is now: 4.00 MB
+0001.650 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 1100 files added (on-disk size: 4127.7 KB)
+0001.653 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 1200 files added (on-disk size: 4127.7 KB)
+0001.655 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 1300 files added (on-disk size: 4127.7 KB)
+0001.658 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 1400 files added (on-disk size: 4127.7 KB)
+0001.661 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 1500 files added (on-disk size: 4127.7 KB)
+0001.664 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 1600 files added (on-disk size: 4127.7 KB)
+0001.667 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 1700 files added (on-disk size: 4127.7 KB)
+0001.669 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 1800 files added (on-disk size: 4127.7 KB)
+0001.672 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 1900 files added (on-disk size: 4127.7 KB)
+0001.675 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 2000 files added (on-disk size: 4127.7 KB)
+0001.675 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.6 MB, 14381 files batched, 1001 (2002) added so far); re-opening (prior size: 4127.7 KB)
+0001.987 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: size is now: 5.30 MB
+0001.994 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 2100 files added (on-disk size: 5418.1 KB)
+0001.998 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 2200 files added (on-disk size: 5418.1 KB)
+0002.001 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 2300 files added (on-disk size: 5418.1 KB)
+0002.004 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 2400 files added (on-disk size: 5418.1 KB)
+0002.007 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 2500 files added (on-disk size: 5418.1 KB)
+0002.010 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 2600 files added (on-disk size: 5418.1 KB)
+0002.012 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 2700 files added (on-disk size: 5418.1 KB)
+0002.015 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 2800 files added (on-disk size: 5418.1 KB)
+0002.018 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 2900 files added (on-disk size: 5418.1 KB)
+0002.020 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 3000 files added (on-disk size: 5418.1 KB)
+0002.021 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.6 MB, 14381 files batched, 1001 (3003) added so far); re-opening (prior size: 5418.1 KB)
+0002.447 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: size is now: 6.40 MB
+0002.456 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 3100 files added (on-disk size: 6565.2 KB)
+0002.459 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 3200 files added (on-disk size: 6565.2 KB)
+0002.462 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 3300 files added (on-disk size: 6565.2 KB)
+0002.464 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 3400 files added (on-disk size: 6565.2 KB)
+0002.466 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 3500 files added (on-disk size: 6565.2 KB)
+0002.469 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 3600 files added (on-disk size: 6565.2 KB)
+0002.472 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 3700 files added (on-disk size: 6565.2 KB)
+0002.475 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 3800 files added (on-disk size: 6565.2 KB)
+0002.477 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 3900 files added (on-disk size: 6565.2 KB)
+0002.481 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 4000 files added (on-disk size: 6565.2 KB)
+0002.482 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.2 MB, 14381 files batched, 1001 (4004) added so far); re-opening (prior size: 6565.2 KB)
+0003.132 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: size is now: 10.50 MB
+0003.143 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 4100 files added (on-disk size: 10741 KB)
+0003.146 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 4200 files added (on-disk size: 10741 KB)
+0003.149 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 4300 files added (on-disk size: 10741 KB)
+0003.151 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 4400 files added (on-disk size: 10741 KB)
+0003.154 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 4500 files added (on-disk size: 10741 KB)
+0003.156 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 4600 files added (on-disk size: 10741 KB)
+0003.159 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 4700 files added (on-disk size: 10741 KB)
+0003.161 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 4800 files added (on-disk size: 10741 KB)
+0003.166 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 4900 files added (on-disk size: 10741 KB)
+0003.168 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 5000 files added (on-disk size: 10741 KB)
+0003.169 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.8 MB, 14381 files batched, 1001 (5005) added so far); re-opening (prior size: 10741 KB)
+0003.859 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: size is now: 14.40 MB
+0003.866 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 5100 files added (on-disk size: 14749 KB)
+0003.869 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 5200 files added (on-disk size: 14749 KB)
+0003.873 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 5300 files added (on-disk size: 14749 KB)
+0003.875 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 5400 files added (on-disk size: 14749 KB)
+0003.877 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 5500 files added (on-disk size: 14749 KB)
+0003.880 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 5600 files added (on-disk size: 14749 KB)
+0003.882 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 5700 files added (on-disk size: 14749 KB)
+0003.885 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 5800 files added (on-disk size: 14749 KB)
+0003.889 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 5900 files added (on-disk size: 14749 KB)
+0003.892 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 6000 files added (on-disk size: 14749 KB)
+0003.893 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.9 MB, 14381 files batched, 1001 (6006) added so far); re-opening (prior size: 14749 KB)
+0004.776 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: size is now: 18.80 MB
+0004.785 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 6100 files added (on-disk size: 19252.6 KB)
+0004.788 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 6200 files added (on-disk size: 19252.6 KB)
+0004.791 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 6300 files added (on-disk size: 19252.6 KB)
+0004.793 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 6400 files added (on-disk size: 19252.6 KB)
+0004.796 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 6500 files added (on-disk size: 19252.6 KB)
+0004.798 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 6600 files added (on-disk size: 19252.6 KB)
+0004.801 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 6700 files added (on-disk size: 19252.6 KB)
+0004.803 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 6800 files added (on-disk size: 19252.6 KB)
+0004.806 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 6900 files added (on-disk size: 19252.6 KB)
+0004.808 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 7000 files added (on-disk size: 19252.6 KB)
+0004.809 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.7 MB, 14381 files batched, 1001 (7007) added so far); re-opening (prior size: 19252.6 KB)
+0005.833 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: size is now: 29.60 MB
+0005.841 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 7100 files added (on-disk size: 30358.8 KB)
+0005.844 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 7200 files added (on-disk size: 30358.8 KB)
+0005.847 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 7300 files added (on-disk size: 30358.8 KB)
+0005.849 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 7400 files added (on-disk size: 30358.8 KB)
+0005.852 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 7500 files added (on-disk size: 30358.8 KB)
+0005.854 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 7600 files added (on-disk size: 30358.8 KB)
+0005.856 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 7700 files added (on-disk size: 30358.8 KB)
+0005.859 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 7800 files added (on-disk size: 30358.8 KB)
+0005.861 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 7900 files added (on-disk size: 30358.8 KB)
+0005.864 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 8000 files added (on-disk size: 30358.8 KB)
+0005.865 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.8 MB, 14381 files batched, 1001 (8008) added so far); re-opening (prior size: 30358.8 KB)
+0006.694 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 8100 files added (on-disk size: 35409.6 KB)
+0006.699 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 8200 files added (on-disk size: 35409.6 KB)
+0006.702 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 8300 files added (on-disk size: 35409.6 KB)
+0006.704 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 8400 files added (on-disk size: 35409.6 KB)
+0006.707 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 8500 files added (on-disk size: 35409.6 KB)
+0006.709 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 8600 files added (on-disk size: 35409.6 KB)
+0006.712 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 8700 files added (on-disk size: 35409.6 KB)
+0006.714 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 8800 files added (on-disk size: 35409.6 KB)
+0006.717 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 8900 files added (on-disk size: 35409.6 KB)
+0006.719 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 9000 files added (on-disk size: 35409.6 KB)
+0006.720 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.5 MB, 14381 files batched, 1001 (9009) added so far); re-opening (prior size: 35409.6 KB)
+0007.895 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 9100 files added (on-disk size: 41545.2 KB)
+0007.901 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 9200 files added (on-disk size: 41545.2 KB)
+0007.904 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 9300 files added (on-disk size: 41545.2 KB)
+0007.908 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 9400 files added (on-disk size: 41545.2 KB)
+0007.911 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 9500 files added (on-disk size: 41545.2 KB)
+0007.913 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 9600 files added (on-disk size: 41545.2 KB)
+0007.916 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 9700 files added (on-disk size: 41545.2 KB)
+0007.919 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 9800 files added (on-disk size: 41545.2 KB)
+0007.921 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 9900 files added (on-disk size: 41545.2 KB)
+0007.924 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 10000 files added (on-disk size: 41545.2 KB)
+0007.924 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.6 MB, 14381 files batched, 1001 (10010) added so far); re-opening (prior size: 41545.2 KB)
+0008.443 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 10100 files added (on-disk size: 43645.4 KB)
+0008.448 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 10200 files added (on-disk size: 43645.4 KB)
+0008.451 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 10300 files added (on-disk size: 43645.4 KB)
+0008.454 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 10400 files added (on-disk size: 43645.4 KB)
+0008.456 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 10500 files added (on-disk size: 43645.4 KB)
+0008.459 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 10600 files added (on-disk size: 43645.4 KB)
+0008.463 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 10700 files added (on-disk size: 43645.4 KB)
+0008.467 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 10800 files added (on-disk size: 43645.4 KB)
+0008.470 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 10900 files added (on-disk size: 43645.4 KB)
+0008.474 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 11000 files added (on-disk size: 43645.4 KB)
+0008.475 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.6 MB, 14381 files batched, 1001 (11011) added so far); re-opening (prior size: 43645.4 KB)
+0008.998 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 11100 files added (on-disk size: 45301.7 KB)
+0009.004 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 11200 files added (on-disk size: 45301.7 KB)
+0009.008 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 11300 files added (on-disk size: 45301.7 KB)
+0009.011 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 11400 files added (on-disk size: 45301.7 KB)
+0009.013 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 11500 files added (on-disk size: 45301.7 KB)
+0009.017 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 11600 files added (on-disk size: 45301.7 KB)
+0009.021 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 11700 files added (on-disk size: 45301.7 KB)
+0009.024 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 11800 files added (on-disk size: 45301.7 KB)
+0009.028 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 11900 files added (on-disk size: 45301.7 KB)
+0009.031 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 12000 files added (on-disk size: 45301.7 KB)
+0009.032 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15.1 MB, 14381 files batched, 1001 (12012) added so far); re-opening (prior size: 45301.7 KB)
+0010.005 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 12100 files added (on-disk size: 49903.3 KB)
+0010.010 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 12200 files added (on-disk size: 49903.3 KB)
+0010.013 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 12300 files added (on-disk size: 49903.3 KB)
+0010.016 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 12400 files added (on-disk size: 49903.3 KB)
+0010.021 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 12500 files added (on-disk size: 49903.3 KB)
+0010.024 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 12600 files added (on-disk size: 49903.3 KB)
+0010.027 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 12700 files added (on-disk size: 49903.3 KB)
+0010.030 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 12800 files added (on-disk size: 49903.3 KB)
+0010.033 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 12900 files added (on-disk size: 49903.3 KB)
+0010.036 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 13000 files added (on-disk size: 49903.3 KB)
+0010.037 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.7 MB, 14381 files batched, 1001 (13013) added so far); re-opening (prior size: 49903.3 KB)
+0010.681 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 13100 files added (on-disk size: 51764.5 KB)
+0010.686 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 13200 files added (on-disk size: 51764.5 KB)
+0010.689 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 13300 files added (on-disk size: 51764.5 KB)
+0010.692 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 13400 files added (on-disk size: 51764.5 KB)
+0010.694 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 13500 files added (on-disk size: 51764.5 KB)
+0010.697 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 13600 files added (on-disk size: 51764.5 KB)
+0010.699 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 13700 files added (on-disk size: 51764.5 KB)
+0010.702 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 13800 files added (on-disk size: 51764.5 KB)
+0010.705 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 13900 files added (on-disk size: 51764.5 KB)
+0010.708 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 14000 files added (on-disk size: 51764.5 KB)
+0010.709 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.7 MB, 14381 files batched, 1001 (14014) added so far); re-opening (prior size: 51764.5 KB)
+0011.882 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 14100 files added (on-disk size: 56716.4 KB)
+0011.887 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 14200 files added (on-disk size: 56716.4 KB)
+0011.890 (0) Zip: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.tmp: 14300 files added (on-disk size: 56716.4 KB)
+0012.867 (0) Creating zip file manifest (backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.list-temp.tmp)
+0012.926 (0) Successfully created zip file manifest (size: 1358565)
+0013.425 (0) Created plugins zip (0) - 59661.7 KB in 13.2 s (4505.7 KB/s) (sha1: 2f2541da233065c629db169d7d4ae599fc647f21, sha256: 9cbf7ae71134b3fec8f4e273117ff1452358fc7ea74487ebd6506170eb552249)
+0013.426 (0) No backup of themes: excluded by user's options
+0013.427 (0) No backup of uploads: excluded by user's options
+0013.428 (0) No backup of wpcore: excluded by user's options
+0013.428 (0) No backup of others: excluded by user's options
+0013.429 (0) No backup of more: excluded by user's options
+0013.431 (0) Saving backup status to database (elements: 2)
+0013.431 (0) PHP event: code E_DEPRECATED: rtrim(): Passing null to parameter #1 ($string) of type string is deprecated (line 2785, wp-includes/formatting.php)
+0013.433 (0) Beginning creation of database dump (WordPress DB)
+0013.433 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$whichdb is deprecated (line 1535, wp-content/plugins/updraftplus/backup.php)
+0013.434 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$whichdb_suffix is deprecated (line 1536, wp-content/plugins/updraftplus/backup.php)
+0013.434 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$dbinfo is deprecated (line 1564, wp-content/plugins/updraftplus/backup.php)
+0013.435 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0013.464 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$duplicate_tables_exist is deprecated (line 1625, wp-content/plugins/updraftplus/backup.php)
+0013.485 (0) Table wp_options: Total expected rows (via COUNT): 755
+0013.577 (0) Table wp_options: Rows added in this batch (next record: 24238): 751 (uncompressed bytes in this segment=2219875) in 0.11 seconds
+0013.581 (0) Table wp_options: finishing file(s) (2, 534.8 KB)
+0013.584 (0) Table wp_users: Total expected rows (via COUNT): 3
+0013.585 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.586 (0) Table wp_users: Rows added in this batch (next record: 4): 3 (uncompressed bytes in this segment=1512) in 0.00 seconds
+0013.588 (0) Table wp_users: finishing file(s) (2, 0.8 KB)
+0013.592 (0) Table wp_usermeta: Total expected rows (via COUNT): 104
+0013.593 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.594 (0) Table wp_usermeta: Rows added in this batch (next record: 131): 104 (uncompressed bytes in this segment=8795) in 0.00 seconds
+0013.597 (0) Table wp_usermeta: finishing file(s) (2, 3 KB)
+0013.602 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 179
+0013.602 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.607 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 3027): 179 (uncompressed bytes in this segment=54687) in 0.01 seconds
+0013.610 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 4.9 KB)
+0013.615 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0013.616 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=622) in 0.00 seconds
+0013.619 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0013.622 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 5
+0013.622 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.624 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=749) in 0.00 seconds
+0013.626 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0013.629 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 534
+0013.633 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 9077): 534 (uncompressed bytes in this segment=49439) in 0.01 seconds
+0013.636 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 5.7 KB)
+0013.642 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0013.643 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=630) in 0.00 seconds
+0013.646 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0013.649 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0013.650 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.652 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1846) in 0.00 seconds
+0013.654 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0013.661 (0) Table wp_kbp_countdown_entry: Total expected rows (via COUNT): 0
+0013.662 (0) Table wp_kbp_countdown_entry: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=756) in 0.00 seconds
+0013.664 (0) Table wp_kbp_countdown_entry: finishing file(s) (2, 0.4 KB)
+0013.670 (0) Table wp_kbp_form_entry: Total expected rows (via COUNT): 0
+0013.671 (0) Table wp_kbp_form_entry: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=889) in 0.00 seconds
+0013.673 (0) Table wp_kbp_form_entry: finishing file(s) (2, 0.4 KB)
+0013.682 (0) Table wp_kbp_form_entrymeta: Total expected rows (via COUNT): 0
+0013.683 (0) Table wp_kbp_form_entrymeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.01 seconds
+0013.687 (0) Table wp_kbp_form_entrymeta: finishing file(s) (2, 0.4 KB)
+0013.693 (0) Table wp_links: Total expected rows (via COUNT): 0
+0013.695 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1023) in 0.00 seconds
+0013.697 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0013.702 (0) Table wp_postmeta: Total expected rows (approximate): 1134
+0013.711 (0) Table wp_postmeta: Rows added in this batch (next record: 1383): 1134 (uncompressed bytes in this segment=117698) in 0.01 seconds
+0013.715 (0) Table wp_postmeta: finishing file(s) (2, 17.3 KB)
+0013.747 (0) Table wp_posts: Total expected rows (via COUNT): 475
+0013.748 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.810 (0) Table wp_posts: Rows added in this batch (next record: 2962): 475 (uncompressed bytes in this segment=1645132) in 0.09 seconds
+0013.815 (0) Table wp_posts: finishing file(s) (2, 156.2 KB)
+0013.825 (0) Table wp_signups: Total expected rows (via COUNT): 0
+0013.827 (0) Table wp_signups: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1048) in 0.01 seconds
+0013.832 (0) Table wp_signups: finishing file(s) (2, 0.5 KB)
+0013.837 (0) Table wp_term_relationships: Total expected rows (approximate): 49
+0013.839 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 49 (uncompressed bytes in this segment=1403) in 0.00 seconds
+0013.843 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0013.847 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 29
+0013.848 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.849 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 29): 29 (uncompressed bytes in this segment=1910) in 0.00 seconds
+0013.853 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0013.858 (0) Table wp_termmeta: Total expected rows (via COUNT): 3
+0013.859 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.860 (0) Table wp_termmeta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=764) in 0.00 seconds
+0013.863 (0) Table wp_termmeta: finishing file(s) (2, 0.5 KB)
+0013.866 (0) Table wp_terms: Total expected rows (via COUNT): 29
+0013.867 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.868 (0) Table wp_terms: Rows added in this batch (next record: 29): 29 (uncompressed bytes in this segment=1642) in 0.00 seconds
+0013.871 (0) Table wp_terms: finishing file(s) (2, 0.7 KB)
+0013.875 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 0
+0013.877 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=589) in 0.00 seconds
+0013.880 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.3 KB)
+0013.888 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 1
+0013.889 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.890 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 2930): 1 (uncompressed bytes in this segment=1360) in 0.01 seconds
+0013.894 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.6 KB)
+0013.901 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0013.906 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=663) in 0.01 seconds
+0013.910 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0013.919 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0013.921 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.923 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=750) in 0.01 seconds
+0013.927 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0013.941 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0013.943 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=722) in 0.01 seconds
+0013.947 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0013.972 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0013.974 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=749) in 0.02 seconds
+0013.977 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0013.981 (0) Table wp_wpr_rocket_cache: Total expected rows (via COUNT): 38
+0013.982 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.984 (0) Table wp_wpr_rocket_cache: Rows added in this batch (next record: 137): 38 (uncompressed bytes in this segment=5500) in 0.00 seconds
+0013.987 (0) Table wp_wpr_rocket_cache: finishing file(s) (2, 1.4 KB)
+0013.994 (0) Table wp_wpr_rucss_used_css: Total expected rows (via COUNT): 0
+0013.995 (0) Table wp_wpr_rucss_used_css: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1259) in 0.01 seconds
+0013.998 (0) Table wp_wpr_rucss_used_css: finishing file(s) (2, 0.5 KB)
+0014.022 (0) Table wp_aioseo_cache: Total expected rows (via COUNT): 7
+0014.023 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.027 (0) Table wp_aioseo_cache: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=83645) in 0.01 seconds
+0014.031 (0) Table wp_aioseo_cache: finishing file(s) (2, 14.9 KB)
+0014.043 (0) Table wp_aioseo_notifications: Total expected rows (via COUNT): 3
+0014.044 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.045 (0) Table wp_aioseo_notifications: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=2932) in 0.01 seconds
+0014.048 (0) Table wp_aioseo_notifications: finishing file(s) (2, 1.2 KB)
+0014.056 (0) Table wp_aioseo_posts: Total expected rows (via COUNT): 16
+0014.057 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.059 (0) Table wp_aioseo_posts: Rows added in this batch (next record: 16): 16 (uncompressed bytes in this segment=14115) in 0.01 seconds
+0014.062 (0) Table wp_aioseo_posts: finishing file(s) (2, 1.3 KB)
+0014.067 (0) Table wp_aioseo_search_statistics_objects: Total expected rows (via COUNT): 0
+0014.069 (0) Table wp_aioseo_search_statistics_objects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=960) in 0.00 seconds
+0014.072 (0) Table wp_aioseo_search_statistics_objects: finishing file(s) (2, 0.4 KB)
+0014.079 (0) Table wp_aioseo_terms: Total expected rows (via COUNT): 0
+0014.079 (0) Table wp_aioseo_terms: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2398) in 0.00 seconds
+0014.083 (0) Table wp_aioseo_terms: finishing file(s) (2, 0.7 KB)
+0014.090 (0) Table wp_auction_direct_payment: Total expected rows (via COUNT): 0
+0014.090 (0) Table wp_auction_direct_payment: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=895) in 0.00 seconds
+0014.093 (0) Table wp_auction_direct_payment: finishing file(s) (2, 0.4 KB)
+0014.098 (0) Table wp_bv_fw_requests: Total expected rows (via COUNT): 0
+0014.099 (0) Table wp_bv_fw_requests: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1045) in 0.00 seconds
+0014.102 (0) Table wp_bv_fw_requests: finishing file(s) (2, 0.5 KB)
+0014.107 (0) Table wp_bv_ip_store: Total expected rows (approximate): 5497
+0014.153 (0) Table wp_bv_ip_store: Rows added in this batch (next record: 5497): 5497 (uncompressed bytes in this segment=237092) in 0.05 seconds
+0014.155 (0) Table wp_bv_ip_store: finishing file(s) (2, 42.8 KB)
+0014.161 (0) Table wp_bv_lp_requests: Total expected rows (via COUNT): 1
+0014.162 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.163 (0) Table wp_bv_lp_requests: Rows added in this batch (next record: 5): 1 (uncompressed bytes in this segment=888) in 0.00 seconds
+0014.166 (0) Table wp_bv_lp_requests: finishing file(s) (2, 0.5 KB)
+0014.170 (0) Table wp_fep_attachments: Total expected rows (via COUNT): 0
+0014.172 (0) Table wp_fep_attachments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=672) in 0.00 seconds
+0014.174 (0) Table wp_fep_attachments: finishing file(s) (2, 0.4 KB)
+0014.180 (0) Table wp_fep_messagemeta: Total expected rows (via COUNT): 0
+0014.181 (0) Table wp_fep_messagemeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=670) in 0.00 seconds
+0014.184 (0) Table wp_fep_messagemeta: finishing file(s) (2, 0.4 KB)
+0014.189 (0) Table wp_fep_messages: Total expected rows (via COUNT): 0
+0014.191 (0) Table wp_fep_messages: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1099) in 0.00 seconds
+0014.193 (0) Table wp_fep_messages: finishing file(s) (2, 0.5 KB)
+0014.197 (0) Table wp_fep_participants: Total expected rows (via COUNT): 0
+0014.199 (0) Table wp_fep_participants: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=859) in 0.00 seconds
+0014.201 (0) Table wp_fep_participants: finishing file(s) (2, 0.4 KB)
+0014.205 (0) Table wp_gf_addon_feed: Total expected rows (via COUNT): 0
+0014.205 (0) Table wp_gf_addon_feed: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=739) in 0.00 seconds
+0014.208 (0) Table wp_gf_addon_feed: finishing file(s) (2, 0.4 KB)
+0014.213 (0) Table wp_gf_draft_submissions: Total expected rows (approximate): 0
+0014.215 (0) Table wp_gf_draft_submissions: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=692) in 0.00 seconds
+0014.217 (0) Table wp_gf_draft_submissions: finishing file(s) (2, 0.4 KB)
+0014.221 (0) Table wp_gf_entry: Total expected rows (via COUNT): 0
+0014.222 (0) Table wp_gf_entry: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1320) in 0.00 seconds
+0014.224 (0) Table wp_gf_entry: finishing file(s) (2, 0.5 KB)
+0014.230 (0) Table wp_gf_entry_meta: Total expected rows (via COUNT): 0
+0014.231 (0) Table wp_gf_entry_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=769) in 0.00 seconds
+0014.233 (0) Table wp_gf_entry_meta: finishing file(s) (2, 0.4 KB)
+0014.240 (0) Table wp_gf_entry_notes: Total expected rows (via COUNT): 0
+0014.241 (0) Table wp_gf_entry_notes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=792) in 0.00 seconds
+0014.244 (0) Table wp_gf_entry_notes: finishing file(s) (2, 0.4 KB)
+0014.248 (0) Table wp_gf_form: Total expected rows (via COUNT): 8
+0014.249 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.250 (0) Table wp_gf_form: Rows added in this batch (next record: 11): 8 (uncompressed bytes in this segment=1102) in 0.00 seconds
+0014.253 (0) Table wp_gf_form: finishing file(s) (2, 0.5 KB)
+0014.259 (0) Table wp_gf_form_meta: Total expected rows (via COUNT): 8
+0014.260 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.267 (0) Table wp_gf_form_meta: Rows added in this batch (next record: 11): 8 (uncompressed bytes in this segment=189901) in 0.01 seconds
+0014.270 (0) Table wp_gf_form_meta: finishing file(s) (2, 16.1 KB)
+0014.275 (0) Table wp_gf_form_revisions: Total expected rows (via COUNT): 0
+0014.276 (0) Table wp_gf_form_revisions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=641) in 0.00 seconds
+0014.279 (0) Table wp_gf_form_revisions: finishing file(s) (2, 0.4 KB)
+0014.284 (0) Table wp_gf_form_view: Total expected rows (via COUNT): 11
+0014.285 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.288 (0) Table wp_gf_form_view: Rows added in this batch (next record: 12): 11 (uncompressed bytes in this segment=1155) in 0.01 seconds
+0014.290 (0) Table wp_gf_form_view: finishing file(s) (2, 0.6 KB)
+0014.296 (0) Table wp_gf_rest_api_keys: Total expected rows (via COUNT): 0
+0014.297 (0) Table wp_gf_rest_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=845) in 0.00 seconds
+0014.300 (0) Table wp_gf_rest_api_keys: finishing file(s) (2, 0.4 KB)
+0014.307 (0) Table wp_ksp_layers: Total expected rows (via COUNT): 0
+0014.308 (0) Table wp_ksp_layers: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2476) in 0.01 seconds
+0014.311 (0) Table wp_ksp_layers: finishing file(s) (2, 0.6 KB)
+0014.316 (0) Table wp_ksp_sliders: Total expected rows (via COUNT): 0
+0014.317 (0) Table wp_ksp_sliders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=966) in 0.00 seconds
+0014.319 (0) Table wp_ksp_sliders: finishing file(s) (2, 0.4 KB)
+0014.325 (0) Table wp_ksp_slides: Total expected rows (via COUNT): 0
+0014.326 (0) Table wp_ksp_slides: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1743) in 0.00 seconds
+0014.329 (0) Table wp_ksp_slides: finishing file(s) (2, 0.5 KB)
+0014.336 (0) Table wp_um_metadata: Total expected rows (via COUNT): 0
+0014.336 (0) Table wp_um_metadata: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=669) in 0.00 seconds
+0014.340 (0) Table wp_um_metadata: finishing file(s) (2, 0.4 KB)
+0014.346 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 49
+0014.347 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.349 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 1648): 49 (uncompressed bytes in this segment=8694) in 0.01 seconds
+0014.352 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 2 KB)
+0014.356 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 40
+0014.357 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.359 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 40): 40 (uncompressed bytes in this segment=20393) in 0.00 seconds
+0014.362 (0) Table wp_wc_admin_notes: finishing file(s) (2, 5.4 KB)
+0014.370 (0) Table wp_wc_comments_subscription: Total expected rows (via COUNT): 0
+0014.372 (0) Table wp_wc_comments_subscription: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1007) in 0.00 seconds
+0014.374 (0) Table wp_wc_comments_subscription: finishing file(s) (2, 0.5 KB)
+0014.381 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 0
+0014.382 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1018) in 0.00 seconds
+0014.385 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0014.393 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0014.395 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=716) in 0.01 seconds
+0014.398 (0) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+0014.404 (0) Table wp_wc_feedback_forms: Total expected rows (via COUNT): 0
+0014.405 (0) Table wp_wc_feedback_forms: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=707) in 0.00 seconds
+0014.408 (0) Table wp_wc_feedback_forms: finishing file(s) (2, 0.4 KB)
+0014.411 (0) Table wp_wc_flagged: Total expected rows (approximate): 0
+0014.412 (0) Table wp_wc_flagged: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=542) in 0.00 seconds
+0014.415 (0) Table wp_wc_flagged: finishing file(s) (2, 0.3 KB)
+0014.423 (0) Table wp_wc_follow_users: Total expected rows (via COUNT): 0
+0014.424 (0) Table wp_wc_follow_users: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1216) in 0.00 seconds
+0014.426 (0) Table wp_wc_follow_users: finishing file(s) (2, 0.5 KB)
+0014.431 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0014.432 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=715) in 0.00 seconds
+0014.435 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0014.442 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0014.443 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1215) in 0.00 seconds
+0014.445 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0014.450 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 0
+0014.451 (0) Table wp_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1079) in 0.00 seconds
+0014.454 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0014.456 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0014.458 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=793) in 0.00 seconds
+0014.460 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0014.465 (0) Table wp_wc_phrases: Total expected rows (via COUNT): 0
+0014.466 (0) Table wp_wc_phrases: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=507) in 0.00 seconds
+0014.469 (0) Table wp_wc_phrases: finishing file(s) (2, 0.3 KB)
+0014.473 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0014.475 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=831) in 0.00 seconds
+0014.477 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0014.481 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0014.482 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.483 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=907) in 0.00 seconds
+0014.485 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0014.489 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0014.490 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=667) in 0.00 seconds
+0014.493 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0014.497 (0) Table wp_wc_users_rated: Total expected rows (via COUNT): 0
+0014.498 (0) Table wp_wc_users_rated: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.00 seconds
+0014.500 (0) Table wp_wc_users_rated: finishing file(s) (2, 0.4 KB)
+0014.505 (0) Table wp_wc_users_voted: Total expected rows (via COUNT): 0
+0014.506 (0) Table wp_wc_users_voted: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=819) in 0.00 seconds
+0014.508 (0) Table wp_wc_users_voted: finishing file(s) (2, 0.4 KB)
+0014.513 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0014.514 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1071) in 0.00 seconds
+0014.516 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0014.520 (0) Table wp_woo_ua_auction_log: Total expected rows (via COUNT): 0
+0014.521 (0) Table wp_woo_ua_auction_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=704) in 0.00 seconds
+0014.524 (0) Table wp_woo_ua_auction_log: finishing file(s) (2, 0.4 KB)
+0014.530 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0014.531 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=873) in 0.00 seconds
+0014.534 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0014.543 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0014.544 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=835) in 0.00 seconds
+0014.548 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0014.553 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0014.555 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1410) in 0.00 seconds
+0014.558 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0014.564 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0014.565 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=642) in 0.01 seconds
+0014.570 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0014.574 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 0
+0014.574 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.00 seconds
+0014.577 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0014.581 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0014.582 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=744) in 0.00 seconds
+0014.585 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0014.589 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 1
+0014.589 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.591 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 27): 1 (uncompressed bytes in this segment=2131) in 0.00 seconds
+0014.593 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 0.8 KB)
+0014.597 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0014.598 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=812) in 0.00 seconds
+0014.600 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0014.605 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0014.606 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=742) in 0.00 seconds
+0014.608 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0014.611 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0014.612 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=602) in 0.00 seconds
+0014.614 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.3 KB)
+0014.620 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0014.621 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=786) in 0.00 seconds
+0014.623 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0014.627 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0014.628 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1142) in 0.00 seconds
+0014.630 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0014.631 (0) PHP event: code E_WARNING: filemtime(): stat failed for /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/updraft/backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db.gz (line 1884, wp-content/plugins/updraftplus/backup.php)
+0014.631 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_options.table.tmpr24239.gz (1/87/fopen): adding to final database dump
+0014.643 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_options.table.gz (2/87/fopen): adding to final database dump
+0014.644 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_users.table.tmpr5.gz (3/87/fopen): adding to final database dump
+0014.645 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_users.table.gz (4/87/fopen): adding to final database dump
+0014.646 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_usermeta.table.tmpr132.gz (5/87/fopen): adding to final database dump
+0014.646 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_usermeta.table.gz (6/87/fopen): adding to final database dump
+0014.647 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_actionscheduler_actions.table.tmpr3028.gz (7/87/fopen): adding to final database dump
+0014.648 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_actionscheduler_actions.table.gz (8/87/fopen): adding to final database dump
+0014.648 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/87/fopen): adding to final database dump
+0014.649 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_actionscheduler_claims.table.gz (10/87/fopen): adding to final database dump
+0014.649 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_actionscheduler_groups.table.tmpr6.gz (11/87/fopen): adding to final database dump
+0014.650 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_actionscheduler_groups.table.gz (12/87/fopen): adding to final database dump
+0014.650 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_actionscheduler_logs.table.tmpr9078.gz (13/87/fopen): adding to final database dump
+0014.651 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_actionscheduler_logs.table.gz (14/87/fopen): adding to final database dump
+0014.651 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_commentmeta.table.tmpr0.gz (15/87/fopen): adding to final database dump
+0014.652 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_commentmeta.table.gz (16/87/fopen): adding to final database dump
+0014.653 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_comments.table.tmpr2.gz (17/87/fopen): adding to final database dump
+0014.653 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_comments.table.gz (18/87/fopen): adding to final database dump
+0014.654 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_kbp_countdown_entry.table.tmpr0.gz (19/87/fopen): adding to final database dump
+0014.654 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_kbp_countdown_entry.table.gz (20/87/fopen): adding to final database dump
+0014.654 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_kbp_form_entry.table.tmpr0.gz (21/87/fopen): adding to final database dump
+0014.655 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_kbp_form_entry.table.gz (22/87/fopen): adding to final database dump
+0014.655 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_kbp_form_entrymeta.table.tmpr0.gz (23/87/fopen): adding to final database dump
+0014.656 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_kbp_form_entrymeta.table.gz (24/87/fopen): adding to final database dump
+0014.656 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_links.table.tmpr0.gz (25/87/fopen): adding to final database dump
+0014.657 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_links.table.gz (26/87/fopen): adding to final database dump
+0014.657 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_postmeta.table.tmpr1384.gz (27/87/fopen): adding to final database dump
+0014.658 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_postmeta.table.gz (28/87/fopen): adding to final database dump
+0014.658 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_posts.table.tmpr2963.gz (29/87/fopen): adding to final database dump
+0014.662 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_posts.table.gz (30/87/fopen): adding to final database dump
+0014.662 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_signups.table.tmpr0.gz (31/87/fopen): adding to final database dump
+0014.663 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_signups.table.gz (32/87/fopen): adding to final database dump
+0014.663 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_term_relationships.table.tmpr100001.gz (33/87/fopen): adding to final database dump
+0014.664 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_term_relationships.table.gz (34/87/fopen): adding to final database dump
+0014.664 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_term_taxonomy.table.tmpr30.gz (35/87/fopen): adding to final database dump
+0014.665 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_term_taxonomy.table.gz (36/87/fopen): adding to final database dump
+0014.665 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_termmeta.table.tmpr4.gz (37/87/fopen): adding to final database dump
+0014.665 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_termmeta.table.gz (38/87/fopen): adding to final database dump
+0014.666 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_terms.table.tmpr30.gz (39/87/fopen): adding to final database dump
+0014.666 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_terms.table.gz (40/87/fopen): adding to final database dump
+0014.667 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_category_lookup.table.tmpr1001.gz (41/87/fopen): adding to final database dump
+0014.667 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_category_lookup.table.gz (42/87/fopen): adding to final database dump
+0014.667 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_product_meta_lookup.table.tmpr2931.gz (43/87/fopen): adding to final database dump
+0014.668 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_product_meta_lookup.table.gz (44/87/fopen): adding to final database dump
+0014.668 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_reserved_stock.table.tmpr1.gz (45/87/fopen): adding to final database dump
+0014.669 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_reserved_stock.table.gz (46/87/fopen): adding to final database dump
+0014.669 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (47/87/fopen): adding to final database dump
+0014.670 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_tax_rate_classes.table.gz (48/87/fopen): adding to final database dump
+0014.670 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_order_itemmeta.table.tmpr0.gz (49/87/fopen): adding to final database dump
+0014.671 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_order_itemmeta.table.gz (50/87/fopen): adding to final database dump
+0014.671 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (51/87/fopen): adding to final database dump
+0014.671 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_payment_tokenmeta.table.gz (52/87/fopen): adding to final database dump
+0014.672 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wpr_rocket_cache.table.tmpr138.gz (53/87/fopen): adding to final database dump
+0014.672 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wpr_rocket_cache.table.gz (54/87/fopen): adding to final database dump
+0014.673 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wpr_rucss_used_css.table.tmpr0.gz (55/87/fopen): adding to final database dump
+0014.673 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wpr_rucss_used_css.table.gz (56/87/fopen): adding to final database dump
+0014.674 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_aioseo_cache.table.tmpr8.gz (57/87/fopen): adding to final database dump
+0014.674 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_aioseo_cache.table.gz (58/87/fopen): adding to final database dump
+0014.675 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_aioseo_notifications.table.tmpr4.gz (59/87/fopen): adding to final database dump
+0014.675 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_aioseo_notifications.table.gz (60/87/fopen): adding to final database dump
+0014.676 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_aioseo_posts.table.tmpr17.gz (61/87/fopen): adding to final database dump
+0014.676 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_aioseo_posts.table.gz (62/87/fopen): adding to final database dump
+0014.676 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_aioseo_search_statistics_objects.table.tmpr0.gz (63/87/fopen): adding to final database dump
+0014.677 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_aioseo_search_statistics_objects.table.gz (64/87/fopen): adding to final database dump
+0014.677 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_aioseo_terms.table.tmpr0.gz (65/87/fopen): adding to final database dump
+0014.678 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_aioseo_terms.table.gz (66/87/fopen): adding to final database dump
+0014.678 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_auction_direct_payment.table.tmpr0.gz (67/87/fopen): adding to final database dump
+0014.678 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_auction_direct_payment.table.gz (68/87/fopen): adding to final database dump
+0014.679 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_bv_fw_requests.table.tmpr0.gz (69/87/fopen): adding to final database dump
+0014.679 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_bv_fw_requests.table.gz (70/87/fopen): adding to final database dump
+0014.680 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_bv_ip_store.table.tmpr5498.gz (71/87/fopen): adding to final database dump
+0014.681 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_bv_ip_store.table.gz (72/87/fopen): adding to final database dump
+0014.681 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_bv_lp_requests.table.tmpr6.gz (73/87/fopen): adding to final database dump
+0014.681 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_bv_lp_requests.table.gz (74/87/fopen): adding to final database dump
+0014.682 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_fep_attachments.table.tmpr0.gz (75/87/fopen): adding to final database dump
+0014.682 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_fep_attachments.table.gz (76/87/fopen): adding to final database dump
+0014.683 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_fep_messagemeta.table.tmpr0.gz (77/87/fopen): adding to final database dump
+0014.683 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_fep_messagemeta.table.gz (78/87/fopen): adding to final database dump
+0014.683 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_fep_messages.table.tmpr0.gz (79/87/fopen): adding to final database dump
+0014.684 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_fep_messages.table.gz (80/87/fopen): adding to final database dump
+0014.684 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_fep_participants.table.tmpr0.gz (81/87/fopen): adding to final database dump
+0014.685 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_fep_participants.table.gz (82/87/fopen): adding to final database dump
+0014.685 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_gf_addon_feed.table.tmpr0.gz (83/87/fopen): adding to final database dump
+0014.686 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_gf_addon_feed.table.gz (84/87/fopen): adding to final database dump
+0014.686 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_gf_draft_submissions.table.tmpr1.gz (85/87/fopen): adding to final database dump
+0014.687 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_gf_draft_submissions.table.gz (86/87/fopen): adding to final database dump
+0014.687 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_gf_entry.table.tmpr0.gz (87/87/fopen): adding to final database dump
+0014.687 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_gf_entry.table.gz (88/87/fopen): adding to final database dump
+0014.688 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_gf_entry_meta.table.tmpr0.gz (89/87/fopen): adding to final database dump
+0014.688 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_gf_entry_meta.table.gz (90/87/fopen): adding to final database dump
+0014.689 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_gf_entry_notes.table.tmpr0.gz (91/87/fopen): adding to final database dump
+0014.689 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_gf_entry_notes.table.gz (92/87/fopen): adding to final database dump
+0014.690 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_gf_form.table.tmpr12.gz (93/87/fopen): adding to final database dump
+0014.690 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_gf_form.table.gz (94/87/fopen): adding to final database dump
+0014.690 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_gf_form_meta.table.tmpr12.gz (95/87/fopen): adding to final database dump
+0014.691 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_gf_form_meta.table.gz (96/87/fopen): adding to final database dump
+0014.692 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_gf_form_revisions.table.tmpr0.gz (97/87/fopen): adding to final database dump
+0014.692 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_gf_form_revisions.table.gz (98/87/fopen): adding to final database dump
+0014.692 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_gf_form_view.table.tmpr13.gz (99/87/fopen): adding to final database dump
+0014.693 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_gf_form_view.table.gz (100/87/fopen): adding to final database dump
+0014.694 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_gf_rest_api_keys.table.tmpr0.gz (101/87/fopen): adding to final database dump
+0014.694 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_gf_rest_api_keys.table.gz (102/87/fopen): adding to final database dump
+0014.695 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_ksp_layers.table.tmpr0.gz (103/87/fopen): adding to final database dump
+0014.695 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_ksp_layers.table.gz (104/87/fopen): adding to final database dump
+0014.696 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_ksp_sliders.table.tmpr0.gz (105/87/fopen): adding to final database dump
+0014.696 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_ksp_sliders.table.gz (106/87/fopen): adding to final database dump
+0014.697 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_ksp_slides.table.tmpr0.gz (107/87/fopen): adding to final database dump
+0014.697 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_ksp_slides.table.gz (108/87/fopen): adding to final database dump
+0014.697 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_um_metadata.table.tmpr0.gz (109/87/fopen): adding to final database dump
+0014.698 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_um_metadata.table.gz (110/87/fopen): adding to final database dump
+0014.698 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_admin_note_actions.table.tmpr1649.gz (111/87/fopen): adding to final database dump
+0014.699 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_admin_note_actions.table.gz (112/87/fopen): adding to final database dump
+0014.699 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_admin_notes.table.tmpr41.gz (113/87/fopen): adding to final database dump
+0014.700 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_admin_notes.table.gz (114/87/fopen): adding to final database dump
+0014.700 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_comments_subscription.table.tmpr0.gz (115/87/fopen): adding to final database dump
+0014.701 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_comments_subscription.table.gz (116/87/fopen): adding to final database dump
+0014.701 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_customer_lookup.table.tmpr0.gz (117/87/fopen): adding to final database dump
+0014.702 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_customer_lookup.table.gz (118/87/fopen): adding to final database dump
+0014.702 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_download_log.table.tmpr0.gz (119/87/fopen): adding to final database dump
+0014.703 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_download_log.table.gz (120/87/fopen): adding to final database dump
+0014.703 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_feedback_forms.table.tmpr0.gz (121/87/fopen): adding to final database dump
+0014.703 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_feedback_forms.table.gz (122/87/fopen): adding to final database dump
+0014.704 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_flagged.table.tmpr1.gz (123/87/fopen): adding to final database dump
+0014.704 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_flagged.table.gz (124/87/fopen): adding to final database dump
+0014.705 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_follow_users.table.tmpr0.gz (125/87/fopen): adding to final database dump
+0014.705 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_follow_users.table.gz (126/87/fopen): adding to final database dump
+0014.706 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (127/87/fopen): adding to final database dump
+0014.706 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_order_coupon_lookup.table.gz (128/87/fopen): adding to final database dump
+0014.707 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_order_product_lookup.table.tmpr0.gz (129/87/fopen): adding to final database dump
+0014.707 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_order_product_lookup.table.gz (130/87/fopen): adding to final database dump
+0014.707 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_order_stats.table.tmpr0.gz (131/87/fopen): adding to final database dump
+0014.708 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_order_stats.table.gz (132/87/fopen): adding to final database dump
+0014.708 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (133/87/fopen): adding to final database dump
+0014.709 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_order_tax_lookup.table.gz (134/87/fopen): adding to final database dump
+0014.709 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_phrases.table.tmpr0.gz (135/87/fopen): adding to final database dump
+0014.710 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_phrases.table.gz (136/87/fopen): adding to final database dump
+0014.710 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (137/87/fopen): adding to final database dump
+0014.711 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_product_attributes_lookup.table.gz (138/87/fopen): adding to final database dump
+0014.711 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_product_download_directories.table.tmpr3.gz (139/87/fopen): adding to final database dump
+0014.712 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_product_download_directories.table.gz (140/87/fopen): adding to final database dump
+0014.712 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_rate_limits.table.tmpr0.gz (141/87/fopen): adding to final database dump
+0014.712 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_rate_limits.table.gz (142/87/fopen): adding to final database dump
+0014.713 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_users_rated.table.tmpr0.gz (143/87/fopen): adding to final database dump
+0014.713 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_users_rated.table.gz (144/87/fopen): adding to final database dump
+0014.713 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_users_voted.table.tmpr0.gz (145/87/fopen): adding to final database dump
+0014.714 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_users_voted.table.gz (146/87/fopen): adding to final database dump
+0014.714 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_webhooks.table.tmpr0.gz (147/87/fopen): adding to final database dump
+0014.715 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_wc_webhooks.table.gz (148/87/fopen): adding to final database dump
+0014.715 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woo_ua_auction_log.table.tmpr0.gz (149/87/fopen): adding to final database dump
+0014.715 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woo_ua_auction_log.table.gz (150/87/fopen): adding to final database dump
+0014.716 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (151/87/fopen): adding to final database dump
+0014.716 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_api_keys.table.gz (152/87/fopen): adding to final database dump
+0014.717 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (153/87/fopen): adding to final database dump
+0014.717 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_attribute_taxonomies.table.gz (154/87/fopen): adding to final database dump
+0014.717 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (155/87/fopen): adding to final database dump
+0014.718 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (156/87/fopen): adding to final database dump
+0014.719 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_log.table.tmpr0.gz (157/87/fopen): adding to final database dump
+0014.720 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_log.table.gz (158/87/fopen): adding to final database dump
+0014.721 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_order_items.table.tmpr0.gz (159/87/fopen): adding to final database dump
+0014.722 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_order_items.table.gz (160/87/fopen): adding to final database dump
+0014.722 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (161/87/fopen): adding to final database dump
+0014.722 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_payment_tokens.table.gz (162/87/fopen): adding to final database dump
+0014.723 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_sessions.table.tmpr28.gz (163/87/fopen): adding to final database dump
+0014.723 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_sessions.table.gz (164/87/fopen): adding to final database dump
+0014.724 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr0.gz (165/87/fopen): adding to final database dump
+0014.724 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_shipping_zone_locations.table.gz (166/87/fopen): adding to final database dump
+0014.724 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr0.gz (167/87/fopen): adding to final database dump
+0014.725 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_shipping_zone_methods.table.gz (168/87/fopen): adding to final database dump
+0014.725 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_shipping_zones.table.tmpr0.gz (169/87/fopen): adding to final database dump
+0014.726 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_shipping_zones.table.gz (170/87/fopen): adding to final database dump
+0014.726 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (171/87/fopen): adding to final database dump
+0014.726 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_tax_rate_locations.table.gz (172/87/fopen): adding to final database dump
+0014.727 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (173/87/fopen): adding to final database dump
+0014.727 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db-table-wp_woocommerce_tax_rates.table.gz (174/87/fopen): adding to final database dump
+0014.736 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db.gz: finished writing out complete database file (838.9 KB)
+0014.770 (0) Total database tables backed up: 87 (backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db.gz, size: 859104, sha1: 176c25b54f843cf3b90cc221a05709457eeee362, sha256: b41df9ab14b0e00562d271f27a19fb6b9af1e18f78d3e26652266f67ca1ac295)
+0014.772 (0) PHP event: code E_DEPRECATED: rtrim(): Passing null to parameter #1 ($string) of type string is deprecated (line 2785, wp-includes/formatting.php)
+0014.774 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2802, wp-content/plugins/updraftplus/backup.php)
+0014.775 (0) PHP event: code E_DEPRECATED: rtrim(): Passing null to parameter #1 ($string) of type string is deprecated (line 2785, wp-includes/formatting.php)
+0014.777 (0) PHP event: code E_DEPRECATED: rtrim(): Passing null to parameter #1 ($string) of type string is deprecated (line 2785, wp-includes/formatting.php)
+0014.777 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0014.777 (0) backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db.gz: db: This file has not yet been successfully uploaded: will queue
+0014.778 (0) Saving backup history. Total backup size: 59.1 MB
+0014.778 (0) PHP event: code E_DEPRECATED: rtrim(): Passing null to parameter #1 ($string) of type string is deprecated (line 2785, wp-includes/formatting.php)
+0014.780 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus::$error_count_before_cloud_backup is deprecated (line 2654, wp-content/plugins/updraftplus/class-updraftplus.php)
+0014.780 (0) Requesting upload of the files that have not yet been successfully uploaded (2)
+0014.781 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$current_service is deprecated (line 495, wp-content/plugins/updraftplus/backup.php)
+0014.782 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0014.782 (0) No remote despatch: user chose no remote backup service
+0014.783 (0) Recording as successfully uploaded: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip
+0014.784 (0) Deleting zip manifest (backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-plugins.zip.list.tmp)
+0014.785 (0) Recording as successfully uploaded: backup_2023-02-19-1611_Home_VinHammer_LLC_21b5ea8d3891-db.gz
+0014.787 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0014.787 (0) PHP event: code E_DEPRECATED: rtrim(): Passing null to parameter #1 ($string) of type string is deprecated (line 2785, wp-includes/formatting.php)
+0014.788 (0) PHP event: code E_DEPRECATED: rtrim(): Passing null to parameter #1 ($string) of type string is deprecated (line 2785, wp-includes/formatting.php)
+0014.788 (0) Number of backup sets in history: 10; groups (db): 1
+0014.789 (0) Examining (for databases) backup set with group_id=0, nonce=21b5ea8d3891, datestamp=1676841113 (Feb 19 2023 21:11:53)
+0014.789 (0) This backup set is the backup set just made, so will not be deleted.
+0014.789 (0) Examining (for databases) backup set with group_id=0, nonce=d33c2fc70ef8, datestamp=1676755205 (Feb 18 2023 21:20:05)
+0014.789 (0) This backup set (1676755205) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0014.789 (0) Examining (for databases) backup set with group_id=0, nonce=77bde1ce5f3a, datestamp=1676536084 (Feb 16 2023 08:28:04)
+0014.789 (0) This backup set (1676536084) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0014.789 (0) Examining (for databases) backup set with group_id=0, nonce=b5a4d44cd12b, datestamp=1676492572 (Feb 15 2023 20:22:52)
+0014.789 (0) This backup set (1676492572) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0014.789 (0) Examining (for databases) backup set with group_id=0, nonce=80c9e204015d, datestamp=1676450441 (Feb 15 2023 08:40:41)
+0014.789 (0) This backup set (1676450441) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0014.789 (0) Examining (for databases) backup set with group_id=0, nonce=a303768ff006, datestamp=1676408632 (Feb 14 2023 21:03:52)
+0014.789 (0) This backup set (1676408632) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0014.789 (0) Examining (for databases) backup set with group_id=0, nonce=f1875c4a1875, datestamp=1676055341 (Feb 10 2023 18:55:41)
+0014.789 (0) This backup set (1676055341) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0014.789 (0) Examining (for databases) backup set with group_id=0, nonce=dde8e8d65801, datestamp=1676055253 (Feb 10 2023 18:54:13)
+0014.789 (0) This backup set (1676055253) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0014.789 (0) Examining (for databases) backup set with group_id=0, nonce=2a6beb9308b2, datestamp=1673557323 (Jan 12 2023 21:02:03)
+0014.789 (0) This backup set (1673557323) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0014.789 (0) Examining (for databases) backup set with group_id=0, nonce=3b92adaa84ea, datestamp=1671037033 (Dec 14 2022 16:57:13)
+0014.789 (0) This backup set (1671037033) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0014.789 (0) Number of backup sets in history: 10; groups (files): 1
+0014.790 (0) Examining (for files) backup set with nonce=21b5ea8d3891, datestamp=1676841113 (Feb 19 2023 21:11:53)
+0014.790 (0) This backup set is the backup set just made, so will not be deleted.
+0014.790 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0014.791 (0) Examining (for files) backup set with nonce=d33c2fc70ef8, datestamp=1676755205 (Feb 18 2023 21:20:05)
+0014.791 (0) This backup set (1676755205) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0014.791 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0014.791 (0) Examining (for files) backup set with nonce=77bde1ce5f3a, datestamp=1676536084 (Feb 16 2023 08:28:04)
+0014.791 (0) This backup set (1676536084) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0014.791 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0014.791 (0) Examining (for files) backup set with nonce=b5a4d44cd12b, datestamp=1676492572 (Feb 15 2023 20:22:52)
+0014.791 (0) This backup set (1676492572) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0014.791 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0014.791 (0) Examining (for files) backup set with nonce=80c9e204015d, datestamp=1676450441 (Feb 15 2023 08:40:41)
+0014.791 (0) This backup set (1676450441) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0014.791 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0014.791 (0) Examining (for files) backup set with nonce=a303768ff006, datestamp=1676408632 (Feb 14 2023 21:03:52)
+0014.791 (0) This backup set (1676408632) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0014.791 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0014.791 (0) Examining (for files) backup set with nonce=f1875c4a1875, datestamp=1676055341 (Feb 10 2023 18:55:41)
+0014.791 (0) This backup set (1676055341) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0014.791 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0014.791 (0) Examining (for files) backup set with nonce=dde8e8d65801, datestamp=1676055253 (Feb 10 2023 18:54:13)
+0014.791 (0) This backup set (1676055253) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0014.791 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0014.791 (0) Examining (for files) backup set with nonce=2a6beb9308b2, datestamp=1673557323 (Jan 12 2023 21:02:03)
+0014.791 (0) This backup set (1673557323) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0014.791 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0014.791 (0) Examining (for files) backup set with nonce=3b92adaa84ea, datestamp=1671037033 (Dec 14 2022 16:57:13)
+0014.791 (0) This backup set (1671037033) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0014.791 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0014.791 (0) Retain: saving new backup history (sets now: 10) and finishing retain operation
+0014.793 (0) Resume backup (21b5ea8d3891, 0): finish run
+0014.795 (0) Decremented the semaphore (fd) by 1
+0014.796 (0) Semaphore (fd) unlocked
+0014.797 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0014.801 (0) No email will/can be sent - the user has not configured an email address.
+0014.802 (0) The backup apparently succeeded and is now complete

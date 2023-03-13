@@ -1,0 +1,70 @@
+2023-03-04T13:58:19+00:00 CRITICAL Uncaught Error: Call to a member function get_value_submission() on null in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/includes/fields/class-gf-field-repeater.php:186
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/includes/fields/class-gf-field-repeater.php(158): GF_Field_Repeater->get_value_submission_recursive(Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/forms_model.php(3809): GF_Field_Repeater->get_value_submission(Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/form_display.php(1239): GFFormsModel::get_field_value(Object(GF_Field_Repeater), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(3331): GFFormDisplay::get_form('12', false, false, false, Array, false, '0')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(2023): GFForms::get_form('12', false, false, false, Array, false, '0')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): GFForms::parse_shortcode(Array, '', 'gravityforms')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(gravit...', 'do_shortcode_ta...', '<div class="kb-...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<div class="kb-...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<div class="kb-...', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:kadence...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/template-parts/content/entry_content.php(16): the_content('Continue readin...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(785): require('/Applications/X...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(718): load_template('/Applications/X...', false, Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/template-parts/content/single-entry.php(28): get_template_part('template-parts/...', 'page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(785): require('/Applications/X...')
+#17 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(718): load_template('/Applications/X...', false, Array)
+#18 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#19 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/inc/template-functions/single-functions.php(27): get_template_part('template-parts/...', 'page')
+#20 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): Kadence\single_content('')
+#21 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#22 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#23 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/template-parts/content/single.php(34): do_action('kadence_single_...')
+#24 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(785): require('/Applications/X...')
+#25 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(718): load_template('/Applications/X...', false, Array)
+#26 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#27 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/inc/template-functions/single-functions.php(20): get_template_part('template-parts/...', 'page')
+#28 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): Kadence\single_markup('')
+#29 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#30 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#31 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/page.php(20): do_action('kadence_single')
+#32 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include('/Applications/X...')
+#33 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#34 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#35 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/includes/fields/class-gf-field-repeater.php on line 186
+
+2023-03-04T23:06:19+00:00 CRITICAL Unclosed '{' on line 410 in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 423
+
+2023-03-04T23:06:50+00:00 CRITICAL Unclosed '{' on line 410 in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 423
+
+2023-03-04T23:12:50+00:00 CRITICAL Unclosed '{' on line 410 in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 423
+
+2023-03-04T23:12:51+00:00 CRITICAL Unclosed '{' on line 410 in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 423
+
+2023-03-04T23:18:50+00:00 CRITICAL Unclosed '{' on line 410 in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 423
+
+2023-03-04T23:18:51+00:00 CRITICAL Unclosed '{' on line 410 in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 423
+
+2023-03-04T23:24:18+00:00 CRITICAL Unclosed '{' on line 410 in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 423
+
+2023-03-04T23:24:50+00:00 CRITICAL Unclosed '{' on line 410 in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 423
+
+2023-03-04T23:25:40+00:00 CRITICAL Unclosed '{' on line 410 in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 423
+
+2023-03-04T23:26:40+00:00 CRITICAL Unclosed '{' on line 410 in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 423
+
+2023-03-04T23:27:06+00:00 CRITICAL Unclosed '{' on line 410 in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 423
+
+2023-03-04T23:28:08+00:00 CRITICAL Unclosed '{' on line 410 in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 423
+
+2023-03-04T23:28:22+00:00 CRITICAL Unclosed '{' on line 410 in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 423
+
+2023-03-04T23:29:28+00:00 CRITICAL Unclosed '{' on line 410 in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 423
+
+2023-03-04T23:37:59+00:00 CRITICAL syntax error, unexpected identifier "the_field" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/content-product.php on line 38
+

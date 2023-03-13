@@ -1,0 +1,34 @@
+2023-02-24T18:16:49+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on bool in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/countdown-short-code.php:25
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/countdown-short-code.php(16): get_by_the_countdown(Array, '')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): countdown_shortcode(Array, '', 'countdown')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(countd...', 'do_shortcode_ta...', '[countdown id="...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php(135): do_shortcode('[countdown id="...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#8 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/countdown-short-code.php on line 25
+
+2023-02-24T18:21:43+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/countdown-short-code.php:23
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/countdown-short-code.php(16): get_by_the_countdown('', '')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): countdown_shortcode('', '', 'countdown')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(countd...', 'do_shortcode_ta...', '[countdown]')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php(135): do_shortcode('[countdown]')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#8 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/countdown-short-code.php on line 23
+
+2023-02-24T19:03:21+00:00 CRITICAL syntax error, unexpected token "echo" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 137
+
+2023-02-24T19:04:29+00:00 CRITICAL syntax error, unexpected token "echo" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 140
+
+2023-02-24T19:28:03+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 139
+
+2023-02-24T19:28:32+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 142
+

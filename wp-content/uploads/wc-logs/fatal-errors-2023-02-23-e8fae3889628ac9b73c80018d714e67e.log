@@ -1,0 +1,22 @@
+2023-02-23T21:06:30+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php:33
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 33
+
+2023-02-23T21:15:55+00:00 CRITICAL Unmatched '}' in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 38
+
+2023-02-23T21:36:43+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php:87
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 87
+
+2023-02-23T21:59:59+00:00 CRITICAL syntax error, unexpected token ":", expecting end of file in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 144
+
+2023-02-23T22:00:09+00:00 CRITICAL syntax error, unexpected token ":", expecting end of file in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 144
+

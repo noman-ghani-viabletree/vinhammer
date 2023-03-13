@@ -1,0 +1,72 @@
+2023-02-20T16:09:17+00:00 CRITICAL Cannot redeclare gfmc_plugin_activate() (previously declared in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gf-form-multicolumn/gf-form-multicolumn.php:60) in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gf-form-multicolumn copy/gf-form-multicolumn.php on line 59
+
+2023-02-20T16:09:21+00:00 CRITICAL Cannot redeclare gfmc_plugin_activate() (previously declared in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gf-form-multicolumn/gf-form-multicolumn.php:60) in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gf-form-multicolumn copy/gf-form-multicolumn.php on line 59
+
+2023-02-20T16:09:21+00:00 CRITICAL Cannot redeclare gfmc_plugin_activate() (previously declared in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gf-form-multicolumn/gf-form-multicolumn.php:60) in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gf-form-multicolumn copy/gf-form-multicolumn.php on line 59
+
+2023-02-20T16:11:10+00:00 CRITICAL Cannot redeclare gfmc_plugin_activate() (previously declared in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gf-form-multicolumn/gf-form-multicolumn.php:60) in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gf-form-multicolumn copy/gf-form-multicolumn.php on line 59
+
+2023-02-20T16:11:13+00:00 CRITICAL Cannot redeclare gfmc_plugin_activate() (previously declared in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gf-form-multicolumn/gf-form-multicolumn.php:60) in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gf-form-multicolumn copy/gf-form-multicolumn.php on line 59
+
+2023-02-20T16:11:13+00:00 CRITICAL Cannot redeclare gfmc_plugin_activate() (previously declared in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gf-form-multicolumn/gf-form-multicolumn.php:60) in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gf-form-multicolumn copy/gf-form-multicolumn.php on line 59
+
+2023-02-20T17:51:01+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #1 must be of type array, null given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:136
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(136): array_merge(NULL, NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(72): submit_listing(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(310): submit_listing_submission(Array, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(7117): do_action('gform_after_sub...', Array, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/form_display.php(179): gf_do_action('gform_after_sub...', Array, Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(852): GFFormDisplay::process_form(11, 1)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): GFForms::maybe_process_form(Object(WP))
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#15 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 136
+
+2023-02-20T17:53:12+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #1 must be of type array, null given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:136
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(136): array_merge(NULL, NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(72): submit_listing(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(310): submit_listing_submission(Array, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(7117): do_action('gform_after_sub...', Array, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/form_display.php(179): gf_do_action('gform_after_sub...', Array, Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(852): GFFormDisplay::process_form(11, 1)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): GFForms::maybe_process_form(Object(WP))
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#15 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 136
+
+2023-02-20T17:53:27+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #1 must be of type array, null given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:136
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(136): array_merge(NULL, NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(72): submit_listing(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(310): submit_listing_submission(Array, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(7117): do_action('gform_after_sub...', Array, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/form_display.php(179): gf_do_action('gform_after_sub...', Array, Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(852): GFFormDisplay::process_form(11, 1)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): GFForms::maybe_process_form(Object(WP))
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#15 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 136
+

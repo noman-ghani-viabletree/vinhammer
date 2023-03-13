@@ -1,0 +1,10 @@
+2023-03-10T10:53:22+00:00 CRITICAL syntax error, unexpected token "endif", expecting end of file in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php on line 331
+
+2023-03-10T10:53:24+00:00 CRITICAL syntax error, unexpected token "endif", expecting end of file in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php on line 331
+
+2023-03-10T13:14:09+00:00 CRITICAL syntax error, unexpected token "}" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 12
+
+2023-03-10T13:14:22+00:00 CRITICAL syntax error, unexpected token "}" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 12
+
+2023-03-10T18:48:28+00:00 CRITICAL syntax error, unexpected token ":", expecting "]" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 412
+

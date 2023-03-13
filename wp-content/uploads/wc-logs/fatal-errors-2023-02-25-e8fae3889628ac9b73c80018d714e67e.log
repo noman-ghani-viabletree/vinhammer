@@ -1,0 +1,190 @@
+2023-02-25T12:55:54+00:00 CRITICAL syntax error, unexpected token "echo" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 108
+
+2023-02-25T12:56:29+00:00 CRITICAL syntax error, unexpected token "echo" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 108
+
+2023-02-25T13:00:15+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Auction::ID() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php:102
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 102
+
+2023-02-25T13:00:21+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Auction::id() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php:102
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 102
+
+2023-02-25T13:05:09+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php:24
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 24
+
+2023-02-25T13:05:53+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php:24
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 24
+
+2023-02-25T13:07:38+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php:24
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 24
+
+2023-02-25T13:08:05+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php:24
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 24
+
+2023-02-25T13:08:50+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php:25
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 25
+
+2023-02-25T13:44:52+00:00 CRITICAL syntax error, unexpected token "require", expecting "," or ";" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 169
+
+2023-02-25T13:55:45+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php:170
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 170
+
+2023-02-25T13:56:02+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php:170
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 170
+
+2023-02-25T13:57:08+00:00 CRITICAL Uncaught Error: Call to a member function uwa_aelia_get_base_currency() on null in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php:74
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 74
+
+2023-02-25T13:58:05+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php:171
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 171
+
+2023-02-25T14:32:38+00:00 CRITICAL Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/ultimate-woocommerce-auction-pro.php:941
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/ultimate-woocommerce-auction-pro.php(941): round('', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): Ultimate_WooCommerce_Auction_Pro->ultimate_woocommerce_auction_place_bid('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(13): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/ultimate-woocommerce-auction-pro.php on line 941
+
+2023-02-25T14:32:54+00:00 CRITICAL Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/ultimate-woocommerce-auction-pro.php:941
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/ultimate-woocommerce-auction-pro.php(941): round('', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): Ultimate_WooCommerce_Auction_Pro->ultimate_woocommerce_auction_place_bid('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(13): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/ultimate-woocommerce-auction-pro.php on line 941
+
+2023-02-25T14:33:20+00:00 CRITICAL Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/ultimate-woocommerce-auction-pro.php:941
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/ultimate-woocommerce-auction-pro.php(941): round('', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): Ultimate_WooCommerce_Auction_Pro->ultimate_woocommerce_auction_place_bid('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(13): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/ultimate-woocommerce-auction-pro.php on line 941
+
+2023-02-25T14:33:51+00:00 CRITICAL Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/ultimate-woocommerce-auction-pro.php:941
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/ultimate-woocommerce-auction-pro.php(941): round('', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): Ultimate_WooCommerce_Auction_Pro->ultimate_woocommerce_auction_place_bid('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(13): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/ultimate-woocommerce-auction-pro.php on line 941
+
+2023-02-25T14:34:09+00:00 CRITICAL Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/ultimate-woocommerce-auction-pro.php:941
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/ultimate-woocommerce-auction-pro.php(941): round('', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): Ultimate_WooCommerce_Auction_Pro->ultimate_woocommerce_auction_place_bid('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(13): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/ultimate-woocommerce-auction-pro.php on line 941
+
+2023-02-25T15:15:21+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php on line 86
+
+2023-02-25T15:15:23+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php on line 86
+
+2023-02-25T15:15:28+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php on line 86
+
+2023-02-25T15:15:36+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php on line 86
+
+2023-02-25T15:16:05+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php on line 86
+
+2023-02-25T15:27:05+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php on line 86
+
+2023-02-25T15:30:16+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php on line 85
+
+2023-02-25T18:29:05+00:00 CRITICAL Unclosed '{' on line 188 does not match ')' in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php on line 254
+
+2023-02-25T18:29:30+00:00 CRITICAL Unclosed '{' on line 188 does not match ')' in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php on line 254
+
+2023-02-25T23:00:34+00:00 CRITICAL syntax error, unexpected identifier "add_meta_box", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 333
+
+2023-02-25T23:01:34+00:00 CRITICAL Unclosed '{' on line 331 does not match ')' in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 334
+
+2023-02-25T23:02:06+00:00 CRITICAL Unclosed '{' on line 331 does not match ')' in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 334
+
+2023-02-25T23:02:06+00:00 CRITICAL Unclosed '{' on line 331 does not match ')' in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 334
+

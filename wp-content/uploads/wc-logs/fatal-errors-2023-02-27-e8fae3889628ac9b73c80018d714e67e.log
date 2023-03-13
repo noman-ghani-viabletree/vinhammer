@@ -1,0 +1,81 @@
+2023-02-27T13:30:59+00:00 CRITICAL Uncaught Error: Call to undefined function min_max_product_price() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php:103
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php on line 103
+
+2023-02-27T13:31:20+00:00 CRITICAL Uncaught Error: Call to undefined function min_max_product_price() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php:103
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php on line 103
+
+2023-02-27T13:33:07+00:00 CRITICAL Uncaught Error: Call to undefined function min_max_product_price() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php:103
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php on line 103
+
+2023-02-27T13:34:31+00:00 CRITICAL Uncaught Error: Call to undefined function min_max_product_price() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php:88
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php on line 88
+
+2023-02-27T13:35:25+00:00 CRITICAL Uncaught Error: Call to undefined function min_max_product_price() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php:88
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/page-live-auctions.php on line 88
+
+2023-02-27T18:28:38+00:00 CRITICAL syntax error, unexpected identifier "var_dump" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/content-product.php on line 29
+
+2023-02-27T18:49:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function getListingThumbnail(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/content-product.php on line 29 and exactly 1 expected in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:343
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/content-product.php(29): getListingThumbnail()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(785): require('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Applications/X...', false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-shortcodes.php(447): wc_get_template_part('content', 'product')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): UWA_Shortcode->uwa_live_auctions_fun('', '', 'uwa_live_auctio...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(uwa_li...', 'do_shortcode_ta...', '\n[uwa_live_auct...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('\n[uwa_live_auct...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('\n[uwa_live_auct...', Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:paragra...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/template-parts/content/entry_content.php(16): the_content('Continue readin...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(785): require('/Applications/X...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(718): load_template('/Applications/X...', false, Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/template-parts/content/single-entry.php(28): get_template_part('template-parts/...', 'page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(785): require('/Applications/X...')
+#16 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(718): load_template('/Applications/X...', false, Array)
+#17 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#18 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/inc/template-functions/single-functions.php(27): get_template_part('template-parts/...', 'page')
+#19 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): Kadence\single_content('')
+#20 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#21 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#22 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/template-parts/content/single.php(34): do_action('kadence_single_...')
+#23 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(785): require('/Applications/X...')
+#24 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(718): load_template('/Applications/X...', false, Array)
+#25 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#26 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/inc/template-functions/single-functions.php(20): get_template_part('template-parts/...', 'page')
+#27 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): Kadence\single_markup('')
+#28 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#29 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#30 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/page.php(20): do_action('kadence_single')
+#31 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include('/Applications/X...')
+#32 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#33 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#34 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 343
+

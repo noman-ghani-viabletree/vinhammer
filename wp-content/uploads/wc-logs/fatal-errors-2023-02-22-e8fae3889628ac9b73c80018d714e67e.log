@@ -1,0 +1,461 @@
+2023-02-22T08:16:51+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(/Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/cart-blocks/cart-express-payment--checkout-blocks): Failed to open directory: Too many open files in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php:188
+Stack trace:
+#0 [internal function]: RecursiveDirectoryIterator->__construct('/Applications/X...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(188): RecursiveDirectoryIterator->getChildren()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/Cart.php(251): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->get_chunks_paths('cart-blocks')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(115): Automattic\WooCommerce\Blocks\BlockTypes\Cart->register_block_type_assets()
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(70): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->initialize()
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(64): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->__construct(Object(Automattic\WooCommerce\Blocks\Assets\Api), Object(Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry), Object(Automattic\WooCommerce\Blocks\Integrations\IntegrationRegistry))
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(13): require_once('/Applications/X...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#14 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php on line 188
+
+2023-02-22T08:17:04+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(/Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/cart-blocks/cart-express-payment--checkout-blocks): Failed to open directory: Too many open files in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php:188
+Stack trace:
+#0 [internal function]: RecursiveDirectoryIterator->__construct('/Applications/X...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(188): RecursiveDirectoryIterator->getChildren()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/Cart.php(251): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->get_chunks_paths('cart-blocks')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(115): Automattic\WooCommerce\Blocks\BlockTypes\Cart->register_block_type_assets()
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(70): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->initialize()
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(64): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->__construct(Object(Automattic\WooCommerce\Blocks\Assets\Api), Object(Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry), Object(Automattic\WooCommerce\Blocks\Integrations\IntegrationRegistry))
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(13): require_once('/Applications/X...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#14 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php on line 188
+
+2023-02-22T08:19:09+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(/Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/cart-blocks/cart-express-payment--checkout-blocks): Failed to open directory: Too many open files in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php:188
+Stack trace:
+#0 [internal function]: RecursiveDirectoryIterator->__construct('/Applications/X...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(188): RecursiveDirectoryIterator->getChildren()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/Cart.php(251): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->get_chunks_paths('cart-blocks')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(115): Automattic\WooCommerce\Blocks\BlockTypes\Cart->register_block_type_assets()
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(70): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->initialize()
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(64): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->__construct(Object(Automattic\WooCommerce\Blocks\Assets\Api), Object(Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry), Object(Automattic\WooCommerce\Blocks\Integrations\IntegrationRegistry))
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-cron.php(46): require_once('/Applications/X...')
+#13 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php on line 188
+
+2023-02-22T10:19:00+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(/Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/cart-blocks/cart-express-payment--checkout-blocks): Failed to open directory: Too many open files in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php:188
+Stack trace:
+#0 [internal function]: RecursiveDirectoryIterator->__construct('/Applications/X...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(188): RecursiveDirectoryIterator->getChildren()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/Cart.php(251): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->get_chunks_paths('cart-blocks')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(115): Automattic\WooCommerce\Blocks\BlockTypes\Cart->register_block_type_assets()
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(70): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->initialize()
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(64): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->__construct(Object(Automattic\WooCommerce\Blocks\Assets\Api), Object(Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry), Object(Automattic\WooCommerce\Blocks\Integrations\IntegrationRegistry))
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#13 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php on line 188
+
+2023-02-22T10:28:20+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(/Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/cart-blocks/cart-express-payment--checkout-blocks): Failed to open directory: Too many open files in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php:188
+Stack trace:
+#0 [internal function]: RecursiveDirectoryIterator->__construct('/Applications/X...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(188): RecursiveDirectoryIterator->getChildren()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/Cart.php(251): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->get_chunks_paths('cart-blocks')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(115): Automattic\WooCommerce\Blocks\BlockTypes\Cart->register_block_type_assets()
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(70): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->initialize()
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(64): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->__construct(Object(Automattic\WooCommerce\Blocks\Assets\Api), Object(Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry), Object(Automattic\WooCommerce\Blocks\Integrations\IntegrationRegistry))
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-cron.php(46): require_once('/Applications/X...')
+#13 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php on line 188
+
+2023-02-22T10:31:16+00:00 CRITICAL Uncaught Error: Failed opening required '/Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/Requests/Exception.php' (include_path='.:/Applications/XAMPP/xamppfiles/lib/php') in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-requests.php:146
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/Requests/Transport/cURL.php(443): Requests::autoloader('Requests_Except...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/Requests/Transport/cURL.php(179): Requests_Transport_cURL->process_response('', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-requests.php(381): Requests_Transport_cURL->request('https://objectc...', Array, Array, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-http.php(395): Requests::request('https://objectc...', Array, Array, 'POST', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-http.php(615): WP_Http->request('https://objectc...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/http.php(179): WP_Http->post('https://objectc...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/mu-plugins/redis-cache-pro/src/Plugin/Licensing.php(217): wp_remote_post('https://objectc...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/mu-plugins/redis-cache-pro/src/Plugin/Licensing.php(195): RedisCachePro\Plugin->request('license')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/mu-plugins/redis-cache-pro/src/Plugin/Licensing.php(176): RedisCachePro\Plugin->fetchLicense()
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/mu-plugins/redis-cache-pro/src/Plugin/Lifecycle.php(47): RedisCachePro\Plugin->license()
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): RedisCachePro\Plugin->run('')
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#16 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#17 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-requests.php on line 146
+
+2023-02-22T10:36:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product_Auction::__construct(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 588 and exactly 1 expected in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php:40
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(588): WC_Product_Auction->__construct()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): process_post('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#8 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php on line 40
+
+2023-02-22T10:36:39+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product_Auction::__construct(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 588 and exactly 1 expected in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php:40
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(588): WC_Product_Auction->__construct()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): process_post('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(13): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php on line 40
+
+2023-02-22T10:37:13+00:00 CRITICAL syntax error, unexpected token "=>", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 614
+
+2023-02-22T10:37:40+00:00 CRITICAL syntax error, unexpected token "=>", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 614
+
+2023-02-22T10:37:41+00:00 CRITICAL syntax error, unexpected token "=>", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 614
+
+2023-02-22T10:39:14+00:00 CRITICAL syntax error, unexpected token "=>", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 614
+
+2023-02-22T10:39:14+00:00 CRITICAL syntax error, unexpected token "=>", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 614
+
+2023-02-22T10:39:43+00:00 CRITICAL syntax error, unexpected token "=>", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 614
+
+2023-02-22T10:39:44+00:00 CRITICAL syntax error, unexpected token "=>", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 614
+
+2023-02-22T10:40:19+00:00 CRITICAL syntax error, unexpected token "=>", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 614
+
+2023-02-22T10:41:53+00:00 CRITICAL syntax error, unexpected token "=>", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 614
+
+2023-02-22T10:42:38+00:00 CRITICAL syntax error, unexpected token "=>", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 614
+
+2023-02-22T10:43:16+00:00 CRITICAL syntax error, unexpected token "=>", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 614
+
+2023-02-22T10:43:24+00:00 CRITICAL syntax error, unexpected token "=>", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 614
+
+2023-02-22T10:43:28+00:00 CRITICAL syntax error, unexpected token "=>", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 614
+
+2023-02-22T10:44:46+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product_Auction::__construct(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 589 and exactly 1 expected in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php:40
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(589): WC_Product_Auction->__construct()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): process_post('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/admin.php(34): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/edit.php(10): require_once('/Applications/X...')
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php on line 40
+
+2023-02-22T10:45:09+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product_Auction::__construct(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 589 and exactly 1 expected in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php:40
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(589): WC_Product_Auction->__construct()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): process_post('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/admin.php(34): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/edit.php(10): require_once('/Applications/X...')
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php on line 40
+
+2023-02-22T10:45:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product_Auction::__construct(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 589 and exactly 1 expected in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php:40
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(589): WC_Product_Auction->__construct()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): process_post('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#8 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php on line 40
+
+2023-02-22T10:45:54+00:00 CRITICAL syntax error, unexpected identifier "get_classname_from_product_type", expecting variable or "$" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 585
+
+2023-02-22T10:46:23+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product_Auction::__construct(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 589 and exactly 1 expected in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php:40
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(589): WC_Product_Auction->__construct()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): process_post('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/admin.php(34): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/edit.php(10): require_once('/Applications/X...')
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php on line 40
+
+2023-02-22T10:46:45+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product_Auction::__construct(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 589 and exactly 1 expected in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php:40
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(589): WC_Product_Auction->__construct()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): process_post('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/admin.php(34): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/post.php(12): require_once('/Applications/X...')
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php on line 40
+
+2023-02-22T10:47:18+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product_Auction::__construct(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 589 and exactly 1 expected in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php:40
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(589): WC_Product_Auction->__construct()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): process_post('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#8 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php on line 40
+
+2023-02-22T10:48:40+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product_Auction::__construct(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 589 and exactly 1 expected in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php:40
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(589): WC_Product_Auction->__construct()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): process_post('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(13): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php on line 40
+
+2023-02-22T10:49:36+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product_Auction::__construct(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 585 and exactly 1 expected in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php:40
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(585): WC_Product_Auction->__construct()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): process_post('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/admin.php(34): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/edit.php(10): require_once('/Applications/X...')
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php on line 40
+
+2023-02-22T10:50:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product_Auction::__construct(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 577 and exactly 1 expected in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php:40
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(577): WC_Product_Auction->__construct()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): process_post('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/admin.php(34): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/edit.php(10): require_once('/Applications/X...')
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php on line 40
+
+2023-02-22T10:51:37+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product_Auction::__construct(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 577 and exactly 1 expected in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php:40
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(577): WC_Product_Auction->__construct()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): process_post('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/admin.php(34): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/edit.php(10): require_once('/Applications/X...')
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php on line 40
+
+2023-02-22T10:52:18+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product_Auction::__construct(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 577 and exactly 1 expected in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php:40
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(577): WC_Product_Auction->__construct()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): process_post('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(13): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php on line 40
+
+2023-02-22T10:54:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product_Auction::__construct(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 577 and exactly 1 expected in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php:40
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(577): WC_Product_Auction->__construct()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): process_post('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#8 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php on line 40
+
+2023-02-22T10:54:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product_Auction::__construct(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 577 and exactly 1 expected in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php:40
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(577): WC_Product_Auction->__construct()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): process_post('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(13): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/ultimate-woocommerce-auction-pro/includes/class-uwa-product.php on line 40
+
+2023-02-22T11:05:44+00:00 CRITICAL syntax error, unexpected integer "400", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 612
+
+2023-02-22T11:06:01+00:00 CRITICAL syntax error, unexpected integer "400", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 612
+
+2023-02-22T11:06:18+00:00 CRITICAL syntax error, unexpected integer "400", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 612
+
+2023-02-22T11:06:19+00:00 CRITICAL syntax error, unexpected integer "400", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 612
+
+2023-02-22T11:06:29+00:00 CRITICAL syntax error, unexpected integer "400", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 612
+
+2023-02-22T11:06:46+00:00 CRITICAL syntax error, unexpected integer "400", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 612
+
+2023-02-22T11:07:45+00:00 CRITICAL syntax error, unexpected integer "400", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 612
+
+2023-02-22T11:08:03+00:00 CRITICAL syntax error, unexpected integer "400", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 612
+
+2023-02-22T11:08:13+00:00 CRITICAL syntax error, unexpected integer "400", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 612
+
+2023-02-22T11:08:19+00:00 CRITICAL syntax error, unexpected integer "400", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 612
+
+2023-02-22T11:08:53+00:00 CRITICAL syntax error, unexpected integer "400", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 612
+
+2023-02-22T11:29:12+00:00 CRITICAL syntax error, unexpected token "}" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 309
+
+2023-02-22T11:29:36+00:00 CRITICAL syntax error, unexpected token "}" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 309
+
+2023-02-22T11:29:38+00:00 CRITICAL syntax error, unexpected token "}" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 309
+
+2023-02-22T12:40:18+00:00 CRITICAL Uncaught Error: Undefined constant "res" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:363
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): process_post('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(13): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#8 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 363
+
+2023-02-22T12:40:19+00:00 CRITICAL Uncaught Error: Undefined constant "res" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:363
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): process_post('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#7 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 363
+
+2023-02-22T12:40:20+00:00 CRITICAL Uncaught Error: Undefined constant "res" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:363
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): process_post('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#7 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 363
+
+2023-02-22T12:40:21+00:00 CRITICAL Uncaught Error: Undefined constant "res" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:363
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): process_post('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/admin.php(34): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/post.php(12): require_once('/Applications/X...')
+#8 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 363
+
+2023-02-22T12:40:23+00:00 CRITICAL Uncaught Error: Undefined constant "res" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:363
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): process_post('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#7 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 363
+
+2023-02-22T12:41:09+00:00 CRITICAL Uncaught Error: Undefined constant "res" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:363
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): process_post('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/admin.php(34): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/post.php(12): require_once('/Applications/X...')
+#8 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 363
+
+2023-02-22T13:14:26+00:00 CRITICAL syntax error, unexpected token "=>" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 329
+
+2023-02-22T13:14:28+00:00 CRITICAL syntax error, unexpected token "=>" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 329
+
+2023-02-22T13:14:29+00:00 CRITICAL syntax error, unexpected token "=>" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 329
+
+2023-02-22T13:14:59+00:00 CRITICAL syntax error, unexpected token "=>" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 329
+
+2023-02-22T13:15:24+00:00 CRITICAL syntax error, unexpected token "array", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 335
+

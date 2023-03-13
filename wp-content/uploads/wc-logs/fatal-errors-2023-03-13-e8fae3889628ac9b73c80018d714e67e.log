@@ -1,0 +1,56 @@
+2023-03-13T10:45:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 1181 and at least 2 expected in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php:612
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(1181): remove_action('woocommerce_bef...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(585): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(13): require_once('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#6 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php on line 612
+
+2023-03-13T10:45:56+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 1181 and at least 2 expected in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php:612
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(1181): remove_action('woocommerce_bef...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(585): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php on line 612
+
+2023-03-13T10:59:31+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "QuadLayers_add_messages_endpoint" not found or invalid function name in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/admin.php(34): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/options-permalink.php(10): require_once('/Applications/X...')
+#7 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php on line 308
+
+2023-03-13T10:59:58+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "QuadLayers_add_messages_endpoint" not found or invalid function name in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/admin.php(34): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/options-permalink.php(10): require_once('/Applications/X...')
+#7 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php on line 308
+
+2023-03-13T11:00:00+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "QuadLayers_add_messages_endpoint" not found or invalid function name in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#6 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php on line 308
+

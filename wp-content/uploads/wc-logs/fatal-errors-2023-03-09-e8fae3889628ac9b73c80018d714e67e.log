@@ -1,0 +1,805 @@
+2023-03-09T06:58:53+00:00 CRITICAL Uncaught Error: Call to undefined function wp_read_video_metadata() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php:498
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(414): wp_generate_attachment_metadata(3240, '/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(227): upload_file_by_url('http://localhos...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(87): submit_listing(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(310): submit_listing_submission(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(7052): do_action('gform_after_sub...', Array, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/form_display.php(209): gf_do_action('gform_after_sub...', Array, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(865): GFFormDisplay::process_form(12, 1)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): GFForms::maybe_process_form(Object(WP))
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php on line 498
+
+2023-03-09T07:02:50+00:00 CRITICAL Uncaught Error: Call to undefined function wp_read_video_metadata() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php:498
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(416): wp_generate_attachment_metadata(3241, '/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(227): upload_file_by_url('http://localhos...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(87): submit_listing(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(310): submit_listing_submission(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(7052): do_action('gform_after_sub...', Array, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/form_display.php(209): gf_do_action('gform_after_sub...', Array, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(865): GFFormDisplay::process_form(12, 1)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): GFForms::maybe_process_form(Object(WP))
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php on line 498
+
+2023-03-09T07:36:11+00:00 CRITICAL Uncaught Error: Call to undefined function wp_read_video_metadata() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php:498
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(414): wp_generate_attachment_metadata(3244, '/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(225): upload_file_by_url('http://localhos...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(87): submit_listing(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(310): submit_listing_submission(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(7052): do_action('gform_after_sub...', Array, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/form_display.php(209): gf_do_action('gform_after_sub...', Array, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(865): GFFormDisplay::process_form(12, 1)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): GFForms::maybe_process_form(Object(WP))
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php on line 498
+
+2023-03-09T07:41:45+00:00 CRITICAL Uncaught Error: Call to undefined function wp_read_video_metadata() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php:498
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(414): wp_generate_attachment_metadata(3245, '/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(225): upload_file_by_url('http://localhos...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(87): submit_listing(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(310): submit_listing_submission(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(7052): do_action('gform_after_sub...', Array, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/form_display.php(209): gf_do_action('gform_after_sub...', Array, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(865): GFFormDisplay::process_form(12, 1)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): GFForms::maybe_process_form(Object(WP))
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php on line 498
+
+2023-03-09T07:51:39+00:00 CRITICAL Uncaught Error: Call to undefined function wp_read_video_metadata() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php:498
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(417): wp_generate_attachment_metadata(3247, '/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(225): upload_file_by_url('http://localhos...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(87): submit_listing(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(310): submit_listing_submission(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(7052): do_action('gform_after_sub...', Array, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/form_display.php(209): gf_do_action('gform_after_sub...', Array, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(865): GFFormDisplay::process_form(12, 1)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): GFForms::maybe_process_form(Object(WP))
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php on line 498
+
+2023-03-09T07:56:19+00:00 CRITICAL Uncaught Error: Call to undefined function wp_read_video_metadata() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php:498
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(413): wp_generate_attachment_metadata(3248, '/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(225): upload_file_by_url('http://localhos...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(87): submit_listing(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(310): submit_listing_submission(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(7052): do_action('gform_after_sub...', Array, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/form_display.php(209): gf_do_action('gform_after_sub...', Array, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(865): GFFormDisplay::process_form(12, 1)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): GFForms::maybe_process_form(Object(WP))
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php on line 498
+
+2023-03-09T08:03:09+00:00 CRITICAL Uncaught Error: Call to undefined function wp_read_video_metadata() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php:498
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(413): wp_generate_attachment_metadata(3249, '/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(225): upload_file_by_url('http://localhos...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(87): submit_listing(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(310): submit_listing_submission(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(7052): do_action('gform_after_sub...', Array, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/form_display.php(209): gf_do_action('gform_after_sub...', Array, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(865): GFFormDisplay::process_form(12, 1)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): GFForms::maybe_process_form(Object(WP))
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php on line 498
+
+2023-03-09T08:11:35+00:00 CRITICAL Uncaught Error: Call to undefined function wp_read_video_metadata() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php:498
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(412): wp_generate_attachment_metadata(3250, '/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(759): upload_file_by_url('http://localhos...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): abc('')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php on line 498
+
+2023-03-09T08:11:45+00:00 CRITICAL Uncaught Error: Call to undefined function wp_read_video_metadata() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php:498
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(412): wp_generate_attachment_metadata(3251, '/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(759): upload_file_by_url('http://localhos...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): abc('')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-settings.php(617): do_action('init')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-config.php(98): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-load.php(50): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(13): require_once('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php on line 498
+
+2023-03-09T09:18:11+00:00 CRITICAL Uncaught TypeError: preg_match(): Argument #2 ($subject) must be of type string, array given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:428
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(428): preg_match('~(?:https?://)?...', Array, NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php(125): getCategoryThumbnail(Array, 'video')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 428
+
+2023-03-09T09:18:26+00:00 CRITICAL Uncaught TypeError: preg_match(): Argument #2 ($subject) must be of type string, array given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:427
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(427): preg_match('~(?:https?://)?...', Array, NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php(125): getCategoryThumbnail(Array, 'video')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 427
+
+2023-03-09T09:18:40+00:00 CRITICAL Uncaught TypeError: preg_match(): Argument #2 ($subject) must be of type string, array given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:426
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(426): preg_match('~(?:https?://)?...', Array, NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php(125): getCategoryThumbnail(Array, 'video')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 426
+
+2023-03-09T14:13:22+00:00 CRITICAL Uncaught TypeError: preg_match(): Argument #2 ($subject) must be of type string, array given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:427
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(427): preg_match('~(?:https?://)?...', Array, NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php(125): getCategoryThumbnail(Array, 'video')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 427
+
+2023-03-09T14:15:25+00:00 CRITICAL Uncaught TypeError: preg_match(): Argument #2 ($subject) must be of type string, array given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:427
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(427): preg_match('~(?:https?://)?...', Array, NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php(125): getCategoryThumbnail(Array, 'video')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 427
+
+2023-03-09T14:15:28+00:00 CRITICAL Uncaught TypeError: preg_match(): Argument #2 ($subject) must be of type string, array given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:427
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(427): preg_match('~(?:https?://)?...', Array, NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php(125): getCategoryThumbnail(Array, 'video')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 427
+
+2023-03-09T14:15:31+00:00 CRITICAL Uncaught TypeError: preg_match(): Argument #2 ($subject) must be of type string, array given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:427
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(427): preg_match('~(?:https?://)?...', Array, NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php(125): getCategoryThumbnail(Array, 'video')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 427
+
+2023-03-09T14:17:45+00:00 CRITICAL Uncaught TypeError: preg_match(): Argument #2 ($subject) must be of type string, array given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:427
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(427): preg_match('~(?:https?://)?...', Array, NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php(129): getCategoryThumbnail(Array, 'video')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 427
+
+2023-03-09T14:18:30+00:00 CRITICAL Uncaught TypeError: preg_match(): Argument #2 ($subject) must be of type string, array given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:427
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(427): preg_match('~(?:https?://)?...', Array, NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php(129): getCategoryThumbnail(Array, 'video')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 427
+
+2023-03-09T14:19:59+00:00 CRITICAL Uncaught TypeError: preg_match(): Argument #2 ($subject) must be of type string, array given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:427
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(427): preg_match('~(?:https?://)?...', Array, NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php(129): getCategoryThumbnail(Array, 'video')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 427
+
+2023-03-09T15:08:42+00:00 CRITICAL syntax error, unexpected end of file in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 834
+
+2023-03-09T15:08:46+00:00 CRITICAL syntax error, unexpected end of file in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 834
+
+2023-03-09T15:12:20+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php:20
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php(20): method_exists(NULL, 'get_type')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(833): wc_get_template('single-product/...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_sticky_bar_func('', '', 'auction_sticky_...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<style>.kb-row-...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<style>.kb-row-...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<style>.kb-row-...', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1857): apply_filters('the_content', '<!-- wp:kadence...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(949): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1171): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/kadence_...', Array, NULL)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/kadence_...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#16 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#17 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#18 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(780): WP->parse_request('')
+#19 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#20 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#21 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#22 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php on line 20
+
+2023-03-09T15:12:39+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php:20
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php(20): method_exists(NULL, 'get_type')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(833): wc_get_template('single-product/...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_sticky_bar_func('', '', 'auction_sticky_...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<style>.kb-row-...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<style>.kb-row-...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<style>.kb-row-...', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1857): apply_filters('the_content', '<!-- wp:kadence...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(949): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1171): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/kadence_...', Array, NULL)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/kadence_...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#16 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#17 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#18 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(780): WP->parse_request('')
+#19 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#20 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#21 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#22 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php on line 20
+
+2023-03-09T15:12:46+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php:20
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php(20): method_exists(NULL, 'get_type')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(833): wc_get_template('single-product/...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_sticky_bar_func('', '', 'auction_sticky_...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<style>.kb-row-...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<style>.kb-row-...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<style>.kb-row-...', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1857): apply_filters('the_content', '<!-- wp:kadence...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(949): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1171): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/kadence_...', Array, NULL)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/kadence_...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#16 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#17 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#18 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(780): WP->parse_request('')
+#19 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#20 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#21 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#22 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php on line 20
+
+2023-03-09T15:14:28+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:835
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(835): method_exists(NULL, 'get_type')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_sticky_bar_func('', '', 'auction_sticky_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<div class="kb-...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<div class="kb-...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<div class="kb-...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/kadence-woo-extras/lib/templates/woo-block-editor-templates.php(952): apply_filters('kwootemplate_th...', '<!-- wp:kadence...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/kadence-woo-extras/lib/templates/woo-block-editor-templates.php(866): Kadence_Woo_Block_Editor_Templates->output_woo_template(Object(WP_Post))
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): Kadence_Woo_Block_Editor_Templates->get_product_content(Object(WP_Post))
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/kadence-woo-extras/lib/templates/single-product.php(47): do_action('kadence_woocomm...', Object(WP_Post))
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include('/Applications/X...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#15 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 835
+
+2023-03-09T15:14:29+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:835
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(835): method_exists(NULL, 'get_type')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_sticky_bar_func('', '', 'auction_sticky_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<style>.kb-row-...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<style>.kb-row-...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<style>.kb-row-...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1857): apply_filters('the_content', '<!-- wp:kadence...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(568): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1171): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/kadence_...', Array, NULL)
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(535): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(2884): rest_do_request(Object(WP_REST_Request))
+#12 [internal function]: rest_preload_api_request(Array, '/wp/v2/kadence_...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/block-editor.php(635): array_reduce(Array, 'rest_preload_ap...', Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/post.php(187): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 835
+
+2023-03-09T15:14:55+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:835
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(835): method_exists(NULL, 'get_type')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_sticky_bar_func('', '', 'auction_sticky_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<div class="kb-...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<div class="kb-...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<div class="kb-...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/kadence-woo-extras/lib/templates/woo-block-editor-templates.php(952): apply_filters('kwootemplate_th...', '<!-- wp:kadence...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/kadence-woo-extras/lib/templates/woo-block-editor-templates.php(866): Kadence_Woo_Block_Editor_Templates->output_woo_template(Object(WP_Post))
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): Kadence_Woo_Block_Editor_Templates->get_product_content(Object(WP_Post))
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/kadence-woo-extras/lib/templates/single-product.php(47): do_action('kadence_woocomm...', Object(WP_Post))
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include('/Applications/X...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#15 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 835
+
+2023-03-09T15:14:58+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:835
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(835): method_exists(NULL, 'get_type')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_sticky_bar_func('', '', 'auction_sticky_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<style>.kb-row-...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<style>.kb-row-...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<style>.kb-row-...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1857): apply_filters('the_content', '<!-- wp:kadence...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(568): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1171): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/kadence_...', Array, NULL)
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(535): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(2884): rest_do_request(Object(WP_REST_Request))
+#12 [internal function]: rest_preload_api_request(Array, '/wp/v2/kadence_...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/block-editor.php(635): array_reduce(Array, 'rest_preload_ap...', Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/post.php(187): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 835
+
+2023-03-09T15:15:24+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:835
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(835): method_exists(NULL, 'get_type')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_sticky_bar_func('', '', 'auction_sticky_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<div class="kb-...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<div class="kb-...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<div class="kb-...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/kadence-woo-extras/lib/templates/woo-block-editor-templates.php(952): apply_filters('kwootemplate_th...', '<!-- wp:kadence...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/kadence-woo-extras/lib/templates/woo-block-editor-templates.php(866): Kadence_Woo_Block_Editor_Templates->output_woo_template(Object(WP_Post))
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): Kadence_Woo_Block_Editor_Templates->get_product_content(Object(WP_Post))
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/kadence-woo-extras/lib/templates/single-product.php(47): do_action('kadence_woocomm...', Object(WP_Post))
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include('/Applications/X...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#15 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 835
+
+2023-03-09T15:15:28+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:835
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(835): method_exists(NULL, 'get_type')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_sticky_bar_func('', '', 'auction_sticky_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<style>.kb-row-...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<style>.kb-row-...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<style>.kb-row-...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1857): apply_filters('the_content', '<!-- wp:kadence...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(568): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1171): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/kadence_...', Array, NULL)
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(535): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(2884): rest_do_request(Object(WP_REST_Request))
+#12 [internal function]: rest_preload_api_request(Array, '/wp/v2/kadence_...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/block-editor.php(635): array_reduce(Array, 'rest_preload_ap...', Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/post.php(187): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 835
+
+2023-03-09T15:15:46+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:835
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(835): method_exists(NULL, 'get_type')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_sticky_bar_func('', '', 'auction_sticky_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<div class="kb-...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<div class="kb-...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<div class="kb-...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/kadence-woo-extras/lib/templates/woo-block-editor-templates.php(952): apply_filters('kwootemplate_th...', '<!-- wp:kadence...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/kadence-woo-extras/lib/templates/woo-block-editor-templates.php(866): Kadence_Woo_Block_Editor_Templates->output_woo_template(Object(WP_Post))
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): Kadence_Woo_Block_Editor_Templates->get_product_content(Object(WP_Post))
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/kadence-woo-extras/lib/templates/single-product.php(47): do_action('kadence_woocomm...', Object(WP_Post))
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include('/Applications/X...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#15 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 835
+
+2023-03-09T15:16:29+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:835
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(835): method_exists(NULL, 'get_type')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_sticky_bar_func('', '', 'auction_sticky_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<style>.kb-row-...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<style>.kb-row-...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<style>.kb-row-...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1857): apply_filters('the_content', '<!-- wp:kadence...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(568): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1171): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/kadence_...', Array, NULL)
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(535): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(2884): rest_do_request(Object(WP_REST_Request))
+#12 [internal function]: rest_preload_api_request(Array, '/wp/v2/kadence_...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/block-editor.php(635): array_reduce(Array, 'rest_preload_ap...', Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/post.php(187): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 835
+
+2023-03-09T15:18:52+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:835
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(835): method_exists(NULL, 'get_type')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_sticky_bar_func('', '', 'auction_sticky_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<style>.kb-row-...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<style>.kb-row-...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<style>.kb-row-...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1857): apply_filters('the_content', '<!-- wp:kadence...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(568): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1171): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/kadence_...', Array, NULL)
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(535): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(2884): rest_do_request(Object(WP_REST_Request))
+#12 [internal function]: rest_preload_api_request(Array, '/wp/v2/kadence_...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/block-editor.php(635): array_reduce(Array, 'rest_preload_ap...', Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/post.php(187): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 835
+
+2023-03-09T15:18:59+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:835
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(835): method_exists(NULL, 'get_type')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_sticky_bar_func('', '', 'auction_sticky_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<style>.kb-row-...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<style>.kb-row-...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<style>.kb-row-...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1857): apply_filters('the_content', '<!-- wp:kadence...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(568): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1171): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/kadence_...', Array, NULL)
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(535): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(2884): rest_do_request(Object(WP_REST_Request))
+#12 [internal function]: rest_preload_api_request(Array, '/wp/v2/kadence_...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/block-editor.php(635): array_reduce(Array, 'rest_preload_ap...', Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/post.php(187): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 835
+
+2023-03-09T15:19:12+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php:835
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(835): method_exists(NULL, 'get_type')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_sticky_bar_func('', '', 'auction_sticky_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<style>.kb-row-...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<style>.kb-row-...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<style>.kb-row-...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1857): apply_filters('the_content', '<!-- wp:kadence...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(568): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1171): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/kadence_...', Array, NULL)
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(535): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(2884): rest_do_request(Object(WP_REST_Request))
+#12 [internal function]: rest_preload_api_request(Array, '/wp/v2/kadence_...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/block-editor.php(635): array_reduce(Array, 'rest_preload_ap...', Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/post.php(187): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 835
+
+2023-03-09T15:20:56+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php:20
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php(20): method_exists(NULL, 'get_type')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(835): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_sticky_bar_func('', '', 'auction_sticky_...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<style>.kb-row-...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<style>.kb-row-...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<style>.kb-row-...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1857): apply_filters('the_content', '<!-- wp:kadence...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(568): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1171): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/kadence_...', Array, NULL)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(535): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(2884): rest_do_request(Object(WP_REST_Request))
+#13 [internal function]: rest_preload_api_request(Array, '/wp/v2/kadence_...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/block-editor.php(635): array_reduce(Array, 'rest_preload_ap...', Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#16 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/post.php(187): require('/Applications/X...')
+#17 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php on line 20
+
+2023-03-09T15:22:34+00:00 CRITICAL Uncaught Error: Call to a member function uwa_aelia_get_base_currency() on null in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php:33
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(835): require_once()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_sticky_bar_func('', '', 'auction_sticky_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<style>.kb-row-...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<style>.kb-row-...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<style>.kb-row-...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1857): apply_filters('the_content', '<!-- wp:kadence...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(568): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1171): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/kadence_...', Array, NULL)
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(535): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(2884): rest_do_request(Object(WP_REST_Request))
+#12 [internal function]: rest_preload_api_request(Array, '/wp/v2/kadence_...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/block-editor.php(635): array_reduce(Array, 'rest_preload_ap...', Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/post.php(187): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php on line 33
+
+2023-03-09T15:23:38+00:00 CRITICAL Uncaught Error: Call to a member function uwa_aelia_get_base_currency() on null in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php:33
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(835): require_once()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_sticky_bar_func('', '', 'auction_sticky_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<style>.kb-row-...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<style>.kb-row-...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<style>.kb-row-...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1857): apply_filters('the_content', '<!-- wp:kadence...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(568): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1171): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/kadence_...', Array, NULL)
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(535): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(2884): rest_do_request(Object(WP_REST_Request))
+#12 [internal function]: rest_preload_api_request(Array, '/wp/v2/kadence_...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/block-editor.php(635): array_reduce(Array, 'rest_preload_ap...', Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/post.php(187): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php on line 33
+
+2023-03-09T15:23:50+00:00 CRITICAL Uncaught Error: Call to a member function uwa_aelia_get_base_currency() on null in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php:33
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(834): require_once()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_sticky_bar_func('', '', 'auction_sticky_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<style>.kb-row-...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<style>.kb-row-...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<style>.kb-row-...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1857): apply_filters('the_content', '<!-- wp:kadence...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(568): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1171): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/kadence_...', Array, NULL)
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(535): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(2884): rest_do_request(Object(WP_REST_Request))
+#12 [internal function]: rest_preload_api_request(Array, '/wp/v2/kadence_...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/block-editor.php(635): array_reduce(Array, 'rest_preload_ap...', Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/post.php(187): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php on line 33
+
+2023-03-09T15:24:10+00:00 CRITICAL Uncaught Error: Call to a member function uwa_aelia_get_base_currency() on null in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php:33
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(834): require_once()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_sticky_bar_func('', '', 'auction_sticky_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<style>.kb-row-...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<style>.kb-row-...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<style>.kb-row-...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1857): apply_filters('the_content', '<!-- wp:kadence...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(568): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1171): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/kadence_...', Array, NULL)
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(535): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(2884): rest_do_request(Object(WP_REST_Request))
+#12 [internal function]: rest_preload_api_request(Array, '/wp/v2/kadence_...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/block-editor.php(635): array_reduce(Array, 'rest_preload_ap...', Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/post.php(187): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php on line 33
+
+2023-03-09T15:25:51+00:00 CRITICAL Uncaught Error: Call to a member function uwa_aelia_get_base_currency() on null in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php:33
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(834): require_once()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_sticky_bar_func('', '', 'auction_sticky_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<style>.kb-row-...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<style>.kb-row-...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<style>.kb-row-...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1857): apply_filters('the_content', '<!-- wp:kadence...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(568): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1171): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/kadence_...', Array, NULL)
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(535): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(2884): rest_do_request(Object(WP_REST_Request))
+#12 [internal function]: rest_preload_api_request(Array, '/wp/v2/kadence_...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/block-editor.php(635): array_reduce(Array, 'rest_preload_ap...', Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/post.php(187): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php on line 33
+
+2023-03-09T15:26:42+00:00 CRITICAL Uncaught Error: Call to a member function uwa_aelia_get_base_currency() on null in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php:33
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(834): require_once()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_sticky_bar_func('', '', 'auction_sticky_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<style>.kb-row-...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<style>.kb-row-...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<style>.kb-row-...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1857): apply_filters('the_content', '<!-- wp:kadence...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(568): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1171): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/kadence_...', Array, NULL)
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(535): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(2884): rest_do_request(Object(WP_REST_Request))
+#12 [internal function]: rest_preload_api_request(Array, '/wp/v2/kadence_...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/block-editor.php(635): array_reduce(Array, 'rest_preload_ap...', Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/post.php(187): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php on line 33
+
+2023-03-09T15:26:53+00:00 CRITICAL Uncaught Error: Call to a member function uwa_aelia_get_base_currency() on null in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php:33
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(834): require_once()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_sticky_bar_func('', '', 'auction_sticky_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<style>.kb-row-...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<style>.kb-row-...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<style>.kb-row-...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1857): apply_filters('the_content', '<!-- wp:kadence...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(568): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1171): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api/class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/kadence_...', Array, NULL)
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(535): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/rest-api.php(2884): rest_do_request(Object(WP_REST_Request))
+#12 [internal function]: rest_preload_api_request(Array, '/wp/v2/kadence_...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/block-editor.php(635): array_reduce(Array, 'rest_preload_ap...', Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/post.php(187): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product/uwa-bid.php on line 33
+
+2023-03-09T15:52:48+00:00 CRITICAL Uncaught Error: Call to undefined function et_field() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php:214
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 214
+
+2023-03-09T19:43:33+00:00 CRITICAL syntax error, unexpected identifier "single" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/single-product.php on line 335
+
+2023-03-09T23:01:53+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Auction::get_uwa_auctions_start_time() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/content-product.php:66
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(785): require()
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Applications/X...', false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(610): wc_get_template_part('content', 'product')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(355): auction_list_func('', '', 'auction_list')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(auctio...', 'do_shortcode_ta...', '<div class="kb-...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): do_shortcode('<div class="kb-...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(205): WP_Hook->apply_filters('<div class="kb-...', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:kadence...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/template-parts/content/entry_content.php(16): the_content('Continue readin...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(785): require('/Applications/X...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(718): load_template('/Applications/X...', false, Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/template-parts/content/single-entry.php(28): get_template_part('template-parts/...', 'page')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(785): require('/Applications/X...')
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(718): load_template('/Applications/X...', false, Array)
+#16 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#17 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/inc/template-functions/single-functions.php(27): get_template_part('template-parts/...', 'page')
+#18 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): Kadence\single_content('')
+#19 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#20 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#21 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/template-parts/content/single.php(34): do_action('kadence_single_...')
+#22 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(785): require('/Applications/X...')
+#23 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template.php(718): load_template('/Applications/X...', false, Array)
+#24 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#25 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/inc/template-functions/single-functions.php(20): get_template_part('template-parts/...', 'page')
+#26 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): Kadence\single_markup('')
+#27 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#28 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#29 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence/page.php(20): do_action('kadence_single')
+#30 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/template-loader.php(106): include('/Applications/X...')
+#31 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(19): require_once('/Applications/X...')
+#32 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#33 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/woocommerce/content-product.php on line 66
+

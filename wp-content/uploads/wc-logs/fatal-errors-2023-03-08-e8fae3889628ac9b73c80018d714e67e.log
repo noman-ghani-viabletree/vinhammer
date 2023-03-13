@@ -1,0 +1,254 @@
+2023-03-08T11:55:19+00:00 CRITICAL syntax error, unexpected token "." in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 723
+
+2023-03-08T14:42:58+00:00 CRITICAL Uncaught Error: Call to undefined function wp_read_video_metadata() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php:498
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(412): wp_generate_attachment_metadata(3215, '/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(226): upload_file_by_url('http://localhos...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(87): submit_listing(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(310): submit_listing_submission(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(7052): do_action('gform_after_sub...', Array, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/form_display.php(209): gf_do_action('gform_after_sub...', Array, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(865): GFFormDisplay::process_form(12, 1)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): GFForms::maybe_process_form(Object(WP))
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php on line 498
+
+2023-03-08T14:47:38+00:00 CRITICAL Uncaught Error: Call to undefined function wp_read_video_metadata() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php:498
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(412): wp_generate_attachment_metadata(3216, '/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(226): upload_file_by_url('http://localhos...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(87): submit_listing(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(310): submit_listing_submission(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(7052): do_action('gform_after_sub...', Array, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/form_display.php(209): gf_do_action('gform_after_sub...', Array, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(865): GFFormDisplay::process_form(12, 1)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): GFForms::maybe_process_form(Object(WP))
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php on line 498
+
+2023-03-08T15:11:01+00:00 CRITICAL Uncaught Error: Call to undefined function wp_read_video_metadata() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php:498
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(414): wp_generate_attachment_metadata(3223, '/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(226): upload_file_by_url('http://localhos...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(87): submit_listing(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(310): submit_listing_submission(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(7052): do_action('gform_after_sub...', Array, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/form_display.php(209): gf_do_action('gform_after_sub...', Array, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(865): GFFormDisplay::process_form(12, 1)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): GFForms::maybe_process_form(Object(WP))
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php on line 498
+
+2023-03-08T15:30:48+00:00 CRITICAL Uncaught Error: Call to undefined function wp_read_video_metadata() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php:498
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(414): wp_generate_attachment_metadata(3224, '/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(226): upload_file_by_url('http://localhos...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(87): submit_listing(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(310): submit_listing_submission(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(7052): do_action('gform_after_sub...', Array, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/form_display.php(209): gf_do_action('gform_after_sub...', Array, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(865): GFFormDisplay::process_form(12, 1)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): GFForms::maybe_process_form(Object(WP))
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php on line 498
+
+2023-03-08T15:35:10+00:00 CRITICAL Uncaught Error: Call to undefined function wp_read_video_metadata() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php:498
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(416): wp_generate_attachment_metadata(3225, '/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(226): upload_file_by_url('http://localhos...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(87): submit_listing(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(310): submit_listing_submission(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(7052): do_action('gform_after_sub...', Array, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/form_display.php(209): gf_do_action('gform_after_sub...', Array, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(865): GFFormDisplay::process_form(12, 1)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): GFForms::maybe_process_form(Object(WP))
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php on line 498
+
+2023-03-08T16:00:43+00:00 CRITICAL Uncaught Error: Call to undefined function wp_read_video_metadata() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php:498
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(417): wp_generate_attachment_metadata(3226, '/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(226): upload_file_by_url('http://localhos...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(87): submit_listing(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(310): submit_listing_submission(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(7052): do_action('gform_after_sub...', Array, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/form_display.php(209): gf_do_action('gform_after_sub...', Array, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(865): GFFormDisplay::process_form(12, 1)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): GFForms::maybe_process_form(Object(WP))
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php on line 498
+
+2023-03-08T16:03:49+00:00 CRITICAL Uncaught Error: Call to undefined function wp_read_video_metadata() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php:498
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(420): wp_generate_attachment_metadata(3228, '/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(226): upload_file_by_url('http://localhos...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(87): submit_listing(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(310): submit_listing_submission(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(7052): do_action('gform_after_sub...', Array, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/form_display.php(209): gf_do_action('gform_after_sub...', Array, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(865): GFFormDisplay::process_form(12, 1)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): GFForms::maybe_process_form(Object(WP))
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php on line 498
+
+2023-03-08T16:14:09+00:00 CRITICAL Uncaught Error: Call to undefined function wp_read_video_metadata() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php:498
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(416): wp_generate_attachment_metadata(3230, '/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(226): upload_file_by_url('http://localhos...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(87): submit_listing(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(310): submit_listing_submission(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(7052): do_action('gform_after_sub...', Array, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/form_display.php(209): gf_do_action('gform_after_sub...', Array, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(865): GFFormDisplay::process_form(12, 1)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): GFForms::maybe_process_form(Object(WP))
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php on line 498
+
+2023-03-08T16:14:59+00:00 CRITICAL Uncaught Error: Call to undefined function wp_read_video_metadata() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php:498
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(416): wp_generate_attachment_metadata(3231, '/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(226): upload_file_by_url('http://localhos...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(87): submit_listing(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(310): submit_listing_submission(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(7052): do_action('gform_after_sub...', Array, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/form_display.php(209): gf_do_action('gform_after_sub...', Array, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(865): GFFormDisplay::process_form(12, 1)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): GFForms::maybe_process_form(Object(WP))
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php on line 498
+
+2023-03-08T16:19:55+00:00 CRITICAL Uncaught Error: Call to undefined function wp_read_video_metadata() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php:498
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(414): wp_generate_attachment_metadata(3232, '/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(226): upload_file_by_url('http://localhos...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(87): submit_listing(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(310): submit_listing_submission(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(7052): do_action('gform_after_sub...', Array, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/form_display.php(209): gf_do_action('gform_after_sub...', Array, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(865): GFFormDisplay::process_form(12, 1)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): GFForms::maybe_process_form(Object(WP))
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php on line 498
+
+2023-03-08T16:27:43+00:00 CRITICAL Uncaught Error: Call to undefined function wp_read_video_metadata() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php:498
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(412): wp_generate_attachment_metadata(3234, '/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(226): upload_file_by_url('http://localhos...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(87): submit_listing(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(310): submit_listing_submission(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(7052): do_action('gform_after_sub...', Array, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/form_display.php(209): gf_do_action('gform_after_sub...', Array, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(865): GFFormDisplay::process_form(12, 1)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): GFForms::maybe_process_form(Object(WP))
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php on line 498
+
+2023-03-08T16:33:10+00:00 CRITICAL Uncaught Error: Call to undefined function wp_read_video_metadata() in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php:498
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(413): wp_generate_attachment_metadata(3237, '/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(226): upload_file_by_url('http://localhos...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php(87): submit_listing(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(310): submit_listing_submission(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(7052): do_action('gform_after_sub...', Array, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/form_display.php(209): gf_do_action('gform_after_sub...', Array, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/plugins/gravityforms/gravityforms.php(865): GFFormDisplay::process_form(12, 1)
+#9 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(308): GFForms::maybe_process_form(Object(WP))
+#10 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-includes/functions.php(1332): WP->main('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-blog-header.php(16): wp()
+#15 /Applications/XAMPP/xamppfiles/htdocs/vinhammer/index.php(17): require('/Applications/X...')
+#16 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-admin/includes/image.php on line 498
+
