@@ -1,0 +1,4 @@
+2023-03-14T10:31:56+00:00 CRITICAL Out of memory (allocated 113246208 bytes) (tried to allocate 32768 bytes) in C:\xampp\htdocs\vinhammer\wp-content\plugins\woocommerce-payments\vendor\woocommerce\subscriptions-core\includes\class-wcs-core-autoloader.php on line 70
+
+2023-03-14T10:31:56+00:00 CRITICAL Out of memory (allocated 113246208 bytes) (tried to allocate 32768 bytes) in C:\xampp\htdocs\vinhammer\wp-content\plugins\woocommerce-payments\vendor\woocommerce\subscriptions-core\includes\data-stores\class-wcs-related-order-store-cpt.php on line 1
+
