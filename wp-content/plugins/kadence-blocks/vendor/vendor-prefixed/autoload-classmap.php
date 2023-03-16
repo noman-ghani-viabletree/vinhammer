@@ -41,7 +41,7 @@ return array(
    'KadenceWP\KadenceBlocks\StellarWP\Telemetry\Exit_Interview\Template' => $strauss_src . '/stellarwp/telemetry/src/Telemetry/Exit_Interview/Template.php',
    'KadenceWP\KadenceBlocks\StellarWP\Telemetry\Exit_Interview\Exit_Interview_Subscriber' => $strauss_src . '/stellarwp/telemetry/src/Telemetry/Exit_Interview/Exit_Interview_Subscriber.php',
    'KadenceWP\KadenceBlocks\StellarWP\Telemetry\Core' => $strauss_src . '/stellarwp/telemetry/src/Telemetry/Core.php',
-   'Psr\Container\NotFoundExceptionInterface' => $strauss_src . '/psr/container/src/NotFoundExceptionInterface.php',
-   'Psr\Container\ContainerInterface' => $strauss_src . '/psr/container/src/ContainerInterface.php',
-   'Psr\Container\ContainerExceptionInterface' => $strauss_src . '/psr/container/src/ContainerExceptionInterface.php',
+   'KadenceWP\KadenceBlocks\Psr\Container\NotFoundExceptionInterface' => $strauss_src . '/psr/container/src/NotFoundExceptionInterface.php',
+   'KadenceWP\KadenceBlocks\Psr\Container\ContainerInterface' => $strauss_src . '/psr/container/src/ContainerInterface.php',
+   'KadenceWP\KadenceBlocks\Psr\Container\ContainerExceptionInterface' => $strauss_src . '/psr/container/src/ContainerExceptionInterface.php',
 );

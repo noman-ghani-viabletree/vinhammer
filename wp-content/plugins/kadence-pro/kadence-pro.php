@@ -3,7 +3,7 @@
  * Plugin Name: Kadence Pro - Premium addon for the Kadence Theme
  * Plugin URI:  https://www.kadencewp.com/kadence-theme/premium/
  * Description: Extends the Kadence theme with premium features and addons.
- * Version:     1.0.7
+ * Version:     1.0.9
  * Author:      Kadence WP
  * Author URI:  https://www.kadencewp.com/
  * License:     GPL2

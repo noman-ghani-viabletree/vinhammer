@@ -5,13 +5,13 @@
  * @package lucatume\DI52
  *
  * @license GPL-3.0
- * Modified by kadencewp on 17-February-2023 using Strauss.
+ * Modified by kadencewp on 22-February-2023 using Strauss.
  * @see https://github.com/BrianHenryIE/strauss
  */
 
 namespace KadenceWP\KadenceBlocks\lucatume\DI52;
 
-use Psr\Container\ContainerExceptionInterface;
+use KadenceWP\KadenceBlocks\Psr\Container\ContainerExceptionInterface;
 
 /**
  * Class ContainerException

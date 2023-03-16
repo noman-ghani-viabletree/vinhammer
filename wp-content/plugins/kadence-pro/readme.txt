@@ -2,8 +2,8 @@
 Contributors: britner
 Tags: theme, blocks, hooks,
 Requires at least: 5.2
-Tested up to: 6.0
-Stable tag: 1.0.7
+Tested up to: 6.1
+Stable tag: 1.0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,6 +35,20 @@ Premium Addons for the Kadence Theme.
 Install the plugin into the `/wp-content/plugins/` folder, and activate it. This plugin is an extension of Kadence Theme, you will be asked to install it if you do not have it installed already.
 
 == Changelog ==
+
+== 1.0.9 | 2nd March 2022 ==
+* Update: Elements to be public post type by default. (filter kadence_element_public_cpt).
+* Fix: Preload css issue.
+
+== 1.0.8 | 20th February 2022 ==
+* Update: Elements to be hidden post type by default.
+* Update: Infinite Scroll events.
+* Update: Add order option to element post settings.
+* Fix: Order of elements in admin.
+* Fix: Multiple Template overrides shouldn't both apply. 
+* Fix: Issue with elements type selection hiding on load.
+* Fix: Color Picker issue.
+* Fix: Possible character conversion in elements.
 
 == 1.0.7 | 23rd September 2022 ==
 * Fix: Possible issue of css styles in blocks breaking when using quick enable/disable.

@@ -113,7 +113,7 @@ final class Kadence_Blocks_Pro {
 	private function setup_constants() {
 
 		if ( ! defined( 'KBP_VERSION' ) ) {
-			define( 'KBP_VERSION', '1.7.23' );
+			define( 'KBP_VERSION', '1.7.24' );
 		}
 
 		if ( ! defined( 'KBP_PLUGIN_FILE' ) ) {

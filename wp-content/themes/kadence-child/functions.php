@@ -5,6 +5,7 @@
 function child_enqueue_styles() {
 	wp_enqueue_style( 'product-cat-theme', get_stylesheet_directory_uri() . '/css/product_cat.css');
 	wp_enqueue_style( 'header-theme', get_stylesheet_directory_uri() . '/css/header.css');
+	wp_enqueue_style( 'dashboard-theme', get_stylesheet_directory_uri() . '/css/dashboard.css');
 	wp_enqueue_style( 'auction-detail-theme', get_stylesheet_directory_uri() . '/auction-detail.css');
 	wp_enqueue_style( 'child-theme', get_stylesheet_directory_uri() . '/style.css');
 	wp_enqueue_script('custom-script', get_stylesheet_directory_uri().'/js/custom.js', array('jquery'), time(), true);
@@ -505,18 +506,15 @@ function getVimeoThumbnail($videoID) {
 
 function woocommerce_product_loop_start() { echo '<ul class="products all_products products-ul">';  }
 
-
-function admin_default_page() {
-	$redirect_path = $_GET['redirect_to'];
-	if(!empty($redirect_path)){
-		return $redirect_path;
-	}else{
-		return home_url();
+function add_login_check(){
+	global $wp;
+    $request = explode( '/', $wp->request );
+	if (!is_user_logged_in() && end($request) == "my-account") {
+		wp_redirect(site_url()."/sign-in");
+		exit;
 	}
 }
-  
-add_filter('login_redirect', 'admin_default_page');
-
+add_action("wp", "add_login_check");
 
 function auction_filter_func($atts = []){
 	extract(shortcode_atts(array(
@@ -1148,7 +1146,7 @@ function auction_home_filter_func(){
 				?>
 			</select>
 		</div>
-		<div class="select-wrapper fifth-select">
+		<div class="select-wrapper sixth-select">
 			<select name="min_price" value="body type">
 				<option value="" disabled selected>Price</option>
 				<?php
@@ -1174,32 +1172,22 @@ add_shortcode('auction_home_filter', 'auction_home_filter_func');
 
 add_filter( 'woocommerce_account_menu_items', 'QuadLayers_remove_acc_address', 9999 );
 function QuadLayers_remove_acc_address( $items ) {
-	$items['uwa-auctions'] = 'Your Bids & Watchlist';
-	$items['orders'] = 'Your Auctions';
-	$items['messages'] = 'Messages';
-	var_dump($items);die;
- 	unset( $items['downloads'] );
-	// $items = array(
-	// 	["dashboard"]=>
-	// 	string(9) "Dashboard"
-	// 	["orders"]=>
-	// 	string(13) "Your Auctions"
-	// 	["subscriptions"]=>
-	// 	string(13) "Subscriptions"
-	// 	["downloads"]=>
-	// 	string(9) "Downloads"
-	// 	["edit-address"]=>
-	// 	string(9) "Addresses"
-	// 	["edit-account"]=>
-	// 	string(15) "Account details"
-	// 	["uwa-auctions"]=>
-	// 	string(21) "Your Bids & Watchlist"
-	// 	["customer-logout"]=>
-	// 	string(6) "Logout"
-	// 	["messages"]=>
-	// 	string(8) "Messages"
-	//   }
-	// return $items;
+	// $items['uwa-auctions'] = 'Your Bids & Watchlist';
+	// $items['orders'] = 'Your Auctions';
+	// $items['messages'] = 'Messages';
+	// var_dump($items);die;
+ 	// unset( $items['downloads'] );
+	$items = array(
+			"dashboard" => "Dashboard",
+			"uwa-auctions" => "Your Bids & Watchlist",
+			"orders" => "Your Auctions",
+			"messages" => "Messages",
+			"edit-address" => "Addresses",
+			"subscriptions" => "Subscriptions",
+			"edit-account" => "Account Details",
+			"customer-logout" => "Logout",
+	);
+	return $items;
 }
 
 // 1. Register new endpoint

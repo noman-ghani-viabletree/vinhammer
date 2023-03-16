@@ -233,7 +233,7 @@ else{
 									<?php echo apply_filters('ultimate_woocommerce_auction_bid_button_text', $custombid_label, $product); ?>
 								</button>
 								<?php else: ?>
-									<a href="<?php echo site_url()?>/sign-in?redirect_to=<?php echo $current_url?>" class="place-bid-button bid_button button alt d-flex justify-content-center align-items-center">Login to Place Bid</a>
+									<a href="<?php echo site_url()?>/sign-in?uwa-new-redirect=<?php echo $current_url?>" class="place-bid-button bid_button button alt d-flex justify-content-center align-items-center">Login to Place Bid</a>
 								<?php endif;?>
 
 								<?php $loader_imgurl = UW_AUCTION_PRO_URL . "assets/images/ajax_loader.gif"; ?>
@@ -259,7 +259,7 @@ else{
 										$product); ?>
 								</button>
 							<?php else: ?>
-								<a href="<?php echo site_url()?>/sign-in?redirect_to=<?php echo $current_url?>" class="place-bid-button bid_button button alt d-flex justify-content-center align-items-center">Login to Place Bid</a>
+								<a href="<?php echo site_url()?>/sign-in?uwa-new-redirect=<?php echo $current_url?>" class="place-bid-button bid_button button alt d-flex justify-content-center align-items-center">Login to Place Bid</a>
 							<?php endif;?>
 
 							<?php $loader_imgurl = UW_AUCTION_PRO_URL . "assets/images/ajax_loader.gif"; ?>

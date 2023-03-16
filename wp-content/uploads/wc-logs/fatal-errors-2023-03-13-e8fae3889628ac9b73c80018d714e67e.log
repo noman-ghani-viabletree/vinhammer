@@ -62,3 +62,15 @@ Stack trace:
 
 2023-03-13T13:32:11+00:00 CRITICAL syntax error, unexpected double-quoted string "Dashboard", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 1184
 
+2023-03-13T15:50:31+00:00 CRITICAL syntax error, unexpected double-quoted string "Dashboard", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 1184
+
+2023-03-13T15:51:00+00:00 CRITICAL syntax error, unexpected double-quoted string "Dashboard", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 1184
+
+2023-03-13T15:51:10+00:00 CRITICAL syntax error, unexpected double-quoted string "Dashboard", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 1184
+
+2023-03-13T15:52:56+00:00 CRITICAL syntax error, unexpected double-quoted string "edit-address", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 1187
+
+2023-03-13T15:53:00+00:00 CRITICAL syntax error, unexpected double-quoted string "edit-address", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 1187
+
+2023-03-13T15:53:28+00:00 CRITICAL syntax error, unexpected double-quoted string "edit-address", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/vinhammer/wp-content/themes/kadence-child/functions.php on line 1187
+

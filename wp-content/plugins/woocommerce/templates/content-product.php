@@ -25,8 +25,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 }
 ?>
 <li <?php wc_product_class( '', $product ); ?>>
-	
-	<?php 
+	<?php
 	/**
 	 * Hook: woocommerce_before_shop_loop_item.
 	 *
@@ -63,12 +62,6 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 * @hooked woocommerce_template_loop_product_link_close - 5
 	 * @hooked woocommerce_template_loop_add_to_cart - 10
 	 */
-	
-	 if( get_option( 'woo_ua_auctions_watchlists' ) == 'yes' ) {	
-		/* for Single page */ 
-		do_action('ultimate_woocommerce_auction_before_bid_form');			
-	}
-
 	do_action( 'woocommerce_after_shop_loop_item' );
 	?>
 </li>

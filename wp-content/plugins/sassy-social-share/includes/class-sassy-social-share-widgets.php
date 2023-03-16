@@ -623,6 +623,10 @@ class Sassy_Social_Share_Follow_Widget extends WP_Widget {
 			$html .= '<a class="heateor_sss_amp heateor_sss_amp_gab_url" href="'.$instance['gab_url'].'" title="Gab" rel="nofollow noopener" target="_blank"><amp-img src="%img_url%/gab.svg" width="%width%" height="%height%" alt="Gab" class="amp-wp-enforced-sizes" style="width: %width%px;"></amp-img></a>';
 		}
 
+		if ( isset( $instance['google_news'] ) && $instance['google_news'] ) {
+			$html .= '<a class="heateor_sss_amp heateor_sss_amp_google_news_url" href="'.$instance['google_news_url'].'" title="Google News" rel="nofollow noopener" target="_blank"><amp-img src="%img_url%/google_news.svg" width="%width%" height="%height%" alt="Google News" class="amp-wp-enforced-sizes" style="width: %width%px;"></amp-img></a>';
+		}
+
 		$html = apply_filters( 'heateor_sss_follow_icons', $html, $instance, $icon_style );
 		$html .= '</div>';
 
@@ -825,6 +829,9 @@ class Sassy_Social_Share_Follow_Widget extends WP_Widget {
 		if ( isset( $instance['gab'] ) && $instance['gab'] ) {
 			$html .= '<a class="heateor_sss_gab" href="'. $instance['gab'] .'" title="gab" rel="nofollow noopener" target="_blank" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle;"><span style="background-color:#25CC80;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;'. $icon_style .'" class="heateor_sss_svg"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-14.5 3.5 46 30" xml:space="preserve"><g><path fill="'. $logo_color .'" d="M13.8,7.6h-2.4v0.7V9l-0.4-0.3C10.2,7.8,9,7.2,7.7,7.2c-0.2,0-0.4,0-0.4,0c-0.1,0-0.3,0-0.5,0 c-5.6,0.3-8.7,7.2-5.4,12.1c2.3,3.4,7.1,4.1,9.7,1.5l0.3-0.3l0,0.7c0,1-0.1,1.5-0.4,2.2c-1,2.4-4.1,3-6.8,1.3 c-0.2-0.1-0.4-0.2-0.4-0.2c-0.1,0.1-1.9,3.5-1.9,3.6c0,0.1,0.5,0.4,0.8,0.6c2.2,1.4,5.6,1.7,8.3,0.8c2.7-0.9,4.5-3.2,5-6.4 c0.2-1.1,0.2-0.8,0.2-8.4l0-7.1H13.8z M9.7,17.6c-2.2,1.2-4.9-0.4-4.9-2.9C4.8,12.6,7,11,9,11.6C11.8,12.4,12.3,16.1,9.7,17.6z"></path></g></svg></span></a>';
 		}
+		if ( isset( $instance['google_news'] ) && $instance['google_news'] ) {
+			$html .= '<a class="heateor_sss_google_news" href="'. $instance['google_news'] .'" title="Google News" rel="nofollow noopener" target="_blank" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle;"><span style="background-color:#4285F4;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;'. $icon_style .'" class="heateor_sss_svg"><svg viewBox="35 45 80 80" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><path fill="'. $logo_color .'" d="M99.6,77.8H78.2v-5.6h21.4c0.6,0,1.1,0.5,1.1,1.1v3.4C100.7,77.3,100.2,77.8,99.6,77.8z"></path><path fill="'. $logo_color .'" d="M99.6,99.2H78.2v-5.6h21.4c0.6,0,1.1,0.5,1.1,1.1v3.4C100.7,98.7,100.2,99.2,99.6,99.2z"></path><path fill="'. $logo_color .'" d="M103,88.5H78.2v-5.6H103c0.6,0,1.1,0.5,1.1,1.1v3.4C104.1,88,103.6,88.5,103,88.5z"></path><path fill="'. $logo_color .'" d="M59.1,83.4v5.1h7.3c-0.6,3.1-3.3,5.3-7.3,5.3c-4.4,0-8-3.7-8-8.2c0-4.4,3.6-8.2,8-8.2c2,0,3.8,0.7,5.2,2v0 l3.9-3.9c-2.3-2.2-5.4-3.5-9-3.5c-7.5,0-13.5,6-13.5,13.5c0,7.5,6,13.5,13.5,13.5C66.9,99.2,72,93.7,72,86c0-0.9-0.1-1.7-0.2-2.6 H59.1z"></path></svg></span></a>';
+		}
 		$html = apply_filters( 'heateor_sss_follow_icons', $html, $instance, $icon_style );
 		$html .= '</div>';
 
@@ -882,6 +889,7 @@ class Sassy_Social_Share_Follow_Widget extends WP_Widget {
 		$instance['youtube_channel'] = $new_instance['youtube_channel'];
 		$instance['rss_feed'] = $new_instance['rss_feed'];
 		$instance['gab'] = $new_instance['gab'];
+		$instance['google_news'] = $new_instance['google_news'];
 		$instance['before_widget_content'] = $new_instance['before_widget_content']; 
 		$instance['after_widget_content'] = $new_instance['after_widget_content'];
 
@@ -897,7 +905,7 @@ class Sassy_Social_Share_Follow_Widget extends WP_Widget {
 	public function form( $instance ) { 
 		
 		/* default widget settings. */ 
-		$defaults = array( 'hor_alignment' => 'left', 'title' => '', 'type' => 'standard', 'alignment' => 'right', 'size' => '35', 'icon_shape' => 'round', 'custom_color' => '', 'facebook' => '', 'twitter' => '', 'instagram' => '', 'parler' => '', 'pinterest' => '', 'behance' => '', 'flickr' => '', 'foursquare' => '', 'github' => '', 'gitlab' => '', 'linkedin' => '', 'linkedin_company' => '', 'medium' => '', 'mewe' => '', 'odnoklassniki' => '', 'telegram' => '', 'tumblr' => '', 'vimeo' => '', 'vkontakte' => '', 'whatsapp' => '', 'xing' => '', 'youtube' => '', 'youtube_channel' => '', 'rss_feed' => '', 'gab' => '', 'before_widget_content' => '', 'after_widget_content' => '', 'top_offset' => '200', 'alignment_value' => '0', 'mobile_sharing' => '1', 'bottom_mobile_sharing' => '1', 'vertical_screen_width' => '783', 'horizontal_screen_width' => '783', 'bottom_sharing_alignment' => 'left', 'bottom_sharing_position_radio' => 'responsive', 'bottom_sharing_position' => '0' );
+		$defaults = array( 'hor_alignment' => 'left', 'title' => '', 'type' => 'standard', 'alignment' => 'right', 'size' => '35', 'icon_shape' => 'round', 'custom_color' => '', 'facebook' => '', 'twitter' => '', 'instagram' => '', 'parler' => '', 'pinterest' => '', 'behance' => '', 'flickr' => '', 'foursquare' => '', 'github' => '', 'gitlab' => '', 'linkedin' => '', 'linkedin_company' => '', 'medium' => '', 'mewe' => '', 'odnoklassniki' => '', 'telegram' => '', 'tumblr' => '', 'vimeo' => '', 'vkontakte' => '', 'whatsapp' => '', 'xing' => '', 'youtube' => '', 'youtube_channel' => '', 'rss_feed' => '', 'gab' => '', 'google_news' => '', 'before_widget_content' => '', 'after_widget_content' => '', 'top_offset' => '200', 'alignment_value' => '0', 'mobile_sharing' => '1', 'bottom_mobile_sharing' => '1', 'vertical_screen_width' => '783', 'horizontal_screen_width' => '783', 'bottom_sharing_alignment' => 'left', 'bottom_sharing_position_radio' => 'responsive', 'bottom_sharing_position' => '0' );
 
 		foreach ( $instance as $key => $value ) {
 			if ( is_string( $value ) ) {
@@ -1077,7 +1085,9 @@ class Sassy_Social_Share_Follow_Widget extends WP_Widget {
 			<span>http://www.example.com/feed/</span><br/><br/>
 			<label for="<?php echo esc_attr( $this->get_field_id( 'gab' ) ); ?>"><?php _e( 'Gab.com URL:', 'sassy-social-share' ); ?></label> 
 			<input style="width: 95%" class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'gab' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'gab' ) ); ?>" type="text" value="<?php echo esc_attr( $instance['gab'] ); ?>" /><br/>
-			<span>https://gab.com/ID</span><br/><br/>
+			<span>https://gab.com/ID</span><br/><br/><br/>
+			<label for="<?php echo esc_attr( $this->get_field_id( 'google_news' ) ); ?>"><?php _e( 'Google News URL:', 'sassy-social-share' ); ?></label> 
+			<input style="width: 95%" class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'google_news' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'google_news' ) ); ?>" type="text" value="<?php echo esc_attr( $instance['google_news'] ); ?>" /><br/><br/>
 			<label for="<?php echo esc_attr( $this->get_field_id( 'after_widget_content' ) ); ?>"><?php _e( 'After widget content:', 'sassy-social-share' ); ?></label> 
 			<input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'after_widget_content' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'after_widget_content' ) ); ?>" type="text" value="<?php echo esc_attr( $instance['after_widget_content'] ); ?>" /> 
 		</p>

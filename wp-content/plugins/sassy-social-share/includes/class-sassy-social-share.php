@@ -214,6 +214,7 @@ class Sassy_Social_Share {
 		}
 
 		add_filter( 'safe_style_css', array( $plugin_public, 'add_safe_styles' ), 10, 1 );
+		add_filter( 'parse_request', array( $plugin_public, 'mastodon_share_amp' ) );
 
 	}
 

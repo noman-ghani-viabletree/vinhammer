@@ -5,7 +5,7 @@
  * @package lucatume\DI52
  *
  * @license GPL-3.0
- * Modified by kadencewp on 17-February-2023 using Strauss.
+ * Modified by kadencewp on 22-February-2023 using Strauss.
  * @see https://github.com/BrianHenryIE/strauss
  */
 
@@ -16,7 +16,7 @@ use Closure;
 use Exception;
 use KadenceWP\KadenceBlocks\lucatume\DI52\Builders\BuilderInterface;
 use KadenceWP\KadenceBlocks\lucatume\DI52\Builders\ValueBuilder;
-use Psr\Container\ContainerInterface;
+use KadenceWP\KadenceBlocks\Psr\Container\ContainerInterface;
 use ReflectionClass;
 use ReflectionException;
 use ReflectionMethod;

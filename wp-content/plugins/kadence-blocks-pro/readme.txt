@@ -3,7 +3,7 @@ Contributors: britner
 Tags: gutenberg, blocks, page builder, google fonts, dual buttons, svg icons, editor width,
 Requires at least: 6.0
 Tested up to: 6.1
-Stable tag: 1.7.23
+Stable tag: 1.7.24
 Requires PHP: 7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -19,6 +19,11 @@ This plugin adds custom blocks to extend Gutenberg's editing capabilities. This 
 Install the plugin into the `/wp-content/plugins/` folder, and activate it. This plugin is an extension of Kadence Blocks, you will be asked to install it if you do not have it installed already.
 
 == Changelog ==
+
+== 1.7.24 | 23rd February 2023 ==
+* Update: Lightbox styles.
+* Fix: Issue gap in post grid block when using filter.
+* Fix: Video Popup Max width issue.
 
 == 1.7.23 | 21st February 2023 ==
 * Fix: Query CSS build for dynamic styles.

@@ -1,8 +1,14 @@
 <?php
+/**
+ * @license MIT
+ *
+ * Modified by kadencewp on 22-February-2023 using Strauss.
+ * @see https://github.com/BrianHenryIE/strauss
+ */
 
 declare(strict_types=1);
 
-namespace Psr\Container;
+namespace KadenceWP\KadenceBlocks\Psr\Container;
 
 /**
  * Describes the interface of a container that exposes methods to read its entries.

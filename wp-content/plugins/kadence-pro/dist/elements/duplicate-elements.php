@@ -114,7 +114,7 @@ class Duplicate_Elements {
 		// You can hook this action to dupe that data.
 		if ( $new_post_id !== 0 && ! is_wp_error( $new_post_id ) ) {
 			$this->duplicate_meta_info( $new_post_id, $post );
-			do_action( 'kadence_woo_duplicate_post', $new_post_id, $post );
+			do_action( 'kadence_elements_duplicate_post', $new_post_id, $post );
 		}
 
 		return $new_post_id;
@@ -141,7 +141,7 @@ class Duplicate_Elements {
 		 *
 		 * @return array
 		 */
-		$meta_blacklist = apply_filters( 'kadence_woo_duplicate_post_exclude_list', $meta_blacklist );
+		$meta_blacklist = apply_filters( 'kadence_elements_duplicate_post_exclude_list', $meta_blacklist );
 
 		$meta_keys = array_diff( $post_meta_keys, $meta_blacklist );
 
@@ -152,7 +152,7 @@ class Duplicate_Elements {
 		 *
 		 * @return array
 		 */
-		$meta_keys = apply_filters( 'kadence_woo_duplicate_meta_keys', $meta_keys );
+		$meta_keys = apply_filters( 'kadence_elements_duplicate_meta_keys', $meta_keys );
 
 		foreach ( $meta_keys as $meta_key ) {
 			$meta_values = get_post_custom_values( $meta_key, $post->ID );

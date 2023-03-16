@@ -26,11 +26,12 @@
 							'source' : 'local',
 						}],
 						touchNavigation: true,
-						skin: 'kadence-dark',
+						skin: 'kadence-dark ' + kadenceBlocksProVideoLightbox.cache[ i ].getAttribute( 'data-popup-class' ),
 						loop: false,
 						openEffect: 'fade',
 						closeEffect: 'fade',
 						autoplayVideos: true,
+						preload: false,
 						plyr: {
 							css: kadence_pro_video_pop.plyr_css,
 							js: kadence_pro_video_pop.plyr_js,
@@ -40,9 +41,19 @@
 						}
 					});
 					kadenceBlocksProVideoLightbox.trigger[i].open();
+					// kadenceBlocksProVideoLightbox.trigger[i].on('slide_before_load', (data) => {
+					// 	const popClass = data.trigger.getAttribute( 'data-popup-class' );
+					// 	const ligthboxBody = document.getElementById( 'glightbox-body' );
+					// 	if ( popClass && ligthboxBody ) {
+					// 		ligthboxBody.classList = '';
+					// 		ligthboxBody.classList.add( 'glightbox-container' );
+					// 		ligthboxBody.classList.add( 'glightbox-kadence-dark' );
+					// 		ligthboxBody.classList.add( popClass );
+					// 	}
+					//   });
 				} );
 			}
-			GLightbox({
+			const lightbox = GLightbox({
 				selector: '.kadence-video-popup-link:not(.kadence-video-type-local)',
 				touchNavigation: true,
 				skin: 'kadence-dark',
@@ -50,6 +61,7 @@
 				openEffect: 'fade',
 				closeEffect: 'fade',
 				autoplayVideos: true,
+				preload: false,
 				plyr: {
 					css: kadence_pro_video_pop.plyr_css,
 					js: kadence_pro_video_pop.plyr_js,
@@ -58,6 +70,16 @@
 					}
 				}
 			});
+			lightbox.on('slide_before_load', (data) => {
+				const popClass = data.trigger.getAttribute( 'data-popup-class' );
+				const ligthboxBody = document.getElementById( 'glightbox-body' );
+				if ( popClass && ligthboxBody ) {
+					ligthboxBody.classList = '';
+					ligthboxBody.classList.add( 'glightbox-container' );
+					ligthboxBody.classList.add( 'glightbox-kadence-dark' );
+					ligthboxBody.classList.add( popClass );
+				}
+			  });
 		},
 		// Initiate the menus when the DOM loads.
 		init: function() {

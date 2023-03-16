@@ -765,6 +765,12 @@ defined( 'ABSPATH' ) or die( "Cheating........Uh!!" );
 						} elseif ( isset( $options['vertical_youtube_username'] ) ) {
 							$youtube_username = $options['vertical_youtube_username'];
 						}
+						$google_news_url = '';
+						if ( isset( $options['google_news_url'] ) && $options['google_news_url'] ) {
+							$google_news_url = $options['google_news_url'];
+						} elseif ( isset( $options['vertical_google_news_url'] ) ) {
+							$google_news_url = $options['vertical_google_news_url'];
+						}
 						$rutube_username = '';
 						if ( isset( $options['rutube_username'] ) && $options['rutube_username'] ) {
 							$rutube_username = $options['rutube_username'];
@@ -824,7 +830,7 @@ defined( 'ABSPATH' ) or die( "Cheating........Uh!!" );
 							<tr class="heateor_sss_help_content" id="heateor_sss_youtube_username_help_cont">
 								<td colspan="2">
 								<div>
-								<?php _e( 'URL of the Youtube account you want to redirect users to, on clicking the icon', 'sassy-social-share' ) ?>
+								<?php _e( 'URL of the Youtube page where you want the website-visitors to get redirected on click of the icon', 'sassy-social-share' ) ?>
 								</div>
 								</td>
 							</tr>
@@ -844,11 +850,30 @@ defined( 'ABSPATH' ) or die( "Cheating........Uh!!" );
 							<tr class="heateor_sss_help_content" id="heateor_sss_rutube_username_help_cont">
 								<td colspan="2">
 								<div>
-								<?php _e( 'URL of the Rutube account you want to redirect users to, on clicking the icon', 'sassy-social-share' ) ?>
+								<?php _e( 'URL of the Rutube page where you want the website-visitors to get redirected on click of the icon', 'sassy-social-share' ) ?>
 								</div>
 								</td>
 							</tr>
-						</tbody>	
+						</tbody>
+
+						<tbody id="heateor_sss_google_news_options" <?php echo ! in_array( 'Google_News', $options['horizontal_re_providers'] ) ? 'style="display:none"' : '';?>>
+							<tr>
+								<th>
+								<label for="heateor_sss_google_news_url"><?php _e( "Google News URL", 'sassy-social-share' ); ?></label>
+								<img id="heateor_sss_google_news_url_help" class="heateor_sss_help_bubble" src="<?php echo plugins_url( '../../images/info.png', __FILE__ ) ?>" />
+								</th>
+								<td>
+								<input id="heateor_sss_google_news_url" name="heateor_sss[google_news_url]" type="text" value="<?php echo esc_attr( $google_news_url ) ?>" />
+								</td>
+							</tr>
+							<tr class="heateor_sss_help_content" id="heateor_sss_google_news_url_help_cont">
+								<td colspan="2">
+								<div>
+								<?php _e( 'URL of the Google News page where you want the website-visitors to get redirected on click of the icon', 'sassy-social-share' ) ?>
+								</div>
+								</td>
+							</tr>
+						</tbody>
 
 						<tbody id="heateor_sss_comment_options" <?php echo ! isset( $options['horizontal_re_providers'] ) || ! in_array( 'Comment', $options['horizontal_re_providers'] ) ? 'style="display: none"' : '';?> >
 							<tr>
@@ -871,7 +896,7 @@ defined( 'ABSPATH' ) or die( "Cheating........Uh!!" );
 						</tbody>
 						<?php
 						$like_buttons = array( 'facebook_share', 'facebook_like', 'facebook_recommend', 'twitter_tweet', 'linkedin_share', 'pinterest_pin', 'buffer_share', 'xing_share', 'yummly_share', 'reddit_badge' );
-						$sharing_networks = array( 'facebook','gettr', 'gab', 'twitter', 'linkedin', 'mastodon', 'print', 'email', 'reddit', 'digg', 'float_it', 'tumblr', 'vkontakte', 'pinterest', 'xing', 'whatsapp', 'instagram', 'yummly', 'buffer', 'parler', 'AIM', 'Amazon_Wish_List', 'AOL_Mail', 'App.net', 'Balatarin', 'BibSonomy', 'Bitty_Browser', 'Blinklist', 'Blogger_Post', 'BlogMarks', 'Bookmarks.fr', 'Box.net', 'BuddyMarks', 'Care2_News', 'Comment', 'Copy_Link', 'Diary.Ru', 'Diaspora', 'Diigo', 'Douban', 'Draugiem', 'Evernote', 'Facebook_Messenger', 'Fark', 'Fintel', 'Flipboard', 'Folkd', 'GentleReader', 'Google_Classroom', 'Google_Gmail', 'Hacker_News', 'Hatena', 'Instapaper', 'Jamespot', 'Kakao', 'Kik', 'Kindle_It', 'Known', 'Line', 'LiveJournal', 'Mail.Ru', 'Mendeley', 'Meneame', 'MeWe', 'mix', 'Mixi', 'MySpace', 'Netvouz', 'Odnoklassniki', 'Outlook.com', 'Papaly', 'Pinboard', 'Plurk', 'Pocket', 'PrintFriendly', 'Protopage_Bookmarks', 'Pusha', 'Qzone', 'Rediff MyPage', 'Refind', 'Renren', 'Sina Weibo', 'SiteJot', 'Skype', 'Slashdot', 'SMS', 'StockTwits', 'Svejo', 'Symbaloo_Feeds', 'Telegram', 'Threema', 'Trello', 'Tuenti', 'Twiddla', 'TypePad_Post', 'Viadeo', 'Viber', 'Webnews', 'WordPress', 'Wykop', 'Yahoo_Mail', 'Yoolink', 'youtube', 'rutube' );
+						$sharing_networks = array( 'facebook','gettr', 'gab', 'twitter', 'linkedin', 'mastodon', 'print', 'email', 'reddit', 'digg', 'float_it', 'tumblr', 'vkontakte', 'pinterest', 'xing', 'whatsapp', 'instagram', 'yummly', 'buffer', 'parler', 'AIM', 'Amazon_Wish_List', 'AOL_Mail', 'App.net', 'Balatarin', 'BibSonomy', 'Bitty_Browser', 'Blinklist', 'Blogger_Post', 'BlogMarks', 'Bookmarks.fr', 'Box.net', 'BuddyMarks', 'Care2_News', 'Comment', 'Copy_Link', 'Diary.Ru', 'Diaspora', 'Diigo', 'Douban', 'Draugiem', 'Evernote', 'Facebook_Messenger', 'Fark', 'Fintel', 'Flipboard', 'Folkd', 'GentleReader', 'Google_Classroom', 'Google_Gmail', 'Hacker_News', 'Hatena', 'Instapaper', 'Jamespot', 'Kakao', 'Kik', 'Kindle_It', 'Known', 'Line', 'LiveJournal', 'Mail.Ru', 'Mendeley', 'Meneame', 'MeWe', 'mix', 'Mixi', 'MySpace', 'Netvouz', 'Odnoklassniki', 'Outlook.com', 'Papaly', 'Pinboard', 'Plurk', 'Pocket', 'PrintFriendly', 'Protopage_Bookmarks', 'Pusha', 'Qzone', 'Rediff MyPage', 'Refind', 'Renren', 'Sina Weibo', 'SiteJot', 'Skype', 'Slashdot', 'SMS', 'StockTwits', 'Svejo', 'Symbaloo_Feeds', 'Telegram', 'Threema', 'Trello', 'Tuenti', 'Twiddla', 'TypePad_Post', 'Viadeo', 'Viber', 'Webnews', 'WordPress', 'Wykop', 'Yahoo_Mail', 'Yoolink', 'youtube', 'rutube', 'Google_News', 'rss' );
 						?>
 
 						<tr>
@@ -1279,12 +1304,18 @@ defined( 'ABSPATH' ) or die( "Cheating........Uh!!" );
 								<img id="heateor_sss_vertical_youtube_username_help" class="heateor_sss_help_bubble" src="<?php echo plugins_url( '../../images/info.png', __FILE__ ) ?>" />
 								</th>
 								<td>
-									
-
 								<input id="heateor_sss_vertical_youtube_username" name="heateor_sss[vertical_youtube_username]" type="text" value="<?php echo esc_attr( $youtube_username ) ?>" />
 								</td>
 							</tr>
-							<tbody id="heateor_sss_vertical_rutube_options" <?php echo ! in_array( 'rutube', $options['vertical_re_providers'] ) ? 'style="display:none"' : '';?> >
+							<tr class="heateor_sss_help_content" id="heateor_sss_vertical_youtube_username_help_cont">
+								<td colspan="2">
+								<div>
+								<?php _e( 'URL of the Youtube page where you want the website-visitors to get redirected on click of the icon', 'sassy-social-share' ) ?>
+								</div>
+								</td>
+							</tr>
+						</tbody>
+						<tbody id="heateor_sss_vertical_rutube_options" <?php echo ! in_array( 'rutube', $options['vertical_re_providers'] ) ? 'style="display:none"' : '';?> >
 							<tr>
 								<th>
 								<label for="heateor_sss_vertical_rutube_username"><?php _e( "Rutube URL", 'sassy-social-share' ); ?></label>
@@ -1296,10 +1327,28 @@ defined( 'ABSPATH' ) or die( "Cheating........Uh!!" );
 								</td>
 							</tr>
 							
-							<tr class="heateor_sss_help_content" id="heateor_sss_vertical_instagram_username_help_cont">
+							<tr class="heateor_sss_help_content" id="heateor_sss_vertical_rutube_username_help_cont">
 								<td colspan="2">
 								<div>
-								<?php _e( 'URL of the Rutube account you want to redirect users to, on clicking the icon', 'sassy-social-share' ) ?>
+								<?php _e( 'URL of the Rutube page where you want the website-visitors to get redirected on click of the icon', 'sassy-social-share' ) ?>
+								</div>
+								</td>
+							</tr>
+						</tbody>
+						<tbody id="heateor_sss_vertical_google_news_options" <?php echo ! in_array( 'Google_News', $options['vertical_re_providers'] ) ? 'style="display:none"' : '';?>>
+							<tr>
+								<th>
+								<label for="heateor_sss_vertical_google_news_url"><?php _e( "Google News URL", 'sassy-social-share' ); ?></label>
+								<img id="heateor_sss_vertical_google_news_url_help" class="heateor_sss_help_bubble" src="<?php echo plugins_url( '../../images/info.png', __FILE__ ) ?>" />
+								</th>
+								<td>
+								<input id="heateor_sss_vertical_google_news_url" name="heateor_sss[vertical_google_news_url]" type="text" value="<?php echo esc_attr( $google_news_url ) ?>" />
+								</td>
+							</tr>
+							<tr class="heateor_sss_help_content" id="heateor_sss_vertical_google_news_url_help_cont">
+								<td colspan="2">
+								<div>
+								<?php _e( 'URL of the Google News page where you want the website-visitors to get redirected on click of the icon', 'sassy-social-share' ) ?>
 								</div>
 								</td>
 							</tr>

@@ -812,6 +812,14 @@
         }
       ]
     },
+    "breakoutLeft": {
+      "type": "boolean",
+      "default": false
+    },
+    "breakoutRight": {
+      "type": "boolean",
+      "default": false
+    },
     "anchor": {
       "type": "string"
     },

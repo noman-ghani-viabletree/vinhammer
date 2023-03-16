@@ -95,7 +95,7 @@
     },
     "title": {
       "type": "string",
-      "default": "Table Of Contents"
+      "default": "Table of Contents"
     },
     "titleColor": {
       "type": "string"

@@ -22,6 +22,7 @@ function infinite_posts( $attributes = '' ) {
 	if ( $wp_query->max_num_pages > 1 ) {
 		if ( ( kadence()->option( 'infinite_posts' ) && ! is_search() && 'post' === get_post_type() ) || ( kadence()->option( 'infinite_search' ) && is_search() && ! is_post_type_archive( 'product' ) ) || ( kadence()->option( 'infinite_custom' ) && ! is_search() && 'post' !== get_post_type() ) ) {
 			wp_enqueue_script( 'kadence-infinite-scroll' );
+			wp_enqueue_script( 'kadence-infinite-scroll-events' );
 			$attributes = '{ "path": ".next.page-numbers", "append": "#archive-container .entry", "hideNav": ".pagination", "status": ".page-load-status" }';
 		}
 	}
@@ -39,6 +40,7 @@ function infinite_scroll_products( $attributes = '' ) {
 	if ( $wp_query->max_num_pages > 1 ) {
 		if ( kadence()->option( 'infinite_products' ) ) {
 			wp_enqueue_script( 'kadence-infinite-scroll' );
+			wp_enqueue_script( 'kadence-infinite-scroll-events' );
 			$attributes = '{ "path": ".next.page-numbers", "append": ".woo-archive-loop .entry", "hideNav": ".woocommerce-pagination", "status": ".page-load-status" }';
 		}
 	}

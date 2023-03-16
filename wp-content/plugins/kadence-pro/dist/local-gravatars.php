@@ -152,7 +152,6 @@ class Local_Gravatars {
 	 * @return string
 	 */
 	public function get_gravatar() {
-
 		// Early exit if we don't want to process.
 		if ( ! $this->should_process() ) {
 			return $this->get_fallback_url();

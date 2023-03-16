@@ -1926,7 +1926,7 @@ class Kadence_Blocks_Pro_Frontend {
 		if ( isset( $attr['popup'] ) && is_array( $attr['popup'] ) && is_array( $attr['popup'][0] ) ) {
 			$popup = $attr['popup'][0];
 			if ( ( isset( $popup['background'] ) && ! empty( $popup['background'] ) ) || isset( $popup['backgroundOpacity'] ) && ! empty( $popup['backgroundOpacity'] ) ) {
-				$css .= '.mfp-bg.kadence-popup-' . $unique_id . ', .mfp-bg.mfp-ready.kadence-popup-' . $unique_id . '{';
+				$css .= '.glightbox-kadence-dark.kadence-popup-' . $unique_id . ' .goverlay {';
 				if ( isset( $popup['background'] ) && ! empty( $popup['background'] ) ) {
 					$css .= 'background:' . $this->kadence_color_output( $popup['background'] ) . ';';
 				}
@@ -1934,15 +1934,20 @@ class Kadence_Blocks_Pro_Frontend {
 					$css .= 'opacity:' . $popup['backgroundOpacity'] . ';';
 				}
 				$css .= '}';
+				$css .= '.glightbox-container.kadence-popup-' . $unique_id . ' .gclose, .glightbox-container.kadence-popup-' . $unique_id . ' .gnext, .glightbox-container.kadence-popup-' . $unique_id . ' .gprev{';
+					if ( isset( $popup['background'] ) && ! empty( $popup['background'] ) ) {
+						$css .= 'background:' . $this->kadence_color_output( $popup['background'] ) . ';';
+					}
+				$css .= '}';
 			}
 			if ( isset( $popup['closeColor'] ) && ! empty( $popup['closeColor'] ) ) {
-				$css .= '.mfp-kt-blocks.kadence-popup-' . $unique_id . ' .mfp-iframe-holder .mfp-close{';
-				$css .= 'color:' . $this->kadence_color_output( $popup['closeColor'] ) . ';';
+				$css .= '.glightbox-container.kadence-popup-' . $unique_id . ' .gclose path, .glightbox-container.kadence-popup-' . $unique_id . ' .gnext path, .glightbox-container.kadence-popup-' . $unique_id . ' .gprev path{';
+				$css .= 'fill:' . $this->kadence_color_output( $popup['closeColor'] ) . ';';
 				$css .= '}';
 			}
 			if ( isset( $popup['maxWidth'] ) && ! empty( $popup['maxWidth'] ) ) {
-				$css .= '.mfp-kt-blocks.kadence-popup-' . $unique_id . ' .mfp-iframe-holder .mfp-content, .mfp-kt-blocks.kadence-popup-' . $unique_id . ' .kadence-local-video-popup-wrap{';
-				$css .= 'max-width:' . $popup['maxWidth'] . ( $popup['maxWidthUnit'] ? $popup['maxWidthUnit'] : 'px' ) . ';';
+				$css .= '.glightbox-container.kadence-popup-' . $unique_id . ' .gslide-video, .glightbox-container.kadence-popup-' . $unique_id . ' .gvideo-local {';
+				$css .= 'max-width:' . $popup['maxWidth'] . ( $popup['maxWidthUnit'] ? $popup['maxWidthUnit'] : 'px' ) . ' !important;';
 				$css .= '}';
 			}
 		}

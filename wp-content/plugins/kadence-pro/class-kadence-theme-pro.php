@@ -104,7 +104,7 @@ final class Kadence_Theme_Pro {
 	private function setup_constants() {
 
 		if ( ! defined( 'KTP_VERSION' ) ) {
-			define( 'KTP_VERSION', '1.0.7' );
+			define( 'KTP_VERSION', '1.0.9' );
 		}
 
 		if ( ! defined( 'KTP_PLUGIN_FILE' ) ) {

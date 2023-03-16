@@ -29,7 +29,7 @@ if ( ! class_exists( 'Kadence_Plugin_API_Manager' ) ) {
 		private $admin_page_id       = 'kadence_plugin_activation';
 		private $admin_page_name     = 'KT Plugin Activation';
 		private $admin_page_title    = 'Kadence License Activation';
-		private $version             = '1.2.10';
+		private $version             = '1.2.11';
 		public static $multisite     = false;
 		public static $current_theme = null;
 		public static $instance_id   = null;
@@ -1177,13 +1177,13 @@ if ( ! class_exists( 'Kadence_Plugin_API_Manager' ) ) {
 
 			$target_url = esc_url_raw( $this->create_software_api_url( $args ) );
 
-			$request = wp_safe_remote_get( $target_url, array( 'sslverify'  => false ) );
+			$request = wp_safe_remote_get( $target_url, array( 'timeout' => 45, 'sslverify'  => false ) );
 
 			if ( is_wp_error( $request ) ) {
 				// Lets try api address for some server types.
 				$new_target_url = esc_url_raw( add_query_arg( $args, $this->fallback_api_url ) );
 
-				$request = wp_safe_remote_get( $new_target_url, array( 'sslverify'  => false ) );
+				$request = wp_safe_remote_get( $new_target_url, array( 'timeout' => 45, 'sslverify' => false ) );
 
 				if ( is_wp_error( $request ) || wp_remote_retrieve_response_code( $request ) != 200 ) {
 					return false;
@@ -1313,13 +1313,13 @@ if ( ! class_exists( 'Kadence_Plugin_API_Manager' ) ) {
 
 			$target_url = esc_url_raw( $this->create_software_api_url( $args ) );
 
-			$request = wp_safe_remote_get( $target_url, array( 'sslverify'  => false ) );
+			$request = wp_safe_remote_get( $target_url, array( 'timeout' => 45, 'sslverify'  => false ) );
 
 			if ( is_wp_error( $request ) ) {
 				// Lets try api address for some server types.
 				$new_target_url = esc_url_raw( add_query_arg( $args, $this->fallback_api_url ) );
 
-				$request = wp_safe_remote_get( $new_target_url, array( 'sslverify'  => false ) );
+				$request = wp_safe_remote_get( $new_target_url, array( 'timeout' => 45, 'sslverify'  => false ) );
 
 				if ( is_wp_error( $request ) || wp_remote_retrieve_response_code( $request ) != 200 ) {
 					return false;
@@ -1449,13 +1449,13 @@ if ( ! class_exists( 'Kadence_Plugin_API_Manager' ) ) {
 
 			$target_url = esc_url_raw( $this->create_software_api_url( $args ) );
 
-			$request = wp_safe_remote_get( $target_url, array( 'sslverify'  => false ) );
+			$request = wp_safe_remote_get( $target_url, array( 'timeout' => 15, 'sslverify'  => false ) );
 
 			if ( is_wp_error( $request ) ) {
 				// Lets try api address for some server types.
 				$new_target_url = esc_url_raw( add_query_arg( $args, $this->fallback_api_url ) );
 
-				$request = wp_safe_remote_get( $new_target_url, array( 'sslverify'  => false ) );
+				$request = wp_safe_remote_get( $new_target_url, array( 'timeout' => 15, 'sslverify'  => false ) );
 
 				if ( is_wp_error( $request ) || wp_remote_retrieve_response_code( $request ) != 200 ) {
 					return false;

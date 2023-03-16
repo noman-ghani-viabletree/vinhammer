@@ -776,6 +776,16 @@ class Sassy_Social_Share_Admin {
 
 		$current_version = get_option( 'heateor_sss_version' );
 		if ( $current_version != $this->version ) {
+			if ( version_compare( '3.3.48', $current_version ) > 0 ) {
+				if ( ! isset( $this->options['google_news_url'] ) ) {
+					$this->options['google_news_url'] = '';
+				}
+				if ( ! isset( $this->options['vertical_google_news_url'] ) ) {
+					$this->options['vertical_google_news_url'] = '';
+				}
+				update_option( 'heateor_sss', $this->options );
+			}
+
 			if ( version_compare( '3.3.44', $current_version ) > 0 ) {
 				$networks_to_remove = array( 'Google_Bookmarks' );
 				if ( isset( $this->options['vertical_re_providers'] ) && $this->options['vertical_re_providers'] ) {

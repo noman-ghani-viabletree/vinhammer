@@ -120,7 +120,7 @@ footer .gform_wrapper.gravity-theme .gform_footer .gform_button{position: absolu
 .blog-explore-all .kt-blocks-info-box-media-container{display: none;}
 body #primary .blog-explore-all .kt-blocks-info-box-link-wrap{min-height: 300px;background: url(images/promo.png) no-repeat;background-position: center;background-size: cover;max-width: 275px;}
 body #primary .blog-explore-all .info-box-link{text-decoration: none;}
-body #primary .info-box-link:before{content: "";background: url(images/icon.png) no-repeat;width: 18px;height: 18px;background-position: center;background-size: cover;margin-right: 10px;float: left;position: static;opacity: 1;}
+body #primary .blog-explore-all .info-box-link:before{content: "";background: url(images/icon.png) no-repeat;width: 18px;height: 18px;background-position: center;background-size: cover;margin-right: 10px;float: left;position: static;opacity: 1;}
 body #archive-container{padding: 4% 0;}
 body #archive-container .post{border: 1px solid #E4E6E8;border-radius: 14px;padding: 20px;}
 body #archive-container .post .entry-title{font-size: 18px;line-height: 27px;}
@@ -212,34 +212,25 @@ body .swal2-actions .swal2-styled.swal2-confirm{background: #EC1B34;color: #FFF;
 body .swal2-container *:focus{box-shadow: none !important;}
 body button.swal2-close {background: transparent;color: #0D0A19 !important;box-shadow: none !important;}
 
-body ul.woocommerce-error, body .woocommerce-message {
+/* body ul.woocommerce-error, body .woocommerce-message {
   display: none;
+} */
+body .woocommerce .woocommerce-message,
+body .woocommerce .woocommerce-error,
+body .woocommerce .woocommerce-info{
+    border-radius: 5px;
+    color: #EC1B34;
+    border: 1px solid #EC1B34;
+    background: #FFF5F7;
+    padding: 10px 20px;
+    font-size: 12px;
+    margin-bottom: 20px;    
+    text-align: center;
 }
-@media (max-width: 1024px) {
-    footer .widget-area .widget_nav_menu .widget-title:after{left: 0;right: 0;margin: auto;}
-    footer .widget-area .widget {margin-left: 0;margin-right: 0;text-align: center;}
-    body .popup-drawer .drawer-inner{background: #EC1B34;}
-}
-
-@media(max-width: 992px){
-  body h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  .hide-mobile{display: none !important;}
-  .gform_wrapper .field-gray-wrapper.disclaimer-box{flex-direction: column;}
-}
-
-@media screen and (max-width: 768px){
-    .content-style-boxed .content-bg:not(.loop-entry) {margin-left: 0 !important;margin-right: 0 !important;}
-}
-
+.woocommerce .woocommerce-message .button, .woocommerce .woocommerce-error .button, .woocommerce .woocommerce-info .button{display: none;}
 
 
 /* Rang Slider Start */
-/* https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/ */
-
-/* https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/ */
 
 .range-slider {
   position: relative;
@@ -381,10 +372,13 @@ input[type=range]:focus {
 
 
 /* Home Filter css start */
-.select-box {
+
+.banner-content,.select-box{
   max-width: 975px;
-  width: 100%;
+  width: 90%;
   margin: auto;
+}
+.select-box {
   margin-top: -40px;
 }
 .select-rect {
@@ -405,10 +399,11 @@ input[type=range]:focus {
   color: #908E8E;
 }
 .select-wrapper{
-  min-width: 130px;
+  min-width: 100px;
   position: relative;
+  width: 130px;
 }
-body .select-box select{border: none; color: #0D0A19; font-weight: 600; width: 100%;padding: 0;cursor: pointer;}
+body .select-box select{border: none; color: #0D0A19; font-weight: 600; width: 100%;padding: 0;255}
 .select-wrapper::after {
   content: "";
   top: 0;
@@ -420,7 +415,7 @@ body .select-box select{border: none; color: #0D0A19; font-weight: 600; width: 1
   height: 42px;
   margin: auto;
 }
-.fifth-select::after {content: none;}
+.sixth-select::after {content: none;}
 
 .submit-wrapper button {
   background-color: #EC1B34;
@@ -441,3 +436,32 @@ body .select-box select{border: none; color: #0D0A19; font-weight: 600; width: 1
   mix-blend-mode: plus-lighter;
 }
 /* Home Filter css end */
+
+
+@media (max-width: 1024px) {
+  footer .widget-area .widget_nav_menu .widget-title:after{left: 0;right: 0;margin: auto;}
+  footer .widget-area .widget {margin-left: 0;margin-right: 0;text-align: center;}
+  body .popup-drawer .drawer-inner{background: #EC1B34;}
+}
+
+@media(min-width: 992px){
+  .show-mobile{display: none !important;}
+}
+@media(max-width: 992px){
+  body h1 {font-size: 28px;line-height: 36px;}
+  .hide-mobile{display: none !important;}
+  .gform_wrapper .field-gray-wrapper.disclaimer-box{flex-direction: column;}
+  .select-rect{padding: 10px 30px;}
+  .select-rect .select-wrapper{width: 100%; padding: 10px;border-bottom: 1px solid #EDE8E9;min-height: 65px;display: flex;flex-direction: column;justify-content: center;}
+  .select-rect .select-wrapper::after{content: none;}
+  .submit-wrapper{width: 100%;}
+  .submit-wrapper button{width: 100%;margin: 25px 0 20px;}
+  body .banner-content .wp-block-buttons .wp-block-button,
+  body .banner-content .wp-block-buttons .wp-block-button .wp-element-button{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .content-style-boxed .content-bg:not(.loop-entry) {margin-left: 0 !important;margin-right: 0 !important;}
+}

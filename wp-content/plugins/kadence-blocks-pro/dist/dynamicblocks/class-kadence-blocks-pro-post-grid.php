@@ -1720,6 +1720,20 @@ class Kadence_Blocks_Pro_Post_Grid {
 			$css->add_property( 'margin-left', '-' . $attributes['columnGap'] / 2 . ( ! empty( $attributes['columnGapUnit'] ) ? $attributes['columnGapUnit'] : 'px' ) );
 			$css->add_property( 'margin-right', '-' . $attributes['columnGap'] / 2 . ( ! empty( $attributes['columnGapUnit'] ) ? $attributes['columnGapUnit'] : 'px' ) );
 		}
+		if ( 'grid' === $layout && isset( $attributes['displayFilter'] ) && true === $attributes['displayFilter'] ) {
+			if ( isset( $attributes['columnGap'] ) ) {
+				$css->set_selector( '.kt-post-loop' . $unique_id . '.kb-filter-enabled .kt-post-grid-layout-grid-wrap .kt-post-masonry-item' );
+				$css->add_property( 'padding-left', $attributes['columnGap'] / 2 . ( ! empty( $attributes['columnGapUnit'] ) ? $attributes['columnGapUnit'] : 'px' ) );
+				$css->add_property( 'padding-right', $attributes['columnGap'] / 2 . ( ! empty( $attributes['columnGapUnit'] ) ? $attributes['columnGapUnit'] : 'px' ) );
+				$css->set_selector( '.kt-post-loop' . $unique_id . ' .kt-post-grid-layout-masonry-wrap' );
+				$css->add_property( 'margin-left', '-' . $attributes['columnGap'] / 2 . ( ! empty( $attributes['columnGapUnit'] ) ? $attributes['columnGapUnit'] : 'px' ) );
+				$css->add_property( 'margin-right', '-' . $attributes['columnGap'] / 2 . ( ! empty( $attributes['columnGapUnit'] ) ? $attributes['columnGapUnit'] : 'px' ) );
+			}
+			if ( isset( $attributes['rowGap'] ) ) {
+				$css->set_selector( '.kt-post-loop' . $unique_id . '.kb-filter-enabled .kt-post-grid-layout-grid-wrap .kt-post-masonry-item' );
+				$css->add_property( 'padding-bottom', $attributes['rowGap'] . ( ! empty( $attributes['rowGapUnit'] ) ? $attributes['rowGapUnit'] : 'px' ) );
+			}
+		}
 		if ( isset( $attributes['rowGap'] ) && 'masonry' === $layout ) {
 			$css->set_selector( '.kt-post-loop' . $unique_id . ' .kt-post-grid-layout-masonry-wrap .kt-post-masonry-item' );
 			$css->add_property( 'padding-bottom', $attributes['rowGap'] . ( ! empty( $attributes['rowGapUnit'] ) ? $attributes['rowGapUnit'] : 'px' ) );

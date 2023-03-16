@@ -109,6 +109,7 @@ class Infinite_Addon {
 	 */
 	public function enqueue_scripts() {
 		wp_register_script( 'kadence-infinite-scroll', KTP_URL . 'dist/infinite-scroll/infinite-scroll.min.js', array(), KTP_VERSION, true );
+		wp_register_script( 'kadence-infinite-scroll-events', KTP_URL . 'dist/infinite-scroll/src/infinite-scroll-events.js', array( 'kadence-infinite-scroll' ), KTP_VERSION, true );
 		//wp_register_script( 'kadence-single-infinite-scroll', KTP_URL . 'dist/infinite-scroll/post-infinite-scroll.min.js', array( 'kadence-infinite-scroll' ), KTP_VERSION, true );
 	}
 	/**

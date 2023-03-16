@@ -1,3 +1,17 @@
+== 1.0.9 | 2nd March 2022 ==
+* Update: Elements to be public post type by default. (filter kadence_element_public_cpt).
+* Fix: Preload css issue.
+
+== 1.0.8 | 20th February 2022 ==
+* Update: Elements to be hidden post type by default.
+* Update: Infinite Scroll events.
+* Update: Add order option to element post settings.
+* Fix: Order of elements in admin.
+* Fix: Multiple Template overrides shouldn't both apply. 
+* Fix: Issue with elements type selection hiding on load.
+* Fix: Color Picker issue.
+* Fix: Possible character conversion in elements.
+
 == 1.0.7 | 23rd September 2022 ==
 * Fix: Possible issue of css styles in blocks breaking when using quick enable/disable.
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * Class Kadence_Pro\Elements_Post_Type_Controller
+ * Class Kadence_Pro\Elements_Controller
  *
  * @package Kadence Pro
  */
@@ -30,7 +30,7 @@ use function libxml_use_internal_errors;
 /**
  * Class managing the template areas post type.
  */
-class Elements_Post_Type_Controller {
+class Elements_Controller {
 
 	const SLUG = 'kadence_element';
 	const TYPE_SLUG = 'element_type';
@@ -70,6 +70,20 @@ class Elements_Post_Type_Controller {
 	 * @var null
 	 */
 	private static $instance = null;
+
+	/**
+	 * Status if single template is being used.
+	 *
+	 * @var null
+	 */
+	public static $single_template = null;
+
+	/**
+	 * Current single override
+	 *
+	 * @var null
+	 */
+	public static $loop_override = null;
 
 	/**
 	 * Throw error on object clone.
@@ -234,11 +248,11 @@ class Elements_Post_Type_Controller {
 		if ( ! ( is_admin() && $query->is_main_query() ) ) {
 			return $query;
 		}
-		if ( ! ( isset( $query->query['post_type'] ) && 'kadence_element' === $query->query['post_type'] && isset( $_REQUEST[ self::TYPE_SLUG ] ) ) ) {
+		if ( ! ( isset( $query->query['post_type'] ) && 'kadence_element' === $query->query['post_type'] ) ) {
 			return $query;
 		}
 		$screen = get_current_screen();
-		if ( $screen->id == 'edit-kadence_element' ) {
+		if ( ! empty( $screen ) && $screen->id == 'edit-kadence_element' ) {
 			if ( isset( $_REQUEST[ self::TYPE_SLUG ] ) ) {
 				$type_slug = sanitize_text_field( $_REQUEST[ self::TYPE_SLUG ] );
 				if ( ! empty( $type_slug ) ) {
@@ -250,6 +264,8 @@ class Elements_Post_Type_Controller {
 					);
 				}
 			}
+			$query->query_vars['order'] = 'ASC';
+			$query->query_vars['orderby'] = 'menu_order';
 		}
 		return $query;
 	}
@@ -443,7 +459,7 @@ class Elements_Post_Type_Controller {
 	 */
 	public function elements_single_only_logged_in_editors() {
 		if ( is_singular( self::SLUG ) && ! current_user_can( 'edit_posts' ) ) {
-			wp_redirect( site_url(), 301 );
+			wp_redirect( home_url( '/' ), 301 );
 			die;
 		}
 	}
@@ -638,10 +654,10 @@ class Elements_Post_Type_Controller {
 		add_filter( 'ktp_the_content', array( $wp_embed, 'autoembed'     ), 8 );
 		add_filter( 'ktp_the_content', 'do_blocks' );
 		add_filter( 'ktp_the_content', 'wptexturize' );
-		add_filter( 'ktp_the_content', 'convert_chars' );
 		// Don't use this unless classic editor add_filter( 'ktp_the_content', 'wpautop' );
 		add_filter( 'ktp_the_content', 'shortcode_unautop' );
 		add_filter( 'ktp_the_content', 'wp_filter_content_tags' );
+		add_filter( 'ktp_the_content', 'prepend_attachment' );
 		add_filter( 'ktp_the_content', 'do_shortcode', 11 );
 		add_filter( 'ktp_the_content', 'convert_smilies', 20 );
 
@@ -756,6 +772,14 @@ class Elements_Post_Type_Controller {
 					add_action(
 						'kadence_footer',
 						function() use( $post, $meta ) {
+							// Nessisary to load content and footer css.
+							if ( kadence()->has_content() ) {
+								kadence()->print_styles( 'kadence-content' );
+							}
+							if ( kadence()->has_sidebar() ) {
+								kadence()->print_styles( 'kadence-sidebar' );
+							}
+							kadence()->print_styles( 'kadence-footer' );
 							$this->output_element( $post, $meta );
 						},
 						absint( $meta['priority'] )
@@ -801,7 +825,8 @@ class Elements_Post_Type_Controller {
 						);
 						$this->enqueue_element_styles( $post, $meta );
 					}
-				} else if ( isset( $meta['hook'] ) && 'replace_single_content' === $meta['hook'] ) {
+				} else if ( isset( $meta['hook'] ) && 'replace_single_content' === $meta['hook'] && is_null( self::$single_template ) ) {
+					self::$single_template = $post->ID;
 					remove_action( 'kadence_single_content', 'Kadence\single_content' );
 					add_action(
 						'kadence_single_content',
@@ -811,7 +836,8 @@ class Elements_Post_Type_Controller {
 						absint( $meta['priority'] )
 					);
 					$this->enqueue_element_styles( $post, $meta );
-				} else if ( isset( $meta['hook'] ) && 'replace_loop_content' === $meta['hook'] ) {
+				} else if ( isset( $meta['hook'] ) && 'replace_loop_content' === $meta['hook'] && is_null( self::$loop_override ) ) {
+					self::$loop_override = $post->ID;
 					remove_action( 'kadence_loop_entry', 'Kadence\loop_entry' );
 					add_action(
 						'kadence_loop_entry',
@@ -3435,8 +3461,8 @@ class Elements_Post_Type_Controller {
 		$args = array(
 			'labels'             => $labels,
 			'description'        => __( 'Element areas to include in your site.', 'kadence_pro' ),
-			'public'             => true,
-			'publicly_queryable' => true,
+			'public'             => apply_filters( 'kadence_element_public_cpt', true ),
+			'publicly_queryable' => apply_filters( 'kadence_element_public_cpt', true ),
 			'has_archive'        => false,
 			'exclude_from_search'=> true,
 			'show_ui'            => true,
@@ -3454,6 +3480,7 @@ class Elements_Post_Type_Controller {
 				'editor',
 				'custom-fields',
 				'revisions',
+				'page-attributes',
 			),
 		);
 
@@ -3701,4 +3728,4 @@ class Elements_Post_Type_Controller {
 		return $layout;
 	}
 }
-Elements_Post_Type_Controller::get_instance();
+Elements_Controller::get_instance();

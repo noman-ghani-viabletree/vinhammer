@@ -1,6 +1,8 @@
 jQuery(function($){
     $(document).ready(function(){
-
+        // change table text from product to listing start
+        $(".toptable:nth-child(2)").text("Listing");
+        // change table text from product to listing end
         const urlSearchParams = new URLSearchParams(window.location.search);
         const params = Object.fromEntries(urlSearchParams.entries());
         if(params?.min_year || params?.mileage || params?.min_price || params?.car_transmission || params?.body_style){

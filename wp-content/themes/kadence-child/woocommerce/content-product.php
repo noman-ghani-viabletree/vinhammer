@@ -87,7 +87,7 @@ if($uwa_proxy == 'yes'){
 		
 		<div class="tag-row d-flex justify-content-between align-items-center mb-2">
 			<span class="tag">Current Bid (<?php echo $total_bids; ?> Bid<?php echo $total_bids > 1 ? 's' : ''; ?>)</span>
-			<span class="text active"><?php printf(__('%s','woo_ua') , wc_price($product->get_uwa_auction_start_price(), $args));?></span>
+			<span class="text active"><?php printf(__('%s','woo_ua') , wc_price($product->get_uwa_auction_start_price()));?></span>
 		</div>
 		
 		<div class="tag-row d-flex justify-content-between align-items-center gap-20">

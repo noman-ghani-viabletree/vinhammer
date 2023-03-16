@@ -1,10 +1,10 @@
 === Social Sharing Plugin - Sassy Social Share ===
 Contributors: Heateor, kamirkhan, mohammadfarhankhan, the_champ
 Donate link: https://www.heateor.com/donate/?action=Sassy+Social+Share
-Tags: social share, social sharing, social media share, share facebook, facebook social share, wordpress social share, share buttons, social share buttons, facebook like, twitter tweet, whatsapp share, line share, gab share, gab social share, gab, parler share, parler social share, gettr, gettr share, gettr social share, mewe share, mewe social share, mewe, mastodon share, mastodon social share, mastodon, rutube share, rutube social share, rutube
+Tags: social share, social sharing, social media share, share facebook, facebook social share, wordpress social share, share buttons, social share buttons, facebook like, twitter tweet, whatsapp share, line share, gab share, gab social share, gab, parler share, parler social share, gettr, gettr share, gettr social share, mewe share, mewe social share, mewe, mastodon share, mastodon social share, mastodon, rutube share, rutube social share, rutube, google news, google news share, google news icon, RSS, RSS Feed
 Requires at least: 2.5.0
 Tested up to: 6.1.1
-Stable tag: 3.3.46
+Stable tag: 3.3.49
 License: GPLv2 or later
 
 Slickest, Simplest and Optimized Share buttons. Facebook, Twitter, Reddit, Pinterest, Whatsapp, Parler, Gab, Gettr and over 100 more.
@@ -125,6 +125,19 @@ Yes, we can help you with it. Just drop an email at support[at]heateor[dot]com
 4. **Universal Sharing Popup**: Universal Sharing popup having all the supported sharing and bookmarking services
 
 == Changelog ==
+= 3.3.49 [11 March 2023] =
+* [New] RSS Feed is now available as a social share icon
+* [Improvement] Mastodon share now prompts user to specify their Mastodon instance instead of directly sharing to Mastodon.social
+* [Improvement] Minor improvements
+
+= 3.3.48 [10 March 2023] =
+* [Bugfix] PHP warning related to the Google News URL option was being generated after updating the plugin to the previous version 
+
+= 3.3.47 [9 March 2023] =
+* [New] Added Google News social share and social media follow icon
+* [Bugfix] Help text for the Vertical Youtube URL and Vertical Rutube URL options were not appearing on clicking the (?) icon in the Floating Interface section at the plugin configuration page
+* [Bugfix] Pocket social share icon was appearing broken in AMP
+
 = 3.3.46 [4 February 2023] =
 * [Bugfix] Added href attribute in the anchor tags for the Facebook Messenger, Print, Email, Pinterest and Copy Link share icons to fix the "Links are not crawlable" warning in the Google Search Console
 * [Bugfix] Logo color of Vkontakte share icon was not changing when updated from the Theme Selection section
@@ -1243,3 +1256,16 @@ Yes, we can help you with it. Just drop an email at support[at]heateor[dot]com
 * [Bugfix] Added href attribute in the anchor tags for the Facebook Messenger, Print, Email, Pinterest and Copy Link share icons to fix the "Links are not crawlable" warning in the Google Search Console
 * [Bugfix] Logo color of Vkontakte share icon was not changing when updated from the Theme Selection section
 * [Improvement] Improved Parler logo for the horizontal sticky social share bar appearing at the bottom of the screen 
+
+= 3.3.47 [9 March 2023] =
+* [New] Added Google News social share and social media follow icon
+* [Bugfix] Help text for the Vertical Youtube URL and Vertical Rutube URL options were not appearing on clicking the (?) icon in the Floating Interface section at the plugin configuration page
+* [Bugfix] Pocket social share icon was appearing broken in AMP
+
+= 3.3.48 [10 March 2023] =
+* [Bugfix] PHP warning related to the Google News URL option was being generated after updating the plugin to the previous version
+
+= 3.3.49 [11 March 2023] =
+* [New] RSS Feed is now available as a social share icon
+* [Improvement] Mastodon share now prompts user to specify their Mastodon instance instead of directly sharing to Mastodon.social
+* [Improvement] Minor improvements
